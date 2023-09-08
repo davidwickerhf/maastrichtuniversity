@@ -1,0 +1,3 @@
+[submodule "BCS1110 Introduction to Computer Science/JavaCraft/javacraft"]
+	path = BCS1110 Introduction to Computer Science/JavaCraft/javacraft
+	url = git@github.com:/davidwickerhf/javacraft.git
