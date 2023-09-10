@@ -36,7 +36,6 @@ public class MatrixMult {
                     // Foreach element in the first matrix row
                     for (int el = 0; el < firstMatrix[0].length; el++) {
                         sum += firstMatrix[row][el] * secondMatrix[el][col];
-                        System.out.printf("\n Product %f and %f, and sum to %f", firstMatrix[row][el], secondMatrix[el][col], sum);
                     }
 
                     // Add sum to product matrix
