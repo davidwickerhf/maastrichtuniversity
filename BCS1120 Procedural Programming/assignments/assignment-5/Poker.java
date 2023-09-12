@@ -17,11 +17,6 @@ class Poker{
         String[] cards = {"c2", "c3", "c4", "c5", "c6", "c7"};
         Poker p = new Poker();      // This statement requires knowledge about Object-Oriented Programming (more in CS2)
 
-
-        // Test combinatorics functions
-        System.out.println(factorial(5));
-        System.out.println(calculateCombinations(7, 5));
-
         // Example to validate your implementation of method deleteCards
         String[] discard = {"c4"};
         String[] newCards = p.discard_cards(cards, discard);
