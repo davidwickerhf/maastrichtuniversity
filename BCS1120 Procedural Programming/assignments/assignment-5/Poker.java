@@ -106,35 +106,6 @@ class Poker{
         }
     }
 
-
-    /**
-     * Given a number of items (n) and the number of items you want to choose at a time (k), 
-     * calculate the number of possible combinations.
-     * 
-     * 
-     * @apiNote Number of possible combinations must not exceede the maximum value storable in a Java Integer 
-     * @param n number of items in the set
-     * @param k number of items in each group
-     * @return number of possible combinations of C(n, k) = n! / (k! * (n - k)!)
-     */
-    public static int calculateCombinations (int n, int k) {
-        return factorial(n) / (factorial(k) * factorial(n-k));
-    }
-
-    /**
-     * Calculate the factorial of an integer (recursively)
-     * @param n
-     * @param res
-     * @return Factorial value of n
-     */
-    public static int factorial(int n) {
-        if (n > 1) {
-            return n * factorial(n-1);
-        }
-        return n;
-    }
-
-
     public void possible_hands_opponent (String[] cardsAvailable, String[] cardsOnCommunity, String[] cardsOnHands) {
         // Write your code below
 
