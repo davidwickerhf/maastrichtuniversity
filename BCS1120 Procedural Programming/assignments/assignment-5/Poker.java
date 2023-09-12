@@ -72,45 +72,38 @@ class Poker{
      */
     public void possible_hands (String[] cardsAvailable, String[] cardsOnHands) {
 
-        int r = 5;
-        int n = cardsAvailable.length;
-        
-        // Take n-r+1 elements
+        // Breaking condition
+        if (cardsOnHands.length == 5) {
+            // TODO Check if combination has already been found
+            for (String[] comb : player_combinations) {
+                ArrayList<String> listComb = ArrayManipulation.Array2ArrayList(comb);
+                ArrayList<String> listCardsOnHands = ArrayManipulation.Array2ArrayList(cardsOnHands);
+                listComb.sort(null);
+                listCardsOnHands.sort(null);
+                
+                if (listComb.equals(listCardsOnHands)){
+                    return;
+                };
+            }
+
+            // Add combination to array
+            player_combinations = ArrayManipulation.add_element_2Darray(player_combinations, cardsOnHands);
+            return;
+        }
+
+        for (String card : cardsAvailable) {
+            // Remove card from available cards (in new array)
+            ArrayList<String> ncardsAvailable = ArrayManipulation.Array2ArrayList(cardsAvailable);
+            ncardsAvailable.remove(card);
 
 
 
-        // function combination:
-        // pass in: inputArray, combinationArray, start, end, index, 5
+            // Add card to cards on hands (in new array)
+            ArrayList<String> ncardsOnHand = ArrayManipulation.Array2ArrayList(cardsOnHands);
+            ncardsOnHand.add(card);
 
-
-        // BREAK CONDITION
-        // if index is equal to 5:
-        //  for each element in combinationArray:
-        //      print each element
-        //      return
-
-
-        // for i = start:
-        //  if i <=end and end -i+1 > r-index:
-        //      combinationArray[index] = inputArray[i]
-        //      call combination function again with updated parameter
-
-
-        // Write your code below
-
-        // Calculate number of possible combinations
-
-
-        // int combs = calculateCombinations(cardsAvailable.length, 5);
-
-        // if (player_combinations.length != combs) {
-        //     // Keep calculating combinations
-
-        //     // Recursive call
-        // } 
-        // All combinations found if this point is reached
-
-        // Write your code above
+            possible_hands(ArrayManipulation.ArrayList2Array(ncardsAvailable), ArrayManipulation.ArrayList2Array(ncardsOnHand));
+        }
     }
 
 
