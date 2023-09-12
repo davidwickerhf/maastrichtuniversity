@@ -61,7 +61,7 @@ class Poker{
     }
 
     /**
-     * you must implement a method that, given a set of cards cardsAvailable (initially 7 cards, 2 from the player's hand and the 5 community cards but it must accept any number of cards as input), calculates all the possible combinations of 5 cards in this set.
+     * You must implement a method that, given a set of cards cardsAvailable (initially 7 cards, 2 from the player's hand and the 5 community cards but it must accept any number of cards as input), calculates all the possible combinations of 5 cards in this set.
      * @param cardsAvailable
      * @param cardsOnHands
      */
@@ -69,13 +69,14 @@ class Poker{
 
         // Breaking condition
         if (cardsOnHands.length == 5) {
-            // TODO Check if combination has already been found
+            // Check if combination has already been found
             for (String[] comb : player_combinations) {
                 ArrayList<String> listComb = ArrayManipulation.Array2ArrayList(comb);
                 ArrayList<String> listCardsOnHands = ArrayManipulation.Array2ArrayList(cardsOnHands);
                 listComb.sort(null);
                 listCardsOnHands.sort(null);
                 
+                // Combination has already been found -> discard tree branch
                 if (listComb.equals(listCardsOnHands)){
                     return;
                 };
@@ -86,6 +87,7 @@ class Poker{
             return;
         }
 
+        // For every available card, start a new recursion loop
         for (String card : cardsAvailable) {
             // Remove card from available cards (in new array)
             ArrayList<String> ncardsAvailable = ArrayManipulation.Array2ArrayList(cardsAvailable);
@@ -97,6 +99,7 @@ class Poker{
             ArrayList<String> ncardsOnHand = ArrayManipulation.Array2ArrayList(cardsOnHands);
             ncardsOnHand.add(card);
 
+            // Call recursion with updated arrays
             possible_hands(ArrayManipulation.ArrayList2Array(ncardsAvailable), ArrayManipulation.ArrayList2Array(ncardsOnHand));
         }
     }
