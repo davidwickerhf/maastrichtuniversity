@@ -104,11 +104,72 @@ class Poker{
         }
     }
 
+
+    /**
+     * 
+     * @param cardsAvailable Cards available to opponent
+     * @param cardsOnCommunity Oppnenet needs at least 3 cards crom the community cards
+     * @param cardsOnHands Opponent's deck for recursive calling
+     */
     public void possible_hands_opponent (String[] cardsAvailable, String[] cardsOnCommunity, String[] cardsOnHands) {
+        ArrayList<String> listCardsAvailable = ArrayManipulation.Array2ArrayList(cardsAvailable);
+        ArrayList<String> listCardsOnCommunity = ArrayManipulation.Array2ArrayList(cardsOnCommunity);
+        ArrayList<String> listCardsOnHands = ArrayManipulation.Array2ArrayList(cardsOnHands);
+
         // Write your code below
 
+        // Requirements -> need at least 3 cards from community cards
 
+        // Breaking condition
+        if (cardsOnHands.length == 5) {
+
+            // Filter out combinations that do not have at least 3 community cards
+            int count = 0;
+            for (String card : cardsOnHands) {
+                if (listCardsOnCommunity.contains(card)) {
+                    count++;
+                }
+            }
+            if (count < 3) {
+                return;
+            }
+
+
+            // Check if combination has already been found
+            for (String[] comb : opponent_combinations) {
+                ArrayList<String> listComb = ArrayManipulation.Array2ArrayList(comb);
+                listComb.sort(null);
+                listCardsOnHands.
+                sort(null);
+                
+                // Combination has already been found -> discard tree branch
+                if (listComb.equals(listCardsOnHands)){
+                    return;
+                };
+            }
+
+            
+
+            // Add combination to array
+            opponent_combinations = ArrayManipulation.add_element_2Darray(opponent_combinations, cardsOnHands);
+            return;
+        }
         
+        // For every available card, start a new recursion loop
+        for (String card : cardsAvailable) {
+            // Remove card from available cards (in new array)
+            // ArrayList<String> ncardsAvailable = ArrayManipulation.Array2ArrayList(cardsAvailable);
+            listCardsAvailable.remove(card);
+
+
+            // Add card to cards on hands (in new array)
+            ArrayList<String> ncardsOnHand = ArrayManipulation.Array2ArrayList(cardsOnHands);
+            ncardsOnHand.add(card);            
+
+            // Call recursion with updated arrays
+            possible_hands_opponent(ArrayManipulation.ArrayList2Array(listCardsAvailable), cardsOnCommunity, ArrayManipulation.ArrayList2Array(ncardsOnHand));
+        }
+
         // Write your code above
     }
 
