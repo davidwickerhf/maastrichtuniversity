@@ -148,51 +148,6 @@ public class ArrayAssignment {
         return direction;
     }
 
-    public static int allNumsWithinx(int[] A, int k) {
-        // Compute minimum length of a section of A that contains all the values from 0 to k-1.
-        // If such part does not exist, return 0
-
-        // Loop through items
-        int prev = 0;
-
-        ArrayList<ArrayList<Integer>> rows = new ArrayList<ArrayList<Integer>>();
-
-        ArrayList<Integer> row = new ArrayList<Integer>();
-        int direction = 0; // 0 for discending, 1 for ascending
-        for (int i = 0; i < A.length; i++) {
-
-
-            if (i != 0) {
-                if (direction == 0 && A[i] < prev) {
-                    // Descending order
-                    row.add(A[i]);
-                } else if ( direction == 1 && A[i] > prev) {
-                    // Ascending order
-                    row.add(A[i]);
-                } else {
-                    // Direction change
-                    
-                    // Check if row meets conditions
-
-
-                    rows.add(row);
-                    
-                    // Reset variables
-                    row.clear();
-                    direction = 0;
-
-                }
-            } else {
-                prev = A[i];
-            }
-        
-            
-            
-        }
-
-        return 0;
-    }
-
     public static void diagonalPrint(int[][] M) {
         // Load starting points
         int[][] startingPoints = new int[M.length + M[0].length-1][3];
