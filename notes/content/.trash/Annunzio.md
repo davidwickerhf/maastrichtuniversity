@@ -1,0 +1,1 @@
+Scrittura ampliamente simbolista

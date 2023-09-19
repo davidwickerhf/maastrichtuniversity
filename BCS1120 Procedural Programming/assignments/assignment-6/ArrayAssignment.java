@@ -19,6 +19,13 @@ public class ArrayAssignment {
         // 1, 2, 2, 2, 2, 2, 2, 0
     }
 
+    public static int allNumsWithin2(int[] A, int k) {
+
+        // Breaking conditions
+        //  end of arry has been reached
+        return 0;
+    }
+
     public static int allNumsWithin(int[] A, int k) {
 
         int direction = 0; // 0 for descending, 1 for ascending

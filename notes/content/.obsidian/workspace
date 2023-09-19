@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "9b4d082b54ce90ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "54cd9cde2a0e5cb4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "IB Diploma/Extended Essay/Notes on Putnam.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1607a3d276abc0f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "21f7e6c90d021588",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9f759660a57bcd5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "68ec0597c92aef9b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a723bbc1614aeb40",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a9c5226428a816f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "274f8f9e11ff6efd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "IB Diploma/Extended Essay/Notes on Putnam.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "54cd9cde2a0e5cb4",
+  "lastOpenFiles": [
+    "IB Diploma/Extended Essay/Notes on Putnam.md"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "theme": "system",
+  "nativeMenus": true,
+  "cssTheme": "",
+  "translucency": true,
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "monthview-wide"
+  ]
+}

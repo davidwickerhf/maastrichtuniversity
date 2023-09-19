@@ -1,0 +1,42 @@
+textarea {
+    resize: none;
+}
+
+.archiver-setting-sub-item {
+    padding: 0.75em 0 0.75em 2em;
+}
+
+.archiver-placeholders-description {
+    vertical-align: top;
+}
+
+.archiver-rule-container {
+    border: 2px solid var(--interactive-accent);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0.75em;
+}
+
+.archiver-status-examples {
+    list-style: none;
+}
+
+.archiver-accordion {
+    width: 100%;
+}
+
+.archiver-panel {
+    display: none;
+    padding-top: 0.75em;
+    transition: max-height 0.2s ease-out;
+}
+
+.archiver-active {
+    display: block;
+}
+
+.archiver-rule-paths {
+    width: 300px;
+    height: 100px;
+}

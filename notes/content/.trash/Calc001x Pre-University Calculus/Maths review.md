@@ -1,0 +1,13 @@
+## Topics to review
+- [ ]  Geometry
+	- [ ] Vectors
+	- [ ] Curves and equations
+	- [ ] Parametrization
+	- [ ] Geometry in space
+- [ ] Derivation
+	- [ ] Finding extremal values
+- [ ] Integration
+	- [ ] Integration by parts
+	- [ ] Further applications
+- [ ] Other topics
+	- [ ] Optics (reflections and such)

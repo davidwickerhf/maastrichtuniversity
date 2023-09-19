@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"6e80285edd3a96b5","x":309,"y":329,"width":400,"height":400,"type":"file","file":"Agenda/2023-01-03.md"},
+		{"id":"86c0ee61766ba646","x":-389,"y":-250,"width":400,"height":400,"type":"file","file":"Agenda/2023-01-05.md"}
+	],
+	"edges":[]
+}

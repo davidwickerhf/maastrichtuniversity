@@ -1,0 +1,23 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "promptDelete": false,
+  "showLineNumber": false,
+  "spellcheck": true,
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Attachments",
+  "trashOption": "local",
+  "showUnsupportedFiles": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 85
+  },
+  "readableLineLength": true,
+  "userIgnoreFilters": [
+    "Academics/IIS Blaise Pascal/"
+  ]
+}

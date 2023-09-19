@@ -1,0 +1,3 @@
+- Intervalli
+- Intorni
+- Classificazione delle Funzioni

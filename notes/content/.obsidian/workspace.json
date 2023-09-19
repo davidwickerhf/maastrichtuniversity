@@ -1,0 +1,257 @@
+{
+  "main": {
+    "id": "9b4d082b54ce90ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "e812e1a0adacd3af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09a4cfc3b3aa9534",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c8dcc76a035a5bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academics/BSc Computer Science/BSC1120 Procedural programming/W1 Intro, Variables and Methods/BCS1120-2 W1 M2 L2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b41859adce1e03b0",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-notion",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1607a3d276abc0f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "21f7e6c90d021588",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9f759660a57bcd5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "68ec0597c92aef9b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "trasformazione ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "41c009196a4addfb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 265.5
+  },
+  "right": {
+    "id": "a723bbc1614aeb40",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a9c5226428a816f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89cc810f308fcb36",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "aa698ebcad455b0b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "694d49f51104331d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "c0795b45d58a2c5c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ca8886a8d2312ed6",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          },
+          {
+            "id": "232090751cf2a895",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-todoist",
+              "state": {}
+            }
+          },
+          {
+            "id": "f031a36678e9d741",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 452.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "audio-recorder:Start/stop recording": true,
+      "templater-obsidian:Templater": true,
+      "command-palette:Open command palette": true,
+      "obsidian-custom-frames:Open Todoist": false,
+      "markdown-importer:Open format converter": true,
+      "switcher:Open quick switcher": true,
+      "templates:Insert template": true,
+      "obsidian-projects:Open projects": true,
+      "obsidian-custom-frames:Open Notion": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "workspaces:Manage workspace layouts": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "notion-like-tables:Create new loom": true,
+      "open-vscode:VSCode": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "b41859adce1e03b0",
+  "lastOpenFiles": [
+    "Academics/BSc Computer Science/BSC1120 Procedural programming/W1 Intro, Variables and Methods/BCS1120-2 W1 M2 L2.md",
+    "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
+    "Attachments/Screenshot 2023-09-19 at 2.47.15 PM.png",
+    "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-5 Theory of Computation.md",
+    "Attachments/Screenshot 2023-09-19 at 1.48.36 PM.png",
+    "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-6 Set theory.md",
+    "Attachments/tocTwo.pdf",
+    "Attachments/Partitions.pdf",
+    "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-5 Set theory.md",
+    "Attachments/IMG_1670.jpg",
+    "Excalidraw/Proof with sets.md",
+    "Proof example (truth table).loom.md",
+    "Untitled 1.loom",
+    "Untitled.loom",
+    "Attachments/Pasted Image 20230919085105_481.png",
+    "Attachments/DM-L6 1.pdf",
+    "Attachments/DM-L6.pdf",
+    "Attachments/DM-L5 (annotated).pdf",
+    "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
+    "SuburbAdvisor.md",
+    "Attachments/Screenshot 2023-09-18 at 2.32.09 PM.png",
+    "Attachments/Lecture 1 TOC 1.pdf",
+    "Attachments/Screenshot 2023-09-18 at 2.19.17 PM.png",
+    "Attachments/Screenshot 2023-09-18 at 1.51.32 PM.png",
+    "Attachments/Lecture 1 TOC.pdf",
+    "SuburbAdvisor Requirements.md",
+    "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-4 Proof by induction.md",
+    "Academics/BSc Computer Science/BSc Computer Science.md",
+    "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-4 Command Line and Git.md",
+    "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-1 Intro lecture.md",
+    "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-2 Computer Hardware.md",
+    "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110 Introduction to computer science.md",
+    "Academics/BSc Computer Science/BSC1120 Procedural programming/Labs/Lab 1.md",
+    "Academics/BSc Computer Science/BSC1120 Procedural programming/Assignments/Assignment 2.md",
+    "Academics/BSc Computer Science/BSC1120 Procedural programming/Assignments/Assignment 1.md",
+    "Academics/BSc Computer Science/BSC1120 Procedural programming/Assignments/Assignment 0.md",
+    "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-3 Algorithms and Command Line.md",
+    "Attachments/command line lecture 1 - intro.pdf",
+    "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-3 Proofs.md",
+    "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-2 Logic and Proofs.md",
+    "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-1 Propositional logic.md",
+    "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-0 Intro lecture.md",
+    "Templates/lecture.md",
+    "Attachments/IMG_1438.jpg",
+    "Attachments/Screenshot 2023-09-05 at 3.10.50 PM.png",
+    "Attachments/Screenshot 2023-09-05 at 2.59.39 PM.png",
+    "Academics/IIS Blaise Pascal/Piano di studio esame.canvas"
+  ]
+}
