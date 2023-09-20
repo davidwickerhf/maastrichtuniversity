@@ -1,6 +1,3 @@
-## Academic calendar (DACS)
-
-
 ## First year core courses
 %% Begin Waypoint %%
 - **[[BCS1110 Introduction to computer science]]**

@@ -8,41 +8,28 @@
         "type": "tabs",
         "children": [
           {
-            "id": "09a4cfc3b3aa9534",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c8dcc76a035a5bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academics/BSc Computer Science/BSC1120 Procedural programming/W1 Intro, Variables and Methods/BCS1120-2 W1 M2 L2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b41859adce1e03b0",
             "type": "leaf",
             "state": {
               "type": "custom-frames-notion",
               "state": {}
             }
+          },
+          {
+            "id": "4f7902d87ece09e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BCS1130 Discrete mathematics/BCS1130-7 Relations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BCS1130 Discrete mathematics/BCS1130-7 Relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BCS1130 Discrete mathematics/BCS1130-7 Relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BCS1130 Discrete mathematics/BCS1130-7 Relations.md"
+              }
             }
           },
           {
@@ -187,25 +178,36 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "audio-recorder:Start/stop recording": true,
-      "templater-obsidian:Templater": true,
       "command-palette:Open command palette": true,
-      "obsidian-custom-frames:Open Todoist": false,
       "markdown-importer:Open format converter": true,
       "switcher:Open quick switcher": true,
       "templates:Insert template": true,
-      "obsidian-projects:Open projects": true,
-      "obsidian-custom-frames:Open Notion": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "workspaces:Manage workspace layouts": true,
+      "obsidian-custom-frames:Open Notion": false,
+      "obsidian-custom-frames:Open Todoist": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "periodic-notes:Open today": true,
+      "templater-obsidian:Templater": true,
+      "remotely-save:Remotely Save": false,
+      "obsidian-projects:Open projects": true,
       "notion-like-tables:Create new loom": true,
-      "open-vscode:VSCode": false,
-      "periodic-notes:Open today": false
+      "open-vscode:VSCode": false
     }
   },
-  "active": "b41859adce1e03b0",
+  "active": "4f7902d87ece09e0",
   "lastOpenFiles": [
+    "Attachments/algorithms lecture 3 - summary.pdf",
+    "Attachments/Conditional propositions.pdf",
+    "Attachments/Game-Lab1.pdf",
+    "Attachments/KEN-BCS1120_Syllabus_2023.pdf",
+    "Attachments/IMG_1670.jpg",
+    "Attachments/Math_on_campus_preparation.pdf",
+    "Attachments/Propositions.pdf",
+    "Attachments/Screenshot 2023-09-18 at 2.19.17 PM.png",
+    "BCS1220 Objects in programming.md",
+    "BCS1440 Calculus.md",
+    "BSc Computer Science.md",
     "Academics/BSc Computer Science/BSC1120 Procedural programming/W1 Intro, Variables and Methods/BCS1120-2 W1 M2 L2.md",
     "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
     "Attachments/Screenshot 2023-09-19 at 2.47.15 PM.png",
@@ -215,22 +217,16 @@
     "Attachments/tocTwo.pdf",
     "Attachments/Partitions.pdf",
     "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-5 Set theory.md",
-    "Attachments/IMG_1670.jpg",
     "Excalidraw/Proof with sets.md",
     "Proof example (truth table).loom.md",
     "Untitled 1.loom",
     "Untitled.loom",
     "Attachments/Pasted Image 20230919085105_481.png",
     "Attachments/DM-L6 1.pdf",
-    "Attachments/DM-L6.pdf",
-    "Attachments/DM-L5 (annotated).pdf",
     "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
     "SuburbAdvisor.md",
     "Attachments/Screenshot 2023-09-18 at 2.32.09 PM.png",
-    "Attachments/Lecture 1 TOC 1.pdf",
-    "Attachments/Screenshot 2023-09-18 at 2.19.17 PM.png",
     "Attachments/Screenshot 2023-09-18 at 1.51.32 PM.png",
-    "Attachments/Lecture 1 TOC.pdf",
     "SuburbAdvisor Requirements.md",
     "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-4 Proof by induction.md",
     "Academics/BSc Computer Science/BSc Computer Science.md",
@@ -243,12 +239,7 @@
     "Academics/BSc Computer Science/BSC1120 Procedural programming/Assignments/Assignment 1.md",
     "Academics/BSc Computer Science/BSC1120 Procedural programming/Assignments/Assignment 0.md",
     "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-3 Algorithms and Command Line.md",
-    "Attachments/command line lecture 1 - intro.pdf",
     "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-3 Proofs.md",
-    "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-2 Logic and Proofs.md",
-    "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-1 Propositional logic.md",
-    "Academics/BSc Computer Science/BCS1130 Discrete mathematics/BCS1130-0 Intro lecture.md",
-    "Templates/lecture.md",
     "Attachments/IMG_1438.jpg",
     "Attachments/Screenshot 2023-09-05 at 3.10.50 PM.png",
     "Attachments/Screenshot 2023-09-05 at 2.59.39 PM.png",
