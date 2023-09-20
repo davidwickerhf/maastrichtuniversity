@@ -33,5 +33,6 @@
   "embed-code-file",
   "obsidian-table-generator",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "waypoint"
 ]
