@@ -1,4 +1,4 @@
-## Maastricht University
+## UM Courses
 [[BSc Computer Science]]
 
 ## Submitted Assignments

@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins";
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Maastricht University Notes",
+    pageTitle: "👨‍💻 UM BSc Computer Science",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
