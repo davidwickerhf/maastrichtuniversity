@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 import java.util.stream.IntStream;
-import java.util.Arrays;
-import java.util.List;
 
 public class ArrayAssignment {
 
@@ -11,18 +9,18 @@ public class ArrayAssignment {
         //System.out.println();
 
         int[] a = new int[]{0,2,0,2,0,2,2,1,1,0};
-        //System.out.println(allNumsWithin(a, 3)); // Expect 4
+        System.out.println(allNumsWithin(a, 3));
+         // Expect 4
 
         int[] b = new int[]{0,1,1,4,0,2,0,1,0,2};
-        //System.out.println(allNumsWithin(b, 5)); // Expect 0
+        System.out.println(allNumsWithin(b, 5)); // Expect 0
 
         int[] c = new int[]{1, 2, 2, 2, 2, 2, 2, 0};
-        System.out.println(allNumsWithin2(c, 3)); // Expect 8??? 2
+        System.out.println(allNumsWithin(c, 3)); // Expect 8??? 2
         // 1, 2, 2, 2, 2, 2, 2, 0
     }
 
-    public static int allNumsWithin2(int[] A, int k) {
-
+    public static int allNumsWithin(int[] A, int k) {
         // Generate list of elements to find in a sequence
         int[] toFind = IntStream.range(0, k).toArray();
         ArrayList<Integer> toFindList = new ArrayList<Integer> ();
@@ -30,15 +28,19 @@ public class ArrayAssignment {
             toFindList.add(toFind[i]);
         }
 
-        // For every element in the array
-        for (int i = 0; i < A.length; i++) {
+        // Store sequences array
+        ArrayList<ArrayList<Integer>> sequences = new ArrayList<ArrayList<Integer>>();
 
+
+        // For every element in the array
+        for (int i = 0; i < A.length-1; i++) {
             ArrayList<Integer> found = new ArrayList<Integer>();
-            for (int j = 0; j < A.length-i; j++) {
+            int lastIndex = i;
+
+            for (int j = i; j < A.length; j++) {
                 // check if element needs to be added
-                if (toFindList.contains(A[j])) {
-                    found.add(A[j]);
-                }
+                found.add(A[j]);
+                
 
                 // check if all elements have been found
                 boolean foundAll = true;
@@ -49,144 +51,32 @@ public class ArrayAssignment {
                 }
 
                 if (foundAll) {
-                    // A sequence has been found
+                    // Sequence has been found
+                    lastIndex = j+1;
                     break;
-                }
+                } 
+                // Else: continue finding items
+            }
+
+            // Add sequence to sequence array
+            ArrayList<Integer> sequence = new ArrayList<Integer>();
+            for (int l = i; l < lastIndex; l++) {
+                sequence.add(A[l]);
+            }
+            if (sequence.size() > 2) {
+                sequences.add(sequence);
             }
         }
 
-        // Breaking conditions
-        //  end of arry has been reached
-        return 0;
-    }
-
-    public static int allNumsWithin(int[] A, int k) {
-
-        int direction = 0; // 0 for descending, 1 for ascending
-        ArrayList<ArrayList<Integer>> sequences = new ArrayList<ArrayList<Integer>>();
-        ArrayList<Integer> sequence = new ArrayList<Integer>();
-
-        // Generate list of possible ordered sequences
-        for (int i = 0; i < A.length; i++) {
-            // If first loop
-            if (i == 0) {
-                // Initialize sequence
-                sequence.add(A[i]);
-                
-                // Initialize direction
-                direction = detectDirection(A, i);
-            } else {
-
-                // Process sequence elements
-
-                // Check direction match and "consecutiveness"
-                boolean directionValid = false;
-                boolean sequenceValid = false;
-                if (A[i] >= A[i-1] && direction == 1) {
-                    // Direction is ascending, check sequence
-                    directionValid = true;
-                    if (A[i] == A[i-1] + 1 || A[i] == A[i-1]) {
-                        // Sequence is correct
-                        sequenceValid = true;
-                        
-                    }
-                    
-                } else if (A[i] <= A[i-1] && direction == 0){
-                    directionValid = true;
-                    // Direction is descending, check sequence
-                    if (A[i] == A[i-1] - 1 || A[i] == A[i-1]) {
-                        // Sequence is correct
-                        sequenceValid = true;
-                    }
-                }
-
-                if (sequenceValid && directionValid) {
-                    sequence.add(A[i]);
-
-                    // Add sequence to sequences array if the loop ended
-                    if (i == A.length-1 && sequence.size() > 1) {
-                        sequences.add(sequence);
-                    }
-                } else {
-
-                    // Reset sequence (Direction change or skip in sequence)
-                    
-                    // Check if previous sequence is valid
-                    if (sequence.size() > 1) {
-                        // Check if sequence contains all numbers between 0 and k-1
-                        int[] correctSequence = IntStream.range(0, k).toArray();
-
-                        boolean orderedSequence = true;
-                        for (int el : correctSequence) {
-                            if (!sequence.contains(el)) {
-                                orderedSequence = false;
-                            }
-                        }
-
-                        if (orderedSequence) {
-                            // Sequence is valid, store
-                            sequences.add(sequence);
-                        } 
-                    }
-
-                    // Reset variables
-                    sequence.clear();
-                    sequence.add(A[i]);
-
-                    // Detect direction
-                    direction = detectDirection(A, i);
-                }
-
-                
-            }
-        }
-
-        // Trim sequences of repeats at both ends
+        // Select sortest sequence
+        ArrayList<Integer> shortest = new ArrayList<Integer>();
         for (ArrayList<Integer> seq : sequences) {
-            // Trim beginning
-            int index = 0;
-            while (seq.get(index) == seq.get(index+1)) {
-                seq.remove(index);
-            }
-
-            // Trim ending
-            index = seq.size()-1; //last item
-            while (seq.get(index) == seq.get(index-1)) {
-                seq.remove(index);
-            }
-        }
-        
-        
-        
-        int seqSize = 0;
-        if (sequences.size() == 1) {
-            seqSize = sequences.get(0).size();
-            return seqSize;
-        }
-
-        // Select shortest sequence
-        ArrayList<Integer> minSeq = new ArrayList<Integer>();
-        for (int j = 0; j < sequences.size(); j++) {
-            if (minSeq.size() == 0 || minSeq.size() > sequences.get(j).size()) {
-                minSeq = sequences.get(j);
+            if (shortest.size() == 0 || shortest.size() > seq.size()) {
+                shortest = seq;
             }
         }
 
-        return minSeq.size();
-    }
-
-    public static int detectDirection (int[] A, int index) {
-        int direction = 0;
-        for (int j = 0; j < A.length; j++) {
-            if (A[j] > A[index]) {
-                direction = 1;
-                break;
-            } else if (A[j] < A[index]) {
-                direction = 0;
-                break;
-            }
-        }
-        return direction;
+        return shortest.size();
     }
 
     public static void diagonalPrint(int[][] M) {
