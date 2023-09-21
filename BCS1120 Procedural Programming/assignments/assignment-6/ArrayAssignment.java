@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.stream.IntStream;
+import java.util.Arrays;
+import java.util.List;
 
 public class ArrayAssignment {
 
@@ -15,11 +17,43 @@ public class ArrayAssignment {
         //System.out.println(allNumsWithin(b, 5)); // Expect 0
 
         int[] c = new int[]{1, 2, 2, 2, 2, 2, 2, 0};
-        System.out.println(allNumsWithin(c, 3)); // Expect 8??? 2
+        System.out.println(allNumsWithin2(c, 3)); // Expect 8??? 2
         // 1, 2, 2, 2, 2, 2, 2, 0
     }
 
     public static int allNumsWithin2(int[] A, int k) {
+
+        // Generate list of elements to find in a sequence
+        int[] toFind = IntStream.range(0, k).toArray();
+        ArrayList<Integer> toFindList = new ArrayList<Integer> ();
+        for (int i = 0; i < toFind.length; i++) {
+            toFindList.add(toFind[i]);
+        }
+
+        // For every element in the array
+        for (int i = 0; i < A.length; i++) {
+
+            ArrayList<Integer> found = new ArrayList<Integer>();
+            for (int j = 0; j < A.length-i; j++) {
+                // check if element needs to be added
+                if (toFindList.contains(A[j])) {
+                    found.add(A[j]);
+                }
+
+                // check if all elements have been found
+                boolean foundAll = true;
+                for (Integer integer : toFindList) {
+                    if (!found.contains(integer)) {
+                        foundAll = false;
+                    }
+                }
+
+                if (foundAll) {
+                    // A sequence has been found
+                    break;
+                }
+            }
+        }
 
         // Breaking conditions
         //  end of arry has been reached
