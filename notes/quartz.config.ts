@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "notes.wicker.life",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["Personal", "Templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       typography: {

@@ -70,7 +70,7 @@ Tabular representation of the transactions in a deterministic finite automaton
 > [!abstract] Definition
 > An NFA is a Nondeterministic Finite Automaton. Structurally similar to a DFA, but represents a fundamental shift in how we’ll think about computation
 
-- **==Nondeterministic computational model==** → Computing machine may have multiple decisions that it can make at one point. The machine accepts if any series of choices leads to an accepting state (**Existential nondeterminism**)
+- **==Nondeterministic computational model==** → Computing machine may have multiple decisions that it can make at one point. The machine accepts if any series of choices leads to an accepting state (**Existential nondetermi anism**)
 
 **Example of an NFA**:
 ![[Screenshot 2023-09-19 at 2.47.15 PM.png]]

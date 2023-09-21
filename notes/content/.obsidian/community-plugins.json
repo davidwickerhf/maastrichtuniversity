@@ -34,5 +34,7 @@
   "obsidian-table-generator",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-plugin-toc",
-  "waypoint"
+  "waypoint",
+  "obsidian-emoji-toolbar",
+  "emoji-shortcodes"
 ]
