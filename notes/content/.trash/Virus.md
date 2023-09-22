@@ -1,1 +1,0 @@
-## Infezione di un battere

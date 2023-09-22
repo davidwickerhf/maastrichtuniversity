@@ -1,1 +1,0 @@
-Permette di stabilie

@@ -1,3 +1,0 @@
----
-Aliases: [ "#journal/daily" ]
----

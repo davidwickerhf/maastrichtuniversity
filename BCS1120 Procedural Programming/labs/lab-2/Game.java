@@ -41,9 +41,7 @@ public class Game {
 	private static int playerAge;
 
 	private static String action;
-	private static int stateId;
-
-	                   
+	private static int stateId;            
 
 	// Action states
 	public static final String OPENDOOR = "OPEN THE DOOR";
