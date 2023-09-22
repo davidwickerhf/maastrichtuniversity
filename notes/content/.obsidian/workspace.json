@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
+                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Labs/Lab 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 265.5,
+    "collapsed": true
   },
   "right": {
     "id": "a723bbc1614aeb40",
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
+                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Labs/Lab 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
+                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Labs/Lab 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md"
+                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Labs/Lab 2.md"
               }
             }
           },
@@ -197,10 +198,12 @@
   },
   "active": "a2f6b679848174ba",
   "lastOpenFiles": [
+    "Attachments/Game-Lab2 (1).pdf",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
+    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Labs/Lab 2.md",
     "Personal/Work/Istituto Galileo Galilei.md",
     "Personal/Work",
     "Personal",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
     "Templates/lecture.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7 Relations.md",
     "Templates/topic.md",
@@ -234,7 +237,6 @@
     "Academics/BSc Computer Science/BSC1120 Procedural programming/W1 Intro, Variables and Methods/BCS1120-2 W1 M2 L2.md",
     "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
     "Attachments/Screenshot 2023-09-19 at 2.47.15 PM.png",
-    "Academics/BSc Computer Science/BSC1110 Introduction to computer science/BCS1110-5 Theory of Computation.md",
     "Attachments/Screenshot 2023-09-19 at 1.48.36 PM.png",
     "Attachments/Pasted Image 20230919085105_481.png",
     "Attachments/Screenshot 2023-09-18 at 2.32.09 PM.png",

@@ -4,7 +4,7 @@
   "nativeMenus": true,
   "cssTheme": "",
   "translucency": true,
-  "baseFontSize": 15,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "monthview-wide"
   ]

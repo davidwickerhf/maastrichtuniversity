@@ -24,6 +24,7 @@ The course appears as desired prior knowledge for the courses Introduction to O
 %% Begin Waypoint %%
 - **Labs**
 	- [[Lab 1]]
+	- [[Lab 2]]
 - **W1 Intro, Variables and Methods**
 	- [[BCS1120-0 Intro lecture]]
 	- [[BCS1120-1 M1 L1]]

@@ -8,6 +8,7 @@ import java.time.Year;
 import java.io.IOException;
 import java.net.URLEncoder;
 
+
 /**
  * Jerry's Adventure Game
  * 
@@ -24,7 +25,11 @@ public class Game {
 	private static String playerName;
 	private static int playerBirthYear;
 	private static int playerAge;
+
 	private static String action;
+	private static int stateId;
+
+	                   
 
 	// Action states
 	public static final String OPENDOOR = "OPEN THE DOOR";
@@ -35,7 +40,7 @@ public class Game {
 	public static final String TAKEITEM = "TAKE ITEM";
 	public static final String DROPITEM = "DROP ITEM";
 	public static final String USEITEM = "USE ITEM";
-	public static final String EXITGAME = "EXIT GAME";
+	public static final String EXITGAME = "QUIT";
 
 
 	public static void main(String[] args) {
@@ -47,13 +52,12 @@ public class Game {
 
 		// Ask player name
 		System.out.print("\n\nWhat is your name?: ");
-		playerName = scanner.next();
+		playerName = scanner.nextLine();
 		System.out.printf("Hello %s!", playerName);
 
 		// Ask player birth year
 		System.out.print("\n\nWhen were you born?: ");
-		playerBirthYear = scanner.nextInt();
-		scanner.nextLine();
+		playerBirthYear = Integer.parseInt(scanner.nextLine());
 
 		// Calculate player age
 		playerAge = calculateAge(playerBirthYear);
@@ -61,20 +65,18 @@ public class Game {
 
 		// Print out storyline
 		System.out.println("\nBla bla for now");
-
-		// Ask user input for action
-		while (true) {
-			String action = getInput();
-			if ( action == EXITGAME) {
-				break;
-			}
-		}
 		
 
-		// Press enter to close program
-		System.out.println("\n\nPress enter to close the program...");
-		scanner.nextLine();
+
+		// Ask user input for action
+		while (stateId != 666) {
+			action = getInput();
+			stateId = takeAction(action, stateId);
+			printState(stateId);
+		}
+
 		scanner.close();
+		
 		// ----- Write your code above
 	}
 
@@ -125,17 +127,21 @@ public class Game {
 		return year - birthYear;
 	}
 
-	public static String getInput() {
 
-		Scanner scanner = new Scanner(System.in);
+	/**
+	 * Get input method
+	 * @return user action
+	 */
+	public static String getInput() {
 		String input = new String();
 		
 		boolean loopin = true;
 		while (loopin) {
 			// Ask for input
-			System.out.print("\nWhat would you like to do?: ");
-			input = scanner.nextLine();
-			input = input.toUpperCase(); // .toLowerCase(null);
+			
+			System.out.print("\n\nWhat would you like to do?: ");
+			input = scanner.nextLine();			
+			input = input.toUpperCase(); // D.toLowerCase(null);
 
 			// Validate input
 			switch (input) {
@@ -144,7 +150,7 @@ public class Game {
 					loopin = false;
 					break;
 				case GONORTH:
-					System.out.println("Going nirth...");
+					System.out.println("Going north...");
 					loopin = false;
 					break;
 				case GOEAST: 
@@ -184,8 +190,59 @@ public class Game {
 			// If input is valid, return action, else continue
 			loopin = false;
 		}
-		
-		scanner.close();
 		return input;
 	}
+
+	/**
+	 * Take action method
+	 * @param action
+	 * @param currentState
+	 * @return new game state
+	 */
+	public static int takeAction(String action, int currentState) {
+		if (action.equals(EXITGAME)) {
+			return 666;
+		}
+
+
+		if (currentState == 0) {
+			if (action.equals(OPENDOOR)) {
+				return 1;
+			} else if (action == TAKEITEM) {
+				return 2;
+			}
+		} else if (currentState == 1) {
+			if (action.equals(GOEAST)) {
+				return 3;
+			}
+		}
+
+		return currentState;
+	}
+
+	/**
+	 * Prints state
+	 * @param stateId
+	 */
+	public static void printState (int stateId) {
+		switch (stateId) {
+			case 0:
+				System.out.println("You are standing in an abandoned university office. There are neither students nor teachers around you. There’s a table in front of you with various papers, pens, a small puzzle toy, and a calculator. A large window shows an empty office building; there are no Zombies in the empty building (as far as you can tell). Behind you is a dark and mysterious door that leads to a well-lit corridor with a fireproof ceiling and floor. You feel a sense of Wi-Fi around you, the grinding of an LCD operated coffee machine can be heard in the distance. You are not thirsty, but you rather have a craving for justice.");
+				break;
+			case 1: 
+				System.out.println("You are in a long hallway. There’s a man wearing glasses at the end of it, he looks harmless. West is a wall, east is the man, to the north is nothing but empty offices, a desperate sight. The carpeting in the hallway feels soft, you hear the clicking of a mouse in the distance. Your office is south (behind you).");
+				break;
+			case 2:
+				System.out.println("You take the calculator from your desk. It’s a Casio FX-85gt Plus. The display shows the number 0.1134. You turn it upside down; now the Casio greets you with a friendly “hello”, nice. You hold the calculator in your hand.");
+				break;
+			case 3: 
+				System.out.println("The man greets you and starts endlessly talking to you about his children and his holiday to Benidorm. You die of boredom.");
+				break;
+			case 666:
+				break;
+			default:
+				break;
+		}
+	}
+
 }
