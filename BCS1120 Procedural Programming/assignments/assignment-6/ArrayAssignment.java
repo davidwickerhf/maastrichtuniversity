@@ -5,8 +5,7 @@ public class ArrayAssignment {
 
     public static void main(String[] args) {
         int[][] testArray = new int[][]{{1,2,3,4}, {5,6,7,8}, {9,10,11,12}};
-        //diagonalPrint(testArray);
-        //System.out.println();
+        diagonalPrint(testArray);
 
         int[] a = new int[]{0,2,0,2,0,2,2,1,1,0};
         System.out.println(allNumsWithin(a, 3));
