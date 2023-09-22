@@ -21,6 +21,20 @@ import java.net.URLEncoder;
  * @param action 
  */
 public class Game {
+
+	// Formatting stuff
+	private static final String ANSI_BROWN = "\u001B[33m";
+	private static final String ANSI_RESET = "\u001B[0m";
+	private static final String ANSI_GREEN = "\u001B[32m";
+	private static final String ANSI_YELLOW = "\u001B[33m";
+	private static final String ANSI_CYAN = "\u001B[36m";
+	private static final String ANSI_RED = "\u001B[31m";
+	private static final String ANSI_PURPLE = "\u001B[35m";
+	private static final String ANSI_BLUE = "\u001B[34m";
+	private static final String ANSI_GRAY = "\u001B[37m";
+	private static final String ANSI_WHITE = "\u001B[97m";
+
+	// Variables
 	private static Scanner scanner;
 	private static String playerName;
 	private static int playerBirthYear;
@@ -47,16 +61,16 @@ public class Game {
 		scanner = new Scanner(System.in);
 
 		// Print ASCI-Art
-		System.out.println(generateASCI("Jerry\'s Adventure"));
+		System.out.println(ANSI_BLUE + generateASCI("Jerry\'s Adventure") + ANSI_RESET);
 		System.out.println("by: David Henry Francis Wicker");
 
 		// Ask player name
-		System.out.print("\n\nWhat is your name?: ");
+		System.out.print(ANSI_GREEN + "\n\nWhat is your name?: " + ANSI_RESET);
 		playerName = scanner.nextLine();
 		System.out.printf("Hello %s!", playerName);
 
 		// Ask player birth year
-		System.out.print("\n\nWhen were you born?: ");
+		System.out.print(ANSI_GREEN + "\n\nWhen were you born?: " + ANSI_RESET);
 		playerBirthYear = Integer.parseInt(scanner.nextLine());
 
 		// Calculate player age
@@ -139,7 +153,7 @@ public class Game {
 		while (loopin) {
 			// Ask for input
 			
-			System.out.print("\n\nWhat would you like to do?: ");
+			System.out.print(ANSI_GREEN + "\n\nWhat would you like to do?: " + ANSI_RESET);
 			input = scanner.nextLine();			
 			input = input.toUpperCase(); // D.toLowerCase(null);
 
@@ -182,7 +196,7 @@ public class Game {
 					loopin = false;
 					break;
 				default:
-					System.out.println("Invalid input");
+					System.out.println(ANSI_RED + "Invalid input" + ANSI_RESET); 
 					loopin = false;
 					continue;
 			}
@@ -227,16 +241,16 @@ public class Game {
 	public static void printState (int stateId) {
 		switch (stateId) {
 			case 0:
-				System.out.println("You are standing in an abandoned university office. There are neither students nor teachers around you. There’s a table in front of you with various papers, pens, a small puzzle toy, and a calculator. A large window shows an empty office building; there are no Zombies in the empty building (as far as you can tell). Behind you is a dark and mysterious door that leads to a well-lit corridor with a fireproof ceiling and floor. You feel a sense of Wi-Fi around you, the grinding of an LCD operated coffee machine can be heard in the distance. You are not thirsty, but you rather have a craving for justice.");
+				System.out.println(ANSI_PURPLE + "You are standing in an abandoned university office. There are neither students nor teachers around you. There’s a table in front of you with various papers, pens, a small puzzle toy, and a calculator. A large window shows an empty office building; there are no Zombies in the empty building (as far as you can tell). Behind you is a dark and mysterious door that leads to a well-lit corridor with a fireproof ceiling and floor. You feel a sense of Wi-Fi around you, the grinding of an LCD operated coffee machine can be heard in the distance. You are not thirsty, but you rather have a craving for justice." + ANSI_RESET);
 				break;
 			case 1: 
-				System.out.println("You are in a long hallway. There’s a man wearing glasses at the end of it, he looks harmless. West is a wall, east is the man, to the north is nothing but empty offices, a desperate sight. The carpeting in the hallway feels soft, you hear the clicking of a mouse in the distance. Your office is south (behind you).");
+				System.out.println(ANSI_PURPLE + "You are in a long hallway. There’s a man wearing glasses at the end of it, he looks harmless. West is a wall, east is the man, to the north is nothing but empty offices, a desperate sight. The carpeting in the hallway feels soft, you hear the clicking of a mouse in the distance. Your office is south (behind you)." + ANSI_RESET);
 				break;
 			case 2:
-				System.out.println("You take the calculator from your desk. It’s a Casio FX-85gt Plus. The display shows the number 0.1134. You turn it upside down; now the Casio greets you with a friendly “hello”, nice. You hold the calculator in your hand.");
+				System.out.println(ANSI_PURPLE + "You take the calculator from your desk. It’s a Casio FX-85gt Plus. The display shows the number 0.1134. You turn it upside down; now the Casio greets you with a friendly “hello”, nice. You hold the calculator in your hand." + ANSI_RESET);
 				break;
 			case 3: 
-				System.out.println("The man greets you and starts endlessly talking to you about his children and his holiday to Benidorm. You die of boredom.");
+				System.out.println(ANSI_PURPLE + "The man greets you and starts endlessly talking to you about his children and his holiday to Benidorm. You die of boredom." + ANSI_RESET);
 				break;
 			case 666:
 				break;
