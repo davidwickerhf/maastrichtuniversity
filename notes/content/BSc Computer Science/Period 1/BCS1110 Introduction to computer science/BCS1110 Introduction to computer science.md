@@ -23,6 +23,7 @@ None
 - [[BCS1110-4 Command Line and Git]]
 - [[BCS1110-5 Theory of Computation]]
 - [[BCS1110-6 Theory of Computation (2)]]
+- [[BCS1110-7 Computer Networks]]
 
 %% End Waypoint %%
 
