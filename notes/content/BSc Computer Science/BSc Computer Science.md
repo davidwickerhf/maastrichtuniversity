@@ -1,6 +1,7 @@
 ## First year core courses
 %% Begin Waypoint %%
 - **Concepts**
+	- [[Transmission Control Protocol]]
 	- [[Uniform Resource Locator]]
 - **Period 1**
 	- **[[BCS1110 Introduction to computer science]]**

@@ -83,7 +83,7 @@ lecture-slides: true
 - Layers of the protocol:
 	1. [[Network Layer]] → Captures the physical aspects of data transmission and hardware related protocols.
 	2. [[Internet Layer]] → Looks after the logical transmission of data. Defines an [[IP Address]] for each device connected to the network.
-	3. [[Transport Layer]] → Responsible for end-to-end communication and handles error-free transfers ([[TCP]] and [[UDP]] protocols)
+	3. [[Transport Layer]] → Responsible for end-to-end communication and handles error-free transfers ([[TCP]] and [[UDP]] protocols). Some data has higher importance than other and is thus handled differently (e.g. bank info)
 	4. [[Application Layer]] → Where the server defines networking preferences and safety ([[SSL]])
 
 #### Application Layer Protocols
@@ -98,9 +98,13 @@ lecture-slides: true
 - [[Transmission Control Protocol]] → ensures reliable communication, confirms data receipt and retransmits lost data
 - [[User Datagram Protocol]] → Faster but less reliable, suitable for real-time application and video-streaming
 
+#### Internet Protocols & IP Addresses
+- Devices connected to the internet need to adhere to the [[TCP/IP]] protocol
+
 ## Exam style questions
 - What does error 404 mean?
 - Why do we need standardisation to make the internet work?
+- What does the application/transport/internet/network layer do?
 
 ## Key takeaways and questions
 
