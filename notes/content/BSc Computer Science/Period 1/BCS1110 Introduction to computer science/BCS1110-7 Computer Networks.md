@@ -8,18 +8,17 @@ period: 1
 lecture-slides: true
 ---
 ## Lecture notes
-
-
+- [[#Lecture materials|Lecture materials]]
+- [[#Lecture contents|Lecture contents]]
+- [[#Introduction to Networks|Introduction to Networks]]
+- [[#Introduction to the internet|Introduction to the internet]]
 #### Lecture materials
 - [High school networks notes](https://www.remnote.com/groups/Informatica-(IIS-Blaise-Pascal)/64775bcb5706a7b855192ef6) (in Italian)
-
 #### Lecture contents
 - Introduction to Networks
 - Understanding the Internet
 - Application and Services
 - Developing for the Web
-
-
 - - - 
 #### Introduction to Networks
 - **Communication networks** → to exchange data and information
@@ -63,11 +62,49 @@ lecture-slides: true
 	- [[Redundancy]] → The internet is redundant ([[Redundancy]] of paths)
 	- [[Hierarchical]] → internet is organized into levels/groups
 - **Birth of the internet** → [[1957]] project at Stanford to connect computing machines at a distance as a part of the ARPA project. This later expanded to connect all universities in the US and include multiple services.
-- 
+- **Client-Server Architecture**
+	- Checkout https://traceroute-online.com
+		```
+		tracerout [website]
+		```
 
-## Key takeaways
-- 
+![[Uniform Resource Locator]]
+
+- **Challenges of the internet**
+	- How does the receiving computer interpret the response
+	- How to communicate across multiple operating systems
+	- how to ensure all information was transferred
+	- how to handle multiple requests and responses to the same router
+	- How do routers know where to send information
+
+#### TCP/IP Protocol
+- Defines rules for sending and receiving information between devices
+- First developed by the US Department of Defense, now used widely
+- Layers of the protocol:
+	1. [[Network Layer]] → Captures the physical aspects of data transmission and hardware related protocols.
+	2. [[Internet Layer]] → Looks after the logical transmission of data. Defines an [[IP Address]] for each device connected to the network.
+	3. [[Transport Layer]] → Responsible for end-to-end communication and handles error-free transfers ([[TCP]] and [[UDP]] protocols)
+	4. [[Application Layer]] → Where the server defines networking preferences and safety ([[SSL]])
+
+#### Application Layer Protocols
+- [[Hypertext Transfer Protocol]] → for web browsing, defines how web browsers and web servers communicate
+	- 200s → all good
+	- 400s → client errors
+	- 500s → server errors
+
+#### Transport Layer Protocols
+- Responsible for end-to-end communication and data integrtiy
+- Handles data segmentation, sequencing, error correction and flow control
+- [[Transmission Control Protocol]] → ensures reliable communication, confirms data receipt and retransmits lost data
+- [[User Datagram Protocol]] → Faster but less reliable, suitable for real-time application and video-streaming
+
+## Exam style questions
+- What does error 404 mean?
+- Why do we need standardisation to make the internet work?
+
+## Key takeaways and questions
+
 
 - - - 
 ## Lecture slides
-![[networks.pdf|{width: 100%}]]
+![[networks.pdf#height=600]]

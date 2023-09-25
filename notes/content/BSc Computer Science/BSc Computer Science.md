@@ -1,5 +1,7 @@
 ## First year core courses
 %% Begin Waypoint %%
+- **Concepts**
+	- [[Uniform Resource Locator]]
 - **Period 1**
 	- **[[BCS1110 Introduction to computer science]]**
 	- **[[BCS1120 Procedural programming]]**
