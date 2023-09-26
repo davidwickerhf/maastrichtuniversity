@@ -28,6 +28,6 @@ None
 - [[BCS1130-4 Proof by induction]]
 - [[BCS1130-5 Set theory]]
 - [[BCS1130-6 Set theory]]
-- [[BCS1130-7 Relations]]
+- [[BCS1130-7&8 Relations (1 & 2)]]
 
 %% End Waypoint %%

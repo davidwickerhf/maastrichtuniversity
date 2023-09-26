@@ -89,5 +89,27 @@ Is the relation symmetric? $\forall(x_1, y_2), (x_2, y_2) \in R \times R, (x_1, 
 - [ ] complete notes for this →
 Is the relation transitive? $\forall (x_1, y_1), (x_2, y_2), (x_3, y_3) \in R \times R : (x_1, y_1)R(x_2, y_2) \land (x_2, y_2)R(x_3,y_3) → (x_1,y_2)R(x_3,y_3)$
 - Let 
+
+#### Anti-symmetry
+> [!abstract] Definition
+> It is **not** the negation of symmetry. A relation that **cannot** go in both directions
+> 
+> - $\forall x,y \in A: (xRy \land yRx) → x=y$
+> - $\forall x,y \in A: (xRy \land x \neq y) → x !Rx$
+###### Examples
+- $xRy$ if $x ≤ y$ on $\mathbb{R}$
+- [ ] Add more examples
+
+###### Symmetry vs. Anti-symmetry
+- **Symmetry** → all arrows go in 2 directions
+- **Anti-symmetry** → arrows between different elements **cannot** go in both directions
+
 - - - 
 ## Lecture slides
+#### Lecture 7
+![[DM-L7 (annotated).pdf]]
+
+#### Lecture 8
+
+#### Extra materials
+![[Socrative L7.pdf]]
