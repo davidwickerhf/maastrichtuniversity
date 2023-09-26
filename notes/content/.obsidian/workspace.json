@@ -21,6 +21,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Personal/Work/Next Generation Sensors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ca07207ba291966",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md",
                 "mode": "source",
                 "backlinks": true,
@@ -29,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,13 +208,14 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "a92be575e68b9202",
+  "active": "a9f759660a57bcd5",
   "lastOpenFiles": [
+    "Personal/Work/Next Generation Sensors.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md",
     "Attachments/Socrative L7.pdf",
     "Attachments/DM-L7 (annotated).pdf",
     "BSc Computer Science/Period 1/BCS1140 Project 1-1/BCS1140 Project 1-1.md",
     "BSc Computer Science/Period 1/BCS1140 Project 1-1/Project Introduction.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md",
     "BSc Computer Science/Concepts/Transmission Control Protocol.md",
     "Attachments/networks.pdf",
@@ -234,7 +248,6 @@
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
     "BSc Computer Science/BSc Computer Science.md",
     "BSc Computer Science",
-    "BSc Computer Science/Period 2",
     "Attachments/IMG_1670.jpg",
     "Attachments/Screenshot 2023-09-18 at 2.19.17 PM.png",
     "Attachments/Screenshot 2023-09-19 at 2.47.15 PM.png",
