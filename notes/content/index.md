@@ -1,5 +1,5 @@
 ## BCS Courses
-- [[Courses overview and lecture notes]]
+- [[BSc Computer Science|Courses overview and lecture notes]]
 
 ## Assignments and homework
 - [Submissions to coding assignments, quizzes and other materials](https://github.com/davidwickerhf/maastrichtuniversity)

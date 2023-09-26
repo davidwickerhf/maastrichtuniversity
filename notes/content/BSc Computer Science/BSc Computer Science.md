@@ -1,6 +1,7 @@
 ## First year core courses
 %% Begin Waypoint %%
 - **Concepts**
+	- [[IP Address]]
 	- [[Transmission Control Protocol]]
 	- [[Uniform Resource Locator]]
 - **Period 1**
