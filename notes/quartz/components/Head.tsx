@@ -18,7 +18,6 @@ export default (() => {
     return (
       <head>
         <title>{title}</title>
-        <script defer data-domain="notes.wicker.life" src="https://plausible.io/js/script.js"></script>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={title} />
@@ -31,6 +30,7 @@ export default (() => {
         <meta name="generator" content="Quartz" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <script defer data-domain="notes.wicker.life" src="https://plausible.io/js/script.js"></script>
         {css.map((href) => (
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}

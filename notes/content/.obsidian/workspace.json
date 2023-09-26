@@ -6,7 +6,6 @@
       {
         "id": "e812e1a0adacd3af",
         "type": "tabs",
-        "dimension": 46.70487106017192,
         "children": [
           {
             "id": "b41859adce1e03b0",
@@ -35,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-8 Computer Networks.md",
+                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-8 Practical Network Applications.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -43,24 +42,7 @@
             }
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "a091b0a3e7a5e67c",
-        "type": "tabs",
-        "dimension": 53.29512893982808,
-        "children": [
-          {
-            "id": "0447494b60378a6a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachments/networks.pdf"
-              }
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "a723bbc1614aeb40",
@@ -127,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md",
+                "file": "Personal/Work/Next Generation Sensors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md",
+                "file": "Personal/Work/Next Generation Sensors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md"
+                "file": "Personal/Work/Next Generation Sensors.md"
               }
             }
           },
@@ -265,17 +246,18 @@
       }
     ]
   },
-  "active": "b240b776bed1dd3a",
+  "active": "a92be575e68b9202",
   "lastOpenFiles": [
-    "Attachments/networks.pdf",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-8 Practical Network Applications.md",
+    "Personal/Work/Next Generation Sensors.md",
+    "Attachments/practical networking lecture 1.pdf",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-8 Computer Networks.md",
+    "Attachments/networks.pdf",
     "Attachments/Screenshot 2023-09-25 at 1.54.16 PM.png",
     "Attachments/Screenshot 2023-09-26 at 1.59.38 PM.png",
     "IP Address.md",
     "Attachments/Screenshot 2023-09-26 at 1.57.57 PM.png",
     "Attachments/Screenshot 2023-09-26 at 1.45.40 PM.png",
-    "Personal/Work/Next Generation Sensors.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-8 Functions.md",
     "Excalidraw/Drawing 2023-09-26 09.46.48.excalidraw.md",
     "Excalidraw",
@@ -306,7 +288,6 @@
     "Templates/BCSXXXX Course.md",
     "Templates/author.md",
     "Templates/assignment.md",
-    "Templates",
     "Attachments/IMG_1670.jpg",
     "Attachments/Screenshot 2023-09-18 at 2.19.17 PM.png",
     "Attachments/Screenshot 2023-09-19 at 2.47.15 PM.png",

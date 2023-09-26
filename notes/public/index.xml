@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>🪴 Quartz 4.0</title>
-      <link>https://quartz.jzhao.xyz</link>
-      <description>Last 10 notes on 🪴 Quartz 4.0</description>
+      <title>👨‍💻 UM BSc Computer Science</title>
+      <link>https://notes.wicker.life</link>
+      <description>Last 10 notes on 👨‍💻 UM BSc Computer Science</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>BSc Computer Science</title>
+    <link>https://notes.wicker.life/BSc-Computer-Science/BSc-Computer-Science</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/BSc-Computer-Science</guid>
+    <description>First year core courses § Concepts Transmission Control Protocol Uniform Resource Locator Period 1 BCS1110 Introduction to computer science BCS1120 Procedural programming BCS1130 Discrete mathematics BCS1140 Project 1-1 Project Introduction Period 2 BCS1220 Objects in programming BCS1440 Calculus .</description>
+    <pubDate>Mon, 25 Sep 2023 13:24:23 GMT</pubDate>
+  </item><item>
+    <title>Transmission Control Protocol</title>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Concepts/Transmission-Control-Protocol</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Concepts/Transmission-Control-Protocol</guid>
+    <description> Functionality Separates information into packets Sends and reassembles packets Ensures information is complete and correct Packet → data parcel sent across a network .</description>
+    <pubDate>Mon, 25 Sep 2023 13:25:03 GMT</pubDate>
+  </item><item>
+    <title>Uniform Resource Locator</title>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Concepts/Uniform-Resource-Locator</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Concepts/Uniform-Resource-Locator</guid>
+    <description> Protocol → Rules for the information Domain name → human readable, gets converted to an IP Address via a Domain Name Server IP Address → Computer readable unique address for a machine in a network Hierarchy → each byte of the address gets more specific .</description>
+    <pubDate>Mon, 25 Sep 2023 13:00:04 GMT</pubDate>
+  </item><item>
     <title>BCS1110 Introduction to computer science</title>
-    <link>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-Introduction-to-computer-science</link>
-    <guid>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-Introduction-to-computer-science</guid>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-Introduction-to-computer-science</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-Introduction-to-computer-science</guid>
     <description>Course description § None Recommended reading § “Computational Thinking for the Modern Problem Solver” by David Riley, Kenny A. Hunt “Computer Science Illuminated” by Nell B.</description>
-    <pubDate>Thu, 11 May 2023 08:51:54 GMT</pubDate>
+    <pubDate>Tue, 26 Sep 2023 12:49:39 GMT</pubDate>
   </item><item>
     <title>BCS1110-1 Intro lecture</title>
-    <link>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-1-Intro-lecture</link>
-    <guid>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-1-Intro-lecture</guid>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-1-Intro-lecture</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-1-Intro-lecture</guid>
     <description> Lecture notes § Standardisation vs Non-Standardisation George Polya’s problem solving approach Lecture 1 tutorial § Recommended readings § Nine algorithms that changed the future by John MacCormick .</description>
     <pubDate>Sun, 03 Sep 2023 22:00:00 GMT</pubDate>
   </item><item>
     <title>BCS1110-2 Computer Hardware</title>
-    <link>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-2-Computer-Hardware</link>
-    <guid>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-2-Computer-Hardware</guid>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-2-Computer-Hardware</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-2-Computer-Hardware</guid>
     <description> Exam info Most important is: Binary number system (and conversion) What CPU is and how it works Basic computer components Lecture notes § Initial terms § Transistors → Can amplify or switch eletronic signals and eletrical power.</description>
-    <pubDate>Tue, 05 Sep 2023 11:32:56 GMT</pubDate>
+    <pubDate>Tue, 05 Sep 2023 13:20:50 GMT</pubDate>
   </item><item>
     <title>BCS1110-3 Algorithms and Command Line</title>
-    <link>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-3-Algorithms-and-Command-Line</link>
-    <guid>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-3-Algorithms-and-Command-Line</guid>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-3-Algorithms-and-Command-Line</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-3-Algorithms-and-Command-Line</guid>
     <description>Lecture notes § Lecture slides § .</description>
     <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
   </item><item>
     <title>BCS1110-4 Command Line and Git</title>
-    <link>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-4-Command-Line-and-Git</link>
-    <guid>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-4-Command-Line-and-Git</guid>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-4-Command-Line-and-Git</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-4-Command-Line-and-Git</guid>
     <description>Lecture notes § Version control and Git § Functions of version control Saves versions Assigns unique names to each version Maintains the relations between the various versions Keeps track of the current version pointer Most common actions in version control Commit / Checkin → Current version gets updated with the changes Dropping a version / Reverting back → move the current version back to a previous commit Master/Main branch → “Official” version Repository → Structured library of a version control mechanism (local or online) Checking out → Retrieving a read-only copy of the code Merge → Conflict → Issues in merging commits.</description>
     <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
   </item><item>
     <title>BCS1110-5 Theory of Computation</title>
-    <link>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-5-Theory-of-Computation</link>
-    <guid>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-5-Theory-of-Computation</guid>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-5-Theory-of-Computation</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-5-Theory-of-Computation</guid>
     <description>Lecture notes § Lecture contents and key points Introduction - Automata - Definition of problems - Finite automata Formal language theory - Important terms - String - Language - The model Finite automata FSA Examples Deterministic finite automaton Lecture contents and key points § Formal language theory Finite automata FSA Examples Recognizing languages with DFAs Deterministi Finite Automaton Introduction § TOC Attempts to answer the question of what problems we can solve with a computer (e.</description>
     <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
   </item><item>
     <title>BCS1110-6 Theory of Computation (2)</title>
-    <link>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-6-Theory-of-Computation-(2)</link>
-    <guid>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-6-Theory-of-Computation-(2)</guid>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-6-Theory-of-Computation-(2)</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-6-Theory-of-Computation-(2)</guid>
     <description>Lecture notes § Lecture contents Deterministic finite automaton Tabular DFA Regular languages - Introduction - Complement of a language - Complementing regular languages - Closure properties Nondeterministic finite automaton - NFA Acceptance - [[#epsilon—transitions|ϵ- Transitions]] Designing NFAs - Introduction - Guess and check Difference between NFAs and DFAs Lecture contents § Tabular DFAs Regular Languages NGAs Designing NFAs Tutorial Questions Deterministic finite automaton § Formal definition D=(Q,Σ,δ,q0​,F) D → Automaton Q → Set of states Σ → alphabet δ → Transition function q0​ → Start state F → Accepting state Tabular DFA § Tabular representation of the transactions in a deterministic finite automaton Possible exam question A possible exam question is to draw up the tabular representation of a DFA Regular languages § Introduction § Definition A language L is called a regular language if there exists a DFA D such that L(D)=L If L is a language and L(D) = L, we say that D recognizes the language L Complement of a language § Definition Given a language L⊆Σ∗, the complement of that language (L’) is the language of all strings in Σ∗ that aren’t in L: L′=Σ∗−L Complementing regular languages § L={w∈{a,b}∗∣ w contains aa as a substring } L={w∈{a,b}∗∣ w does not contain aa as a substring } Closure properties § Theorem If L is a regular language, then L’ is also a regular language.</description>
     <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>BCS1120 Procedural programming</title>
-    <link>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/BCS1120-Procedural-programming</link>
-    <guid>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/BCS1120-Procedural-programming</guid>
-    <description>Course description § The course provides the basics of computer science and computer programming. After a short introduction to computer organization, the principles of programming are presented.</description>
-    <pubDate>Sat, 13 May 2023 17:57:04 GMT</pubDate>
-  </item><item>
-    <title>Lab 1</title>
-    <link>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/Labs/Lab-1</link>
-    <guid>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/Labs/Lab-1</guid>
-    <description>Lab handbook § Lab solution § PATH: &quot;https://raw.githubusercontent.com/davidwickerhf/maastrichtuniversity/main/BCS1120%20Procedural%20Programming/labs/lab-1/Game.</description>
-    <pubDate>Fri, 08 Sep 2023 07:53:35 GMT</pubDate>
-  </item><item>
-    <title>BCS1120-0 Intro lecture</title>
-    <link>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-0-Intro-lecture</link>
-    <guid>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-0-Intro-lecture</guid>
-    <description>Lecturer: Enrique Hortal Lecture notes § Key terms of algorithms Finite number of steps Sequential Conditional Course content § Data types Variables and methods Conditional execution Loops Arrays Recursion and branching → needed for project 1-1 Course schedule § .</description>
-    <pubDate>Tue, 05 Sep 2023 13:56:12 GMT</pubDate>
   </item>
     </channel>
   </rss>

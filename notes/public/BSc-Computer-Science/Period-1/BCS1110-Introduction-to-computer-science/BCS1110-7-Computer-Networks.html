@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html><head><title>BCS1110-7 Computer Networks</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="BCS1110-7 Computer Networks"/><meta property="og:description" content="Lecture notes § Lecture materials Lecture contents Introduction to Networks Introduction to the internet TCP/IP Protocol Application Layer Protocols Transport Layer Protocols Internet Protocols &amp;amp; IP Addresses Domain names and DNS Network Layer Internet Governance and infrastructure Hardware for Computer Networks Application and Services Lecture materials § High school networks notes (in Italian) Lecture contents § Introduction to Networks Understanding the Internet Application and Services Developing for the Web Introduction to Networks § Communication networks → to exchange data and information Data → database of values Information → what is extracted from processed data Shannon’s Communication Model → Devised by Claude Shannon in 1948 Classification of networks by extension PAN (Personal area network) → Serves a single individual wirelessly LAN (Local area network) → connects machines in a single building WAN (Wide area network) → large areas, are made up by smaller networks Communication channels → medium for information transmission Wired channels → wires or cables Pros → Shileded, dependable and secure Cons → costly, limited mobility and easy to damage Wireless channels Used means → Radio signals, microwave Radio Frequency → Sent by transceivers through antennas Wireless devices and transceivers → send and receive data and include antennas Security in wired channels → Wired connections are secure Bandwidth in communication channels Bandwidth → transmission capacity Broadband → at least 25 Mbps Narrowband → Slower than 25 Mbps Topology of Networks → structure and layout of network components Point-to-point → connects peripheral devices to a host Star topology → Connects devices to a central device Mesh topology → All the devices are connected with each other Network nodes Network node → any device on a network Data Terminal Equipment → stores or generates data Data Communication Equipment → controls data speed, signal conversion, error checking and routing Devices as Network Nodes Router → controls data flow, gateway, communication between multiple networks Modem → converts signals for communication channels Switch → communication within a single network Introduction to the internet § Internet → global system of computers connected together Redundancy → The internet is redundant (Redundancy of paths) Hierarchical → internet is organized into levels/groups Birth of the internet → 1957 project at Stanford to connect computing machines at a distance as a part of the ARPA project."/><meta property="og:image" content="https://notes.wicker.life/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../../../static/icon.png"/><meta name="description" content="Lecture notes § Lecture materials Lecture contents Introduction to Networks Introduction to the internet TCP/IP Protocol Application Layer Protocols Transport Layer Protocols Internet Protocols &amp;amp; IP Addresses Domain names and DNS Network Layer Internet Governance and infrastructure Hardware for Computer Networks Application and Services Lecture materials § High school networks notes (in Italian) Lecture contents § Introduction to Networks Understanding the Internet Application and Services Developing for the Web Introduction to Networks § Communication networks → to exchange data and information Data → database of values Information → what is extracted from processed data Shannon’s Communication Model → Devised by Claude Shannon in 1948 Classification of networks by extension PAN (Personal area network) → Serves a single individual wirelessly LAN (Local area network) → connects machines in a single building WAN (Wide area network) → large areas, are made up by smaller networks Communication channels → medium for information transmission Wired channels → wires or cables Pros → Shileded, dependable and secure Cons → costly, limited mobility and easy to damage Wireless channels Used means → Radio signals, microwave Radio Frequency → Sent by transceivers through antennas Wireless devices and transceivers → send and receive data and include antennas Security in wired channels → Wired connections are secure Bandwidth in communication channels Bandwidth → transmission capacity Broadband → at least 25 Mbps Narrowband → Slower than 25 Mbps Topology of Networks → structure and layout of network components Point-to-point → connects peripheral devices to a host Star topology → Connects devices to a central device Mesh topology → All the devices are connected with each other Network nodes Network node → any device on a network Data Terminal Equipment → stores or generates data Data Communication Equipment → controls data speed, signal conversion, error checking and routing Devices as Network Nodes Router → controls data flow, gateway, communication between multiple networks Modem → converts signals for communication channels Switch → communication within a single network Introduction to the internet § Internet → global system of computers connected together Redundancy → The internet is redundant (Redundancy of paths) Hierarchical → internet is organized into levels/groups Birth of the internet → 1957 project at Stanford to connect computing machines at a distance as a part of the ARPA project."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><script defer data-domain="notes.wicker.life" src="https://plausible.io/js/script.js"></script><link href="../../../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../../../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-7-Computer-Networks"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="../../..">👨‍💻 UM BSc Computer Science</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true" data-tree="[{&quot;path&quot;:&quot;BSc Computer Science&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;BSc Computer Science/Concepts&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;BSc Computer Science/Period 1&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;BSc Computer Science/Period 1/BCS1110 Introduction to computer science&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;BSc Computer Science/Period 1/BCS1120 Procedural programming&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;BSc Computer Science/Period 1/BCS1120 Procedural programming/Labs&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;BSc Computer Science/Period 1/BCS1120 Procedural programming/W1 Intro, Variables and Methods&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;BSc Computer Science/Period 1/BCS1130 Discrete mathematics&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;BSc Computer Science/Period 1/BCS1140 Project 1-1&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;BSc Computer Science/Period 2&quot;,&quot;collapsed&quot;:true}]"><h3>Explorer</h3><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><div><div><div class="folder-outer open"><ul style="padding-left:0;" class="content" data-folderul><div><div><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><li data-folderpath="/BSc Computer Science"><button class="folder-button"><h3 class="folder-title">BSc Computer Science</h3></button></li></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="/BSc Computer Science"><div><div><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><li data-folderpath="/BSc Computer Science/Concepts"><button class="folder-button"><h3 class="folder-title">Concepts</h3></button></li></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="/BSc Computer Science/Concepts"><div><li><a href="../../../BSc-Computer-Science/Concepts/Transmission-Control-Protocol" data-for="BSc-Computer-Science/Concepts/Transmission-Control-Protocol">Transmission Control Protocol</a></li></div><div><li><a href="../../../BSc-Computer-Science/Concepts/Uniform-Resource-Locator" data-for="BSc-Computer-Science/Concepts/Uniform-Resource-Locator">Uniform Resource Locator</a></li></div></ul></div></div></div><div><div><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><li data-folderpath="/BSc Computer Science/Period 1"><button class="folder-button"><h3 class="folder-title">Period 1</h3></button></li></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="/BSc Computer Science/Period 1"><div><div><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><li data-folderpath="/BSc Computer Science/Period 1/BCS1110 Introduction to computer science"><button class="folder-button"><h3 class="folder-title">BCS1110 Introduction to computer science</h3></button></li></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="/BSc Computer Science/Period 1/BCS1110 Introduction to computer science"><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-Introduction-to-computer-science" data-for="BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-Introduction-to-computer-science">BCS1110 Introduction to computer science</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-1-Intro-lecture" data-for="BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-1-Intro-lecture">BCS1110-1 Intro lecture</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-2-Computer-Hardware" data-for="BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-2-Computer-Hardware">BCS1110-2 Computer Hardware</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-3-Algorithms-and-Command-Line" data-for="BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-3-Algorithms-and-Command-Line">BCS1110-3 Algorithms and Command Line</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-4-Command-Line-and-Git" data-for="BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-4-Command-Line-and-Git">BCS1110-4 Command Line and Git</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-5-Theory-of-Computation" data-for="BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-5-Theory-of-Computation">BCS1110-5 Theory of Computation</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-6-Theory-of-Computation-(2)" data-for="BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-6-Theory-of-Computation-(2)">BCS1110-6 Theory of Computation (2)</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-7-Computer-Networks" data-for="BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-7-Computer-Networks">BCS1110-7 Computer Networks</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-8-Practical-Network-Applications" data-for="BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-8-Practical-Network-Applications">BCS1110-8 Practical Network Applications</a></li></div></ul></div></div></div><div><div><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><li data-folderpath="/BSc Computer Science/Period 1/BCS1120 Procedural programming"><button class="folder-button"><h3 class="folder-title">BCS1120 Procedural programming</h3></button></li></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="/BSc Computer Science/Period 1/BCS1120 Procedural programming"><div><div><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><li data-folderpath="/BSc Computer Science/Period 1/BCS1120 Procedural programming/Labs"><button class="folder-button"><h3 class="folder-title">Labs</h3></button></li></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="/BSc Computer Science/Period 1/BCS1120 Procedural programming/Labs"><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/Labs/Lab-1" data-for="BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/Labs/Lab-1">Lab 1</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/Labs/Lab-2" data-for="BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/Labs/Lab-2">Lab 2</a></li></div></ul></div></div></div><div><div><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><li data-folderpath="/BSc Computer Science/Period 1/BCS1120 Procedural programming/W1 Intro, Variables and Methods"><button class="folder-button"><h3 class="folder-title">W1 Intro, Variables and Methods</h3></button></li></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="/BSc Computer Science/Period 1/BCS1120 Procedural programming/W1 Intro, Variables and Methods"><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-0-Intro-lecture" data-for="BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-0-Intro-lecture">BCS1120-0 Intro lecture</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-1-M1-L1" data-for="BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-1-M1-L1">BCS1120-1 M1 L1</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-2-M2-L2" data-for="BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-2-M2-L2">BCS1120-2 M2 L2</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-2-W1-M2-L2" data-for="BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-2-W1-M2-L2">BCS1120-2 W1 M2 L2</a></li></div></ul></div></div></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-Procedural-programming" data-for="BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-Procedural-programming">BCS1120 Procedural programming</a></li></div></ul></div></div></div><div><div><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><li data-folderpath="/BSc Computer Science/Period 1/BCS1130 Discrete mathematics"><button class="folder-button"><h3 class="folder-title">BCS1130 Discrete mathematics</h3></button></li></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="/BSc Computer Science/Period 1/BCS1130 Discrete mathematics"><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-Discrete-mathematics" data-for="BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-Discrete-mathematics">BCS1130 Discrete mathematics</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-0-Intro-lecture" data-for="BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-0-Intro-lecture">BCS1130-0 Intro lecture</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-1-Propositional-logic" data-for="BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-1-Propositional-logic">BCS1130-1 Propositional logic</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-2-Logic-and-Proofs" data-for="BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-2-Logic-and-Proofs">BCS1130-2 Logic and Proofs</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-3-Proofs" data-for="BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-3-Proofs">BCS1130-3 Proofs</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-4-Proof-by-induction" data-for="BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-4-Proof-by-induction">BCS1130-4 Proof by induction</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-5-Set-theory" data-for="BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-5-Set-theory">BCS1130-5 Set theory</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-6-Set-theory" data-for="BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-6-Set-theory">BCS1130-6 Set theory</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-7&amp;8-Relations-(1-&amp;-2)" data-for="BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-7&amp;8-Relations-(1-&amp;-2)">BCS1130-7&amp;8 Relations (1 &amp; 2)</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-8-Functions" data-for="BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-8-Functions">BCS1130-8 Functions</a></li></div></ul></div></div></div><div><div><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><li data-folderpath="/BSc Computer Science/Period 1/BCS1140 Project 1-1"><button class="folder-button"><h3 class="folder-title">BCS1140 Project 1-1</h3></button></li></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="/BSc Computer Science/Period 1/BCS1140 Project 1-1"><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1140-Project-1-1/BCS1140-Project-1-1" data-for="BSc-Computer-Science/Period-1/BCS1140-Project-1-1/BCS1140-Project-1-1">BCS1140 Project 1-1</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-1/BCS1140-Project-1-1/Project-Introduction" data-for="BSc-Computer-Science/Period-1/BCS1140-Project-1-1/Project-Introduction">Project Introduction</a></li></div></ul></div></div></div></ul></div></div></div><div><div><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><li data-folderpath="/BSc Computer Science/Period 2"><button class="folder-button"><h3 class="folder-title">Period 2</h3></button></li></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="/BSc Computer Science/Period 2"><div><li><a href="../../../BSc-Computer-Science/Period-2/BCS1220-Objects-in-programming" data-for="BSc-Computer-Science/Period-2/BCS1220-Objects-in-programming">BCS1220 Objects in programming</a></li></div><div><li><a href="../../../BSc-Computer-Science/Period-2/BCS1440-Calculus" data-for="BSc-Computer-Science/Period-2/BCS1440-Calculus">BCS1440 Calculus</a></li></div></ul></div></div></div><div><li><a href="../../../BSc-Computer-Science/BSc-Computer-Science" data-for="BSc-Computer-Science/BSc-Computer-Science">BSc Computer Science</a></li></div></ul></div></div></div><div><li><a href="../../.." data-for="index">index</a></li></div><div><li><a href="../../../IP-Address" data-for="IP-Address">IP Address</a></li></div></ul></div></div></div><div id="explorer-end"></div></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">BCS1110-7 Computer Networks</h1><p class="content-meta">Sep 25, 2023, 5 min read</p><ul class="tags"><li><a href="../../../tags/type/lecture" class="internal tag-link">#type/lecture</a></li></ul></div></div><article class="popover-hint"><h2 id="lecture-notes">Lecture notes<a aria-hidden="true" tabindex="-1" href="#lecture-notes" class="internal"> §</a></h2>
+<ul>
+<li><a href="#lecture-materials" class="internal">Lecture materials</a></li>
+<li><a href="#lecture-contents" class="internal">Lecture contents</a></li>
+<li><a href="#introduction-to-networks" class="internal">Introduction to Networks</a></li>
+<li><a href="#introduction-to-the-internet" class="internal">Introduction to the internet</a></li>
+<li><a href="#tcpip-protocol" class="internal">TCP/IP Protocol</a></li>
+<li><a href="#application-layer-protocols" class="internal">Application Layer Protocols</a></li>
+<li><a href="#transport-layer-protocols" class="internal">Transport Layer Protocols</a></li>
+<li><a href="#internet-protocols--ip-addresses" class="internal">Internet Protocols &amp; IP Addresses</a></li>
+<li><a href="#domain-names-and-dns" class="internal">Domain names and DNS</a></li>
+<li><a href="#network-layer" class="internal">Network Layer</a></li>
+<li><a href="#internet-governance-and-infrastructure" class="internal">Internet Governance and infrastructure</a></li>
+<li><a href="#hardware-for-computer-networks" class="internal">Hardware for Computer Networks</a></li>
+<li><a href="#application-and-services" class="internal">Application and Services</a></li>
+</ul>
+<h4 id="lecture-materials">Lecture materials<a aria-hidden="true" tabindex="-1" href="#lecture-materials" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://www.remnote.com/groups/Informatica-(IIS-Blaise-Pascal)/64775bcb5706a7b855192ef6" class="external">High school networks notes</a> (in Italian)</li>
+</ul>
+<h4 id="lecture-contents">Lecture contents<a aria-hidden="true" tabindex="-1" href="#lecture-contents" class="internal"> §</a></h4>
+<ul>
+<li>Introduction to Networks</li>
+<li>Understanding the Internet</li>
+<li>Application and Services</li>
+<li>Developing for the Web</li>
+</ul>
+<hr/>
+<h4 id="introduction-to-networks">Introduction to Networks<a aria-hidden="true" tabindex="-1" href="#introduction-to-networks" class="internal"> §</a></h4>
+<ul>
+<li>
+<p><strong>Communication networks</strong> → to exchange data and information</p>
+<ul>
+<li>Data → database of values</li>
+<li>Information → what is extracted from processed data</li>
+</ul>
+</li>
+<li>
+<p><strong>Shannon’s Communication Model</strong> → Devised by <a href="../../../Claude-Shannon" class="internal" data-slug="Claude-Shannon">Claude Shannon</a> in <a href="../../../1948" class="internal" data-slug="1948">1948</a></p>
+<ul>
+<li><img src="../../../Attachments/Screenshot-2023-09-25-at-1.54.16-PM.png" width="auto" height="auto"/></li>
+</ul>
+</li>
+<li>
+<p><strong>Classification of networks by extension</strong></p>
+<ul>
+<li>PAN (<a href="../../../Personal-area-network" class="internal" data-slug="Personal-area-network">Personal area network</a>) → Serves a single individual wirelessly</li>
+<li>LAN (<a href="../../../Local-area-network" class="internal" data-slug="Local-area-network">Local area network</a>) → connects machines in a single building</li>
+<li>WAN (<a href="../../../Wide-area-network" class="internal" data-slug="Wide-area-network">Wide area network</a>) → large areas, are made up by smaller networks</li>
+</ul>
+</li>
+<li>
+<p><strong>Communication channels</strong> → medium for information transmission</p>
+<ul>
+<li><strong>Wired</strong> channels → wires or cables
+<ul>
+<li>Pros → Shileded, dependable and secure</li>
+<li>Cons → costly, limited mobility and easy to damage</li>
+</ul>
+</li>
+<li><strong>Wireless</strong> channels
+<ul>
+<li>Used means → Radio signals, microwave</li>
+<li>Radio Frequency → Sent by transceivers through antennas</li>
+<li>Wireless devices and transceivers → send and receive data and include antennas</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Security in wired channels</strong> → Wired connections are secure</p>
+</li>
+<li>
+<p><strong>Bandwidth</strong> in communication channels</p>
+<ul>
+<li>Bandwidth → transmission capacity</li>
+<li>Broadband → at least 25 Mbps</li>
+<li>Narrowband → Slower than 25 Mbps</li>
+</ul>
+</li>
+<li>
+<p><strong>Topology of Networks</strong> → structure and layout of network components</p>
+<ul>
+<li><img src="../../../Attachments/Screenshot-2023-09-25-at-2.19.03-PM.png" width="auto" height="auto"/></li>
+<li><a href="../../../Point-to-point" class="internal" data-slug="Point-to-point">Point-to-point</a> → connects peripheral devices to a host</li>
+<li><a href="../../../Star-topology" class="internal" data-slug="Star-topology">Star topology</a> → Connects devices to a central device</li>
+<li><a href="../../../Mesh-topology" class="internal" data-slug="Mesh-topology">Mesh topology</a> → All the devices are connected with each other</li>
+</ul>
+</li>
+<li>
+<p><strong>Network nodes</strong></p>
+<ul>
+<li><a href="../../../Network-node" class="internal" data-slug="Network-node">Network node</a> → any device on a network</li>
+<li><a href="../../../Data-Terminal-Equipment" class="internal" data-slug="Data-Terminal-Equipment">Data Terminal Equipment</a> → stores or generates data</li>
+<li><a href="../../../Data-Communication-Equipment" class="internal" data-slug="Data-Communication-Equipment">Data Communication Equipment</a> → controls data speed, signal conversion, error checking and routing</li>
+</ul>
+</li>
+<li>
+<p><strong>Devices as Network Nodes</strong></p>
+<ul>
+<li><a href="../../../Router" class="internal" data-slug="Router">Router</a> → controls data flow, gateway, communication between multiple networks</li>
+<li><a href="../../../Modem" class="internal" data-slug="Modem">Modem</a> → converts signals for communication channels</li>
+<li><a href="../../../Switch" class="internal" data-slug="Switch">Switch</a> → communication within a single network</li>
+</ul>
+</li>
+</ul>
+<h4 id="introduction-to-the-internet">Introduction to the internet<a aria-hidden="true" tabindex="-1" href="#introduction-to-the-internet" class="internal"> §</a></h4>
+<ul>
+<li><strong>Internet</strong> → global system of computers connected together
+<ul>
+<li><a href="../../../Redundancy" class="internal" data-slug="Redundancy">Redundancy</a> → The internet is redundant (<a href="../../../Redundancy" class="internal" data-slug="Redundancy">Redundancy</a> of paths)</li>
+<li><a href="../../../Hierarchical" class="internal" data-slug="Hierarchical">Hierarchical</a> → internet is organized into levels/groups</li>
+</ul>
+</li>
+<li><strong>Birth of the internet</strong> → <a href="../../../1957" class="internal" data-slug="1957">1957</a> project at Stanford to connect computing machines at a distance as a part of the ARPA project. This later expanded to connect all universities in the US and include multiple services.</li>
+<li><strong>Client-Server Architecture</strong>
+<ul>
+<li>Checkout <a href="https://traceroute-online.com" class="external">https://traceroute-online.com</a>
+<pre><code>tracerout [website]
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<p></p><blockquote class="transclude" data-url="Uniform-Resource-Locator" data-block><a href="../../../BSc-Computer-Science/Concepts/Uniform-Resource-Locator" class="transclude-inner internal" data-slug="BSc-Computer-Science/Concepts/Uniform-Resource-Locator">Transclude of block </a></blockquote><p></p>
+<ul>
+<li><strong>Challenges of the internet</strong>
+<ul>
+<li>How does the receiving computer interpret the response</li>
+<li>How to communicate across multiple operating systems</li>
+<li>how to ensure all information was transferred</li>
+<li>how to handle multiple requests and responses to the same router</li>
+<li>How do routers know where to send information</li>
+</ul>
+</li>
+</ul>
+<h4 id="tcpip-protocol">TCP/IP Protocol<a aria-hidden="true" tabindex="-1" href="#tcpip-protocol" class="internal"> §</a></h4>
+<ul>
+<li>Defines rules for sending and receiving information between devices</li>
+<li>First developed by the US Department of Defense, now used widely</li>
+<li>Layers of the protocol:
+<ol>
+<li><a href="../../../Network-Layer" class="internal" data-slug="Network-Layer">Network Layer</a> → Captures the physical aspects of data transmission and hardware related protocols.</li>
+<li><a href="../../../Internet-Layer" class="internal" data-slug="Internet-Layer">Internet Layer</a> → Looks after the logical transmission of data. Defines an <a href="../../../IP-Address" class="internal" data-slug="IP-Address">IP Address</a> for each device connected to the network.</li>
+<li><a href="../../../Transport-Layer" class="internal" data-slug="Transport-Layer">Transport Layer</a> → Responsible for end-to-end communication and handles error-free transfers (<a href="../../../TCP" class="internal" data-slug="TCP">TCP</a> and <a href="../../../UDP" class="internal" data-slug="UDP">UDP</a> protocols). Some data has higher importance than other and is thus handled differently (e.g. bank info)</li>
+<li><a href="../../../Application-Layer" class="internal" data-slug="Application-Layer">Application Layer</a> → Where the server defines networking preferences and safety (<a href="../../../SSL" class="internal" data-slug="SSL">SSL</a>)</li>
+</ol>
+</li>
+</ul>
+<h4 id="application-layer-protocols">Application Layer Protocols<a aria-hidden="true" tabindex="-1" href="#application-layer-protocols" class="internal"> §</a></h4>
+<ul>
+<li><a href="../../../Hypertext-Transfer-Protocol" class="internal" data-slug="Hypertext-Transfer-Protocol">Hypertext Transfer Protocol</a> → for web browsing, defines how web browsers and web servers communicate
+<ul>
+<li>200s → all good</li>
+<li>400s → client errors</li>
+<li>500s → server errors</li>
+</ul>
+</li>
+<li>Languages: HTML, CSS, JavaScript</li>
+</ul>
+<h4 id="transport-layer-protocols">Transport Layer Protocols<a aria-hidden="true" tabindex="-1" href="#transport-layer-protocols" class="internal"> §</a></h4>
+<ul>
+<li>Responsible for end-to-end communication and data integrtiy</li>
+<li>Handles data segmentation, sequencing, error correction and flow control</li>
+<li><a href="../../../BSc-Computer-Science/Concepts/Transmission-Control-Protocol" class="internal" data-slug="BSc-Computer-Science/Concepts/Transmission-Control-Protocol">Transmission Control Protocol</a> → ensures reliable communication, confirms data receipt and retransmits lost data</li>
+<li><a href="../../../User-Datagram-Protocol" class="internal" data-slug="User-Datagram-Protocol">User Datagram Protocol</a> → Faster but less reliable, suitable for real-time application and video-streaming</li>
+</ul>
+<h4 id="internet-protocols--ip-addresses">Internet Protocols &amp; IP Addresses<a aria-hidden="true" tabindex="-1" href="#internet-protocols--ip-addresses" class="internal"> §</a></h4>
+<ul>
+<li>Devices connected to the internet need to adhere to the <a href="../../../TCP/IP" class="internal" data-slug="TCP/IP">IP</a> protocol</li>
+</ul>
+<p></p><blockquote class="transclude" data-url="IP-Address" data-block><a href="../../../IP-Address" class="transclude-inner internal" data-slug="IP-Address">Transclude of block </a></blockquote><p></p>
+<h4 id="domain-names-and-dns">Domain names and DNS<a aria-hidden="true" tabindex="-1" href="#domain-names-and-dns" class="internal"> §</a></h4>
+<ul>
+<li>Domain name → easy to remember
+<ul>
+<li>Top-level domains → .it, .com, .org, .nl</li>
+</ul>
+</li>
+<li><a href="../../../Domain-Name-System" class="internal" data-slug="Domain-Name-System">Domain Name System</a> → associates domain names with the corresponding IP Addresses</li>
+</ul>
+<p><img src="../../../Attachments/Screenshot-2023-09-26-at-1.57.57-PM.png" width="auto" height="auto"/></p>
+<ul>
+<li><a href="../../../DNS-Spoofing" class="internal" data-slug="DNS-Spoofing">DNS Spoofing</a> → unauthorized changes to the hierarchy</li>
+</ul>
+<p><img src="../../../Attachments/Screenshot-2023-09-26-at-1.59.38-PM.png" width="auto" height="auto"/></p>
+<h4 id="network-layer">Network Layer<a aria-hidden="true" tabindex="-1" href="#network-layer" class="internal"> §</a></h4>
+<ul>
+<li>Handles the physical aspect of communication</li>
+<li>Specifies and defines cable types, signal standards and data rates</li>
+<li>Ethernet → wired connection with twisted-pair or coaxial cables</li>
+<li>Wi-Fi → standard for wireless connections, using radio frequency tech</li>
+</ul>
+<h4 id="internet-governance-and-infrastructure">Internet Governance and infrastructure<a aria-hidden="true" tabindex="-1" href="#internet-governance-and-infrastructure" class="internal"> §</a></h4>
+<ul>
+<li><a href="../../../Internet-Corporation-for-Assigned-Names-and-Numbers" class="internal" data-slug="Internet-Corporation-for-Assigned-Names-and-Numbers">Internet Corporation for Assigned Names and Numbers</a> (ICANN) → Supervises internet</li>
+<li><strong>ISP</strong> (Internet Service Providers) → Maintain the infrastructure</li>
+<li><strong>Tier 1 ISP</strong> networks form the backbone of the internet (around 16 globally)</li>
+<li><strong>Tier 2</strong> Service Providers (e.g. Ziggo, Vodafone, KPN)</li>
+</ul>
+<h4 id="hardware-for-computer-networks">Hardware for Computer Networks<a aria-hidden="true" tabindex="-1" href="#hardware-for-computer-networks" class="internal"> §</a></h4>
+<ul>
+<li><strong>Router</strong> → forwards packets and helps in allocation and deallocation of Private IP addresses
+<ul>
+<li><strong>Gateway</strong> → each router connects one network to another</li>
+</ul>
+</li>
+<li><strong>Wireless Access Point</strong> → Connected to a router, allow wireless devices to participate in the network</li>
+<li><a href="../../../Content-Distribution-Network" class="internal" data-slug="Content-Distribution-Network">Content Distribution Network</a> (CDN) → Used in handling high traffic
+<ul>
+<li><strong>Redistribution</strong> → redirects requests and responses through routers to avoid traffic</li>
+<li><strong>Caching</strong> → saves frequently requested resources</li>
+<li><strong>Load balancing</strong> → stores resources across multiple servers to manage load</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<blockquote class="callout" data-callout="warning">
+<div class="callout-title">
+                  <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg></div>
+                  <div class="callout-title-inner"><p>Exam information </p></div>
+                  
+                </div>
+<p>All the content after this is irrelevant for the examination</p>
+</blockquote>
+<h4 id="application-and-services">Application and Services<a aria-hidden="true" tabindex="-1" href="#application-and-services" class="internal"> §</a></h4>
+<ul>
+<li><strong>Client-Server Model</strong> →
+<ul>
+<li><strong>Server</strong> → Runs on a server to cater to requests from clients
+<ul>
+<li>Web Servers</li>
+<li>EMail Servers</li>
+<li>Game Servers</li>
+<li>Realtime Comm. Servers</li>
+<li>Application Server</li>
+</ul>
+</li>
+<li><strong>Client</strong> → Limited process, makes requests to the servers</li>
+</ul>
+</li>
+<li>Databases for Information Storage</li>
+</ul>
+<h2 id="exam-style-questions">Exam style questions<a aria-hidden="true" tabindex="-1" href="#exam-style-questions" class="internal"> §</a></h2>
+<ul>
+<li>What does error 404 mean?</li>
+<li>Why do we need standardisation to make the internet work?</li>
+<li>What does the application/transport/internet/network layer do?</li>
+</ul>
+<h2 id="key-takeaways-and-questions">Key takeaways and questions<a aria-hidden="true" tabindex="-1" href="#key-takeaways-and-questions" class="internal"> §</a></h2>
+<hr/>
+<h2 id="lecture-slides">Lecture slides<a aria-hidden="true" tabindex="-1" href="#lecture-slides" class="internal"> §</a></h2>
+<p><iframe src="../../../Attachments/networks.pdf"></iframe></p></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#lecture-notes" data-for="lecture-notes">Lecture notes</a></li><li class="depth-0"><a href="#exam-style-questions" data-for="exam-style-questions">Exam style questions</a></li><li class="depth-0"><a href="#key-takeaways-and-questions" data-for="key-takeaways-and-questions">Key takeaways and questions</a></li><li class="depth-0"><a href="#lecture-slides" data-for="lecture-slides">Lecture slides</a></li></ul></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../../../BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-Introduction-to-computer-science" class="internal">BCS1110 Introduction to computer science</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.11</a>, © 2023</p><ul><li><a href="https://github.com/davidwickerhf/">GitHub</a></li><li><a href="https://instagram.com/davidwickerhf/">Instagram</a></li><li><a href="https://linkedin.com/in/davidwickerhf/">LinkedIn</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../../postscript.js" type="module"></script></html>

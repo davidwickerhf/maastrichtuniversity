@@ -1,76 +1,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-Introduction-to-computer-science</loc>
-    <lastmod>2023-05-11T08:51:54.042Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/BSc-Computer-Science</loc>
+    <lastmod>2023-09-25T13:24:23.664Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-1-Intro-lecture</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Concepts/Transmission-Control-Protocol</loc>
+    <lastmod>2023-09-25T13:25:03.009Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Concepts/Uniform-Resource-Locator</loc>
+    <lastmod>2023-09-25T13:00:04.513Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-Introduction-to-computer-science</loc>
+    <lastmod>2023-09-26T12:49:39.996Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-1-Intro-lecture</loc>
     <lastmod>2023-09-03T22:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-2-Computer-Hardware</loc>
-    <lastmod>2023-09-05T11:32:56.752Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-2-Computer-Hardware</loc>
+    <lastmod>2023-09-05T13:20:50.005Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-3-Algorithms-and-Command-Line</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-3-Algorithms-and-Command-Line</loc>
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-4-Command-Line-and-Git</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-4-Command-Line-and-Git</loc>
     <lastmod>2023-09-12T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-5-Theory-of-Computation</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-5-Theory-of-Computation</loc>
     <lastmod>2023-09-18T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1110-Introduction-to-computer-science/BCS1110-6-Theory-of-Computation-(2)</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-6-Theory-of-Computation-(2)</loc>
     <lastmod>2023-09-19T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/BCS1120-Procedural-programming</loc>
-    <lastmod>2023-05-13T17:57:04.070Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-7-Computer-Networks</loc>
+    <lastmod>2023-09-25T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/Labs/Lab-1</loc>
-    <lastmod>2023-09-08T07:53:35.915Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-8-Practical-Network-Applications</loc>
+    <lastmod>2023-09-26T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-0-Intro-lecture</loc>
-    <lastmod>2023-09-05T13:56:12.897Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-Procedural-programming</loc>
+    <lastmod>2023-09-22T09:03:52.582Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-1-M1-L1</loc>
-    <lastmod>2023-09-05T15:23:56.556Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/Labs/Lab-1</loc>
+    <lastmod>2023-09-08T10:06:49.543Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-2-M2-L2</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/Labs/Lab-2</loc>
+    <lastmod>2023-09-22T09:04:09.405Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-0-Intro-lecture</loc>
+    <lastmod>2023-09-05T14:32:16.151Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-1-M1-L1</loc>
+    <lastmod>2023-09-06T11:59:43.651Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-2-M2-L2</loc>
     <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-2-W1-M2-L2</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-2-W1-M2-L2</loc>
     <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1130-Discrete-mathematics/BCS1130-Discrete-mathematics</loc>
-    <lastmod>2023-05-13T18:35:21.134Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-Discrete-mathematics</loc>
+    <lastmod>2023-09-26T07:44:56.766Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1130-Discrete-mathematics/BCS1130-0-Intro-lecture</loc>
-    <lastmod>2023-09-19T15:17:29.865Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-0-Intro-lecture</loc>
+    <lastmod>2023-09-26T12:59:33.599Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1130-Discrete-mathematics/BCS1130-1-Propositional-logic</loc>
-    <lastmod>2023-09-19T15:17:29.869Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-1-Propositional-logic</loc>
+    <lastmod>2023-09-26T12:59:33.604Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1130-Discrete-mathematics/BCS1130-2-Logic-and-Proofs</loc>
-    <lastmod>2023-09-19T15:17:29.874Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-2-Logic-and-Proofs</loc>
+    <lastmod>2023-09-26T12:59:33.612Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1130-Discrete-mathematics/BCS1130-3-Proofs</loc>
-    <lastmod>2023-09-19T15:17:29.886Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-3-Proofs</loc>
+    <lastmod>2023-09-26T12:59:33.630Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1130-Discrete-mathematics/BCS1130-4-Proof-by-induction</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-4-Proof-by-induction</loc>
     <lastmod>2023-09-12T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1130-Discrete-mathematics/BCS1130-5-Set-theory</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-5-Set-theory</loc>
     <lastmod>2023-09-13T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1130-Discrete-mathematics/BCS1130-6-Set-theory</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-6-Set-theory</loc>
     <lastmod>2023-09-19T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1220-Objects-in-programming</loc>
-    <lastmod>2023-05-13T18:38:39.013Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-7&8-Relations-(1-&-2)</loc>
+    <lastmod>2023-09-20T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BCS1440-Calculus</loc>
-    <lastmod>2023-05-13T18:40:31.227Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-8-Functions</loc>
+    <lastmod>2023-09-26T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BSc-Computer-Science</loc>
-    <lastmod>2023-05-11T08:46:48.468Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1140-Project-1-1/BCS1140-Project-1-1</loc>
+    <lastmod>2023-09-25T06:41:52.309Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2023-09-19T15:08:28.160Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1140-Project-1-1/Project-Introduction</loc>
+    <lastmod>2023-09-25T06:50:27.740Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-2/BCS1220-Objects-in-programming</loc>
+    <lastmod>2023-06-21T05:36:49.513Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-2/BCS1440-Calculus</loc>
+    <lastmod>2023-06-21T05:39:31.825Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/IP-Address</loc>
+    <lastmod>2023-09-26T11:59:07.898Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/</loc>
+    <lastmod>2023-09-20T13:04:48.596Z</lastmod>
   </url></urlset>
