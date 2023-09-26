@@ -22,13 +22,11 @@ The course appears as desired prior knowledge for the courses Introduction to O
 
 ## Lectures
 %% Begin Waypoint %%
-- **Labs**
-	- [[Lab 1]]
-	- [[Lab 2]]
-- **W1 Intro, Variables and Methods**
-	- [[BCS1120-0 Intro lecture]]
-	- [[BCS1120-1 M1 L1]]
-	- [[BCS1120-2 M2 L2]]
-	- [[BCS1120-2 W1 M2 L2]]
+- [[BCS1120-0 Intro lecture]]
+- [[BCS1120-1 Intro to Computing]]
+- [[BCS1120-2 Variables & Methods]]
+- [[BCS1120-3 Conditionals]]
+- [[BCS1120-4 Loops]]
+- [[BCS1120-5 Arrays]]
 
 %% End Waypoint %%

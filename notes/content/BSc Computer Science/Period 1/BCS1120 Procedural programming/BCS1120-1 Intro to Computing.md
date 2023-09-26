@@ -37,7 +37,7 @@ Each memory cell has unique address (4bits) and XXX
 #### Summary
 - Book Chapter 1
 - Read Game Lap 1 Student Handbook for Friday
-
+- - - 
 
 ## Explained theory
 ![[Lecture 1_2_2023_Theory.pdf]]
