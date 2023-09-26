@@ -12,6 +12,16 @@ lecture-slides: true
 - [[#Lecture contents|Lecture contents]]
 - [[#Introduction to Networks|Introduction to Networks]]
 - [[#Introduction to the internet|Introduction to the internet]]
+- [[#TCP/IP Protocol|TCP/IP Protocol]]
+- [[#Application Layer Protocols|Application Layer Protocols]]
+- [[#Transport Layer Protocols|Transport Layer Protocols]]
+- [[#Internet Protocols & IP Addresses|Internet Protocols & IP Addresses]]
+- [[#Domain names and DNS|Domain names and DNS]]
+- [[#Network Layer|Network Layer]]
+- [[#Internet Governance and infrastructure|Internet Governance and infrastructure]]
+- [[#Hardware for Computer Networks|Hardware for Computer Networks]]
+- [[#Application and Services|Application and Services]]
+
 #### Lecture materials
 - [High school networks notes](https://www.remnote.com/groups/Informatica-(IIS-Blaise-Pascal)/64775bcb5706a7b855192ef6) (in Italian)
 #### Lecture contents
@@ -26,6 +36,7 @@ lecture-slides: true
 	- Information → what is extracted from processed data
 - **Shannon’s Communication Model** → Devised by [[Claude Shannon]] in [[1948]]
 	- ![[Screenshot 2023-09-25 at 1.54.16 PM.png]]
+
 - **Classification of networks by extension**
 	- PAN ([[Personal area network]]) → Serves a single individual wirelessly
 	- LAN ([[Local area network]]) → connects machines in a single building
@@ -43,15 +54,18 @@ lecture-slides: true
 	- Bandwidth → transmission capacity
 	- Broadband → at least 25 Mbps
 	- Narrowband → Slower than 25 Mbps
+
 - **Topology of Networks** → structure and layout of network components
 	- ![[Screenshot 2023-09-25 at 2.19.03 PM.png]]
 	- [[Point-to-point]] → connects peripheral devices to a host
 	- [[Star topology]] → Connects devices to a central device
 	- [[Mesh topology]] → All the devices are connected with each other
+
 - **Network nodes** 
 	- [[Network node]] → any device on a network
 	- [[Data Terminal Equipment]] → stores or generates data
 	- [[Data Communication Equipment]] → controls data speed, signal conversion, error checking and routing
+
 - **Devices as Network Nodes**
 	- [[Router]] → controls data flow, gateway, communication between multiple networks
 	- [[Modem]] → converts signals for communication channels
@@ -116,8 +130,39 @@ lecture-slides: true
 ![[Screenshot 2023-09-26 at 1.59.38 PM.png]]
 
 #### Network Layer
-- 
+- Handles the physical aspect of communication
+- Specifies and defines cable types, signal standards and data rates
+- Ethernet → wired connection with twisted-pair or coaxial cables
+- Wi-Fi → standard for wireless connections, using radio frequency tech
 
+#### Internet Governance and infrastructure
+- [[Internet Corporation for Assigned Names and Numbers]] (ICANN) → Supervises internet
+- **ISP** (Internet Service Providers) → Maintain the infrastructure 
+- **Tier 1 ISP** networks form the backbone of the internet (around 16 globally)
+- **Tier 2** Service Providers (e.g. Ziggo, Vodafone, KPN)
+
+#### Hardware for Computer Networks
+- **Router** → forwards packets and helps in allocation and deallocation of Private IP addresses
+	- **Gateway** → each router connects one network to another
+- **Wireless Access Point** → Connected to a router, allow wireless devices to participate in the network
+- [[Content Distribution Network]] (CDN) → Used in handling high traffic
+	- **Redistribution** → redirects requests and responses through routers to avoid traffic
+	- **Caching** → saves frequently requested resources
+	- **Load balancing** → stores resources across multiple servers to manage load
+- - - 
+
+> [!warning] Exam information
+> All the content after this is irrelevant for the examination
+#### Application and Services
+- **Client-Server Model** → 
+	- **Server** → Runs on a server to cater to requests from clients
+		- Web Servers
+		- EMail Servers
+		- Game Servers
+		- Realtime Comm. Servers
+		- Application Server
+	- **Client** → Limited process, makes requests to the servers
+- Databases for Information Storage
 
 ## Exam style questions
 - What does error 404 mean?
