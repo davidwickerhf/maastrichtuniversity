@@ -91,6 +91,7 @@ lecture-slides: true
 	- 200s → all good
 	- 400s → client errors
 	- 500s → server errors
+- Languages: HTML, CSS, JavaScript
 
 #### Transport Layer Protocols
 - Responsible for end-to-end communication and data integrtiy
@@ -100,6 +101,23 @@ lecture-slides: true
 
 #### Internet Protocols & IP Addresses
 - Devices connected to the internet need to adhere to the [[TCP/IP]] protocol
+
+![[IP Address]]
+
+#### Domain names and DNS
+- Domain name → easy to remember
+	- Top-level domains → .it, .com, .org, .nl
+- [[Domain Name System]] → associates domain names with the corresponding IP Addresses
+
+![[Screenshot 2023-09-26 at 1.57.57 PM.png]]
+
+- [[DNS Spoofing]] → unauthorized changes to the hierarchy 
+
+![[Screenshot 2023-09-26 at 1.59.38 PM.png]]
+
+#### Network Layer
+- 
+
 
 ## Exam style questions
 - What does error 404 mean?
@@ -111,4 +129,4 @@ lecture-slides: true
 
 - - - 
 ## Lecture slides
-![[networks.pdf#height=600]]
+![[networks.pdf]]
