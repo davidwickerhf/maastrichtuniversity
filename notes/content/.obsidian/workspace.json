@@ -16,25 +16,12 @@
             }
           },
           {
-            "id": "afe99956ba887e42",
+            "id": "a92be575e68b9202",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1140 Project 1-1/BCS1140 Project 1-1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aed40aea4498a1f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -42,7 +29,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md"
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md"
               }
             }
           },
@@ -208,10 +195,15 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "aed40aea4498a1f6",
+  "active": "a92be575e68b9202",
   "lastOpenFiles": [
-    "BSc Computer Science/Concepts/Transmission Control Protocol.md",
+    "Attachments/Socrative L7.pdf",
+    "Attachments/DM-L7 (annotated).pdf",
+    "BSc Computer Science/Period 1/BCS1140 Project 1-1/BCS1140 Project 1-1.md",
+    "BSc Computer Science/Period 1/BCS1140 Project 1-1/Project Introduction.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md",
+    "BSc Computer Science/Concepts/Transmission Control Protocol.md",
     "Attachments/networks.pdf",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110 Introduction to computer science.md",
@@ -219,8 +211,6 @@
     "BSc Computer Science/Concepts",
     "Attachments/Screenshot 2023-09-25 at 2.19.03 PM.png",
     "Attachments/Screenshot 2023-09-25 at 1.54.16 PM.png",
-    "BSc Computer Science/Period 1/BCS1140 Project 1-1/Project Introduction.md",
-    "BSc Computer Science/Period 1/BCS1140 Project 1-1/BCS1140 Project 1-1.md",
     "BSc Computer Science/Period 1/BCS1140 Project 1-1",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/Labs/Lab 2.md",
     "Attachments/Game-Lab2 (1).pdf",
@@ -228,7 +218,6 @@
     "Personal/Work",
     "Personal",
     "Templates/lecture.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7 Relations.md",
     "Templates/topic.md",
     "Templates/quote.md",
     "Templates/monthly.md",
@@ -244,10 +233,8 @@
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-2 Logic and Proofs.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
     "BSc Computer Science/BSc Computer Science.md",
-    "index.md",
     "BSc Computer Science",
     "BSc Computer Science/Period 2",
-    "BSc Computer Science/Period 1",
     "Attachments/IMG_1670.jpg",
     "Attachments/Screenshot 2023-09-18 at 2.19.17 PM.png",
     "Attachments/Screenshot 2023-09-19 at 2.47.15 PM.png",
