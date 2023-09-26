@@ -1,19 +1,29 @@
-import { FullSlug, _stripSlashes, joinSegments, pathToRoot } from "../util/path"
-import { JSResourceToScriptElement } from "../util/resources"
-import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import {
+  FullSlug,
+  _stripSlashes,
+  joinSegments,
+  pathToRoot,
+} from "../util/path";
+import { JSResourceToScriptElement } from "../util/resources";
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types";
 
 export default (() => {
   function Head({ cfg, fileData, externalResources }: QuartzComponentProps) {
-    const title = fileData.frontmatter?.title ?? "Untitled"
-    const description = fileData.description?.trim() ?? "No description provided"
-    const { css, js } = externalResources
+    const title = fileData.frontmatter?.title
+      ? fileData.frontmatter?.title == "index"
+        ? "UM CS BCs Computer Science"
+        : fileData.frontmatter?.title
+      : "Untitled";
+    const description =
+      fileData.description?.trim() ?? "No description provided";
+    const { css, js } = externalResources;
 
-    const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
-    const path = url.pathname as FullSlug
-    const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
+    const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`);
+    const path = url.pathname as FullSlug;
+    const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!);
 
-    const iconPath = joinSegments(baseDir, "static/icon.png")
-    const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
+    const iconPath = joinSegments(baseDir, "static/icon.png");
+    const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`;
 
     return (
       <head>
@@ -30,16 +40,26 @@ export default (() => {
         <meta name="generator" content="Quartz" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <script defer data-domain="notes.wicker.life" src="https://plausible.io/js/script.js"></script>
+        <script
+          defer
+          data-domain="notes.wicker.life"
+          src="https://plausible.io/js/script.js"
+        ></script>
         {css.map((href) => (
-          <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
+          <link
+            key={href}
+            href={href}
+            rel="stylesheet"
+            type="text/css"
+            spa-preserve
+          />
         ))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
       </head>
-    )
+    );
   }
 
-  return Head
-}) satisfies QuartzComponentConstructor
+  return Head;
+}) satisfies QuartzComponentConstructor;
