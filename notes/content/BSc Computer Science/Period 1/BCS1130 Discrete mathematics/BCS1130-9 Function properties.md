@@ -14,7 +14,8 @@ notes-complete:
 - [[#Surjective functions|Surjective functions]]
 	- [[#Proving that a function is surjective|Proving that a function is surjective]]
 - [[#Bijections|Bijections]]
-
+	- [[#Proving a function is bijective|Proving a function is bijective]]
+- [[#Inverse functions|Inverse functions]]
 - - - 
 #### Injective functions
 > [!abstract] Definition
@@ -90,9 +91,50 @@ $f: \mathbb{P}(A) → \mathbb{N} \cup \{o\}, f(B) = |B|$
 > A function $f: A → B$ is a bijection if it is injective and surjective 
 > *(Each element of the domain is mapped to **exactly 1 element** of the codomain)*
 
+###### Proving a function is bijective
+- [ ] take note son examples of proving functions are bijective
+
+**Example 2**
+$f: Z → Z, f(x) = 3x - 4$
+
+Check if it is injective
+Check if it is surjective
+
+**Example 3**
+$f: R → R, f(x) = 3x -4$
+
+Check if it is **injective**
+- Let $x_1, x_2 \in R, x_1 \neq x_2$
+	- then $x3_1 - 4 \neq 3x_2 -4$
+	- so $f(x_1) \neq f(x_2)$ → Injective ✅
+
+Check if it is **surjective**
+- Let $y \in R$ (co-domain)
+	- choose an $x = \frac{y + 4}{3 } \in R$
+	- ( $y = f(x) = 3x-4 \implies x = \frac{y+4}{3}$) 
+	- and $f(x) = 3(\frac{y+4}{3}) - 4 = y$  → Surjective ✅
+
+Then the function is **bijective** ✅
+- - - 
+
+#### Inverse functions
+> [!abstract] Definition
+> The inverse of a function reverses the function (inverting all the arrows).
+> A function needs to be **==bijective==** for the inverse function to be properly defined
+
+###### Examples
+- [ ] copy detailed example notes from slides
+
+**Example 1**
+$f: R - \{2\} \to R, f(x) = \frac{1}{x-2}$
+
+Calculating the inverse
+
+
+Checking the inverse function
 
 ## Key takeaways
-- a
+- [ ] copy checklist from slides
 
 - - - 
 ## Lecture slides
