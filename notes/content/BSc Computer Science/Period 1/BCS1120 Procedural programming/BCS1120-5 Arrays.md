@@ -24,7 +24,6 @@ contents
 - Find a value within an array
 - Sorting an array
 
-
 ## Key takeaways
 - a
 

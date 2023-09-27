@@ -5,7 +5,8 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides:
+lecture-slides: 
+notes-complete:
 ---
 ## Quantifiers
 ![[Quantifiers.pdf]]

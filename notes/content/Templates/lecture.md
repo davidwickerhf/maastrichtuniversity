@@ -5,7 +5,8 @@ tags:
   - type/lecture
 course: BCS11X0
 period: 1
-lecture-slides:
+lecture-slides: 
+notes-complete:
 ---
 ## Lecture notes
 contents

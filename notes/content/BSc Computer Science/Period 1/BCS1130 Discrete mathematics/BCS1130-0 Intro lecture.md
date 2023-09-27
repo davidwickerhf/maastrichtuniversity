@@ -5,7 +5,8 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides:
+lecture-slides: 
+notes-complete:
 ---
 ## Definition
 - DM is used to describe sets, opposed to continuous mathematics which describes the natural world

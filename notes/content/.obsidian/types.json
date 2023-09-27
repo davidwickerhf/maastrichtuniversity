@@ -12,6 +12,7 @@
     "linen": "checkbox",
     "sleep": "datetime",
     "shower": "checkbox",
-    "lecture-slides": "checkbox"
+    "lecture-slides": "checkbox",
+    "notes-complete": "checkbox"
   }
 }

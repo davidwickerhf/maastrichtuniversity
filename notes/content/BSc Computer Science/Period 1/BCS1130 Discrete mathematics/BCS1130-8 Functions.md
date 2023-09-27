@@ -5,11 +5,14 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides:
+lecture-slides: true
+notes-complete:
 ---
 ## Lecture notes
-contents
-
+- [[#Definition of a function|Definition of a function]]
+		- [[#Examples of function definition|Examples of function definition]]
+- [[#Composition of functions|Composition of functions]]
+		- [[#Examples|Examples]]
 - - - 
 #### Definition of a function
 > [!abstract] Definition
@@ -17,11 +20,14 @@ contents
 > $$f: A→B, f(x) = …$$
 > 
 > - A → Domain (asse x)
-> - B → Codomain (asse y / range)
+> - B → Codomain (asse y)
+> - Range: $\{f(x), x \in A\}, range(f) \subseteq B$
 
+- Codomain and Range are different!
 ###### Examples of function definition
 - $f: N \to R$ where $f(x) = \sqrt(x)$
 - $f: N → R$ where $f(x) = \frac{1}{x}$
+- - - 
 
 #### Composition of functions
 > [!abstract] Definition
@@ -30,15 +36,19 @@ contents
 > 
 > - Domain of $(f \circ g)$ → domain of **g**
 > - Codomain of $(f \circ g)$ → codomain of **f**
+
 - This condition must be true for the compound function: $range(g) \subseteq domain(f)$
 - [ ] Insert picture from slides
 
 ###### Examples
 - $f: Z → Z, f(x) = x -4$
 - [ ] copy examples from slides
+- - - 
+
 
 ## Key takeaways
 - 
 
 - - - 
 ## Lecture slides
+![[DM-L8-annotated.pdf]]

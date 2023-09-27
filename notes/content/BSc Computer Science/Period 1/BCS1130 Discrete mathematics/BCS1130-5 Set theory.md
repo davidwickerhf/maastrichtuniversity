@@ -6,6 +6,7 @@ tags:
 course: BCS1130
 period: 1
 lecture-slides: false
+notes-complete:
 ---
 ## Lecture notes
 #### Intro notation

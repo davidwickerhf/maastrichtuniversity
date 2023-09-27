@@ -30,5 +30,6 @@ None
 - [[BCS1130-6 Set theory]]
 - [[BCS1130-7&8 Relations (1 & 2)]]
 - [[BCS1130-8 Functions]]
+- [[BCS1130-9 Function properties]]
 
 %% End Waypoint %%
