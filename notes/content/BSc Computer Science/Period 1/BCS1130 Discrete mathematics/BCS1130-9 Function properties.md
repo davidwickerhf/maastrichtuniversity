@@ -10,14 +10,15 @@ notes-complete:
 ---
 ## Lecture notes
 - [[#Injective functions|Injective functions]]
-		- [[#Proving that a function is injective:|Proving that a function is injective:]]
+	- [[#Proving that a function is injective:|Proving that a function is injective:]]
 - [[#Surjective functions|Surjective functions]]
-		- [[#Proving that a function is surjective|Proving that a function is surjective]]
+	- [[#Proving that a function is surjective|Proving that a function is surjective]]
 - [[#Bijections|Bijections]]
 
 - - - 
 #### Injective functions
 > [!abstract] Definition
+> 
 > A function $f: A → B$ is injective if two different elements have different function values *(Funzione iniettiva, every element of the domain is mapped to a different value of the codomain)*
 > 
 > **Formal definition:**
@@ -38,6 +39,7 @@ $f: N → N, f(x) = x^2$ → this is injective ✅
 
 #### Surjective functions
  > [!abstract] Definition
+ > 
  > A function $f: A→B$ is surjective if every element of B is the image of an element of A → the range is equal to the codomain
  > *(each element of the codomain has been mapped from at least an element of the domain)*
  > 
@@ -85,7 +87,7 @@ $f: \mathbb{P}(A) → \mathbb{N} \cup \{o\}, f(B) = |B|$
 
 #### Bijections
 > [!abstract] Definition
-> A function $f: A → B is a bijection if it is injective and surjective 
+> A function $f: A → B$ is a bijection if it is injective and surjective 
 > *(Each element of the domain is mapped to **exactly 1 element** of the codomain)*
 
 
