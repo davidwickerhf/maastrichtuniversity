@@ -8,7 +8,6 @@ import java.time.Year;
 import java.io.IOException;
 import java.net.URLEncoder;
 
-
 /**
  * Jerry's Adventure Game
  * 
@@ -18,7 +17,7 @@ import java.net.URLEncoder;
  * @param playerBirthYear
  * @param playerAge
  * @param playerAge
- * @param action 
+ * @param action
  */
 public class Game {
 
@@ -41,7 +40,7 @@ public class Game {
 	private static int playerAge;
 
 	private static String action;
-	private static int stateId;            
+	private static int stateId;
 
 	// Action states
 	public static final String OPENDOOR = "OPEN THE DOOR";
@@ -54,9 +53,19 @@ public class Game {
 	public static final String USEITEM = "USE ITEM";
 	public static final String EXITGAME = "QUIT";
 
-
 	public static void main(String[] args) {
 		scanner = new Scanner(System.in);
+
+		// Declare story map
+		String[] stories = new String[] {
+				"You are standing in an abandoned university office. There are neither students nor teachers around you. There’s a table in front of you with various papers, pens, a small puzzle toy, and a calculator. A large window shows an empty office building; there are no Zombies in the empty building (as far as you can tell). Behind you is a dark and mysterious door that leads to a well-lit corridor with a fireproof ceiling and floor. You feel a sense of Wi-Fi around you, the grinding of an LCD operated coffee machine can be heard in the distance. You are not thirsty, but you rather have a craving for justice.",
+				"You are in a long hallway. There’s a man wearing glasses at the end of it, he looks harmless. West is a wall, east is the man, to the north is nothing but empty offices, a desperate sight. The carpeting in the hallway feels soft, you hear the clicking of a mouse in the distance. Your office is south (behind you).",
+				"You take the calculator from your desk. It’s a Casio FX-85gt Plus. The display shows the number 0.1134. You turn it upside down; now the Casio greets you with a friendly “hello”, nice. You hold the calculator in your hand.",
+				"The man greets you and starts endlessly talking to you about his children and his holiday to Benidorm. You die of boredom.",
+				"You enter the hallway with the Casio FX-85gt stand-by. Having this small device greet you puts you in a good mood, somehow the building feels less lonely than before. West is a wall, looking east you stare into the darkness, the corridor is too long to see the end. To the north you see an office with what looks like a small creature in a corner. The carpeting in the hallway feels soft, you hear someone explaining algorithms to your north.",
+				"You enter the office. To your surprise a small dog is sitting in the corner. Surely this breaks any number of university regulations! In a high-pitched voice the dog tells you how to write even more cool words on your Casio FX-85gt, good boi! To the north you see an open window, a ladder hangs down from it, it looks so dangerous! An LCD display shows a youtube video about developing algorithms.",
+				""
+		};
 
 		// Print ASCI-Art
 		System.out.println(ANSI_BLUE + generateASCI("Jerry\'s Adventure") + ANSI_RESET);
@@ -77,30 +86,31 @@ public class Game {
 
 		// Print out storyline
 		System.out.println("\nBla bla for now");
-		
-
 
 		// Ask user input for action
 		while (stateId != 666) {
 			action = getInput();
 			stateId = takeAction(action, stateId);
-			printState(stateId);
+			String story = getStory(stateId, stories);
+			printState(story);
 		}
 
 		scanner.close();
-		
+
 		// ----- Write your code above
 	}
 
 	/**
 	 * Generate ASCI-Art through the api https://asciified.thelicato.io/
 	 * Reference for HTTP Request: https://rapidapi.com/guides/make-api-call-java
+	 * 
 	 * @param text
 	 * @return printable and formatted ASCI-Art
 	 */
 	private static String generateASCI(String text) {
 		String encodedText = encodeValue(text);
-		String uriString = String.format("https://asciified.thelicato.io/api/v2/ascii?text=%s&font=Georgia11", encodedText);
+		String uriString = String.format("https://asciified.thelicato.io/api/v2/ascii?text=%s&font=Georgia11",
+				encodedText);
 
 		HttpRequest request = HttpRequest.newBuilder()
 				.uri(URI.create(uriString))
@@ -122,15 +132,18 @@ public class Game {
 
 	/**
 	 * Encode text to be placed into URL
+	 * 
 	 * @param value Text to be encoded
 	 * @return encoded URI parameter
 	 */
 	private static String encodeValue(String value) {
-    	return URLEncoder.encode(value, StandardCharsets.UTF_16);
+		return URLEncoder.encode(value, StandardCharsets.UTF_16);
 	}
 
 	/**
-	 * Calculate player's age based on the birth year and current year (not very precise)
+	 * Calculate player's age based on the birth year and current year (not very
+	 * precise)
+	 * 
 	 * @param birthYear Year of birth of the player
 	 * @return approximate age
 	 */
@@ -139,20 +152,20 @@ public class Game {
 		return year - birthYear;
 	}
 
-
 	/**
 	 * Get input method
+	 * 
 	 * @return user action
 	 */
 	public static String getInput() {
 		String input = new String();
-		
+
 		boolean loopin = true;
 		while (loopin) {
 			// Ask for input
-			
+
 			System.out.print(ANSI_GREEN + "\n\nWhat would you like to do?: " + ANSI_RESET);
-			input = scanner.nextLine();			
+			input = scanner.nextLine();
 			input = input.toUpperCase(); // D.toLowerCase(null);
 
 			// Validate input
@@ -165,7 +178,7 @@ public class Game {
 					System.out.println("Going north...");
 					loopin = false;
 					break;
-				case GOEAST: 
+				case GOEAST:
 					System.out.println("Going east...");
 					loopin = false;
 					break;
@@ -178,7 +191,7 @@ public class Game {
 					loopin = false;
 					break;
 				case TAKEITEM:
-					System.out.println("Taking item..."); 
+					System.out.println("Taking item...");
 					loopin = false;
 					break;
 				case DROPITEM:
@@ -194,7 +207,7 @@ public class Game {
 					loopin = false;
 					break;
 				default:
-					System.out.println(ANSI_RED + "Invalid input" + ANSI_RESET); 
+					System.out.println(ANSI_RED + "Invalid input" + ANSI_RESET);
 					loopin = false;
 					continue;
 			}
@@ -207,54 +220,48 @@ public class Game {
 
 	/**
 	 * Take action method
+	 * 
 	 * @param action
 	 * @param currentState
 	 * @return new game state
 	 */
 	public static int takeAction(String action, int currentState) {
-		if (action.equals(EXITGAME)) {
-			return 666;
+		// State transition matrix (or HashMap?)
+		String[][] transitionMatrix = new String[][] {
+				{ "", OPENDOOR, TAKEITEM, "", "", "" },
+				{ GOSOUTH, "", "", GOEAST, "", "" },
+				{ "", "", "", "", OPENDOOR, "" },
+				{ "", "", "", "", "", "" },
+				{ "", DROPITEM, "", "", "", GONORTH },
+				{ "", GOSOUTH, "", "", "", "" },
+		};
+
+		for (int i = 0; i < transitionMatrix[currentState].length; i++) {
+			if (action.equals(transitionMatrix[currentState][i])) {
+				return i;
+			}
 		}
 
-
-		if (currentState == 0) {
-			if (action.equals(OPENDOOR)) {
-				return 1;
-			} else if (action == TAKEITEM) {
-				return 2;
-			}
-		} else if (currentState == 1) {
-			if (action.equals(GOEAST)) {
-				return 3;
-			}
-		}
-
-		return currentState;
+		return 0;
 	}
 
 	/**
-	 * Prints state
+	 * Prints state story in purple
+	 * 
 	 * @param stateId
 	 */
-	public static void printState (int stateId) {
-		switch (stateId) {
-			case 0:
-				System.out.println(ANSI_PURPLE + "You are standing in an abandoned university office. There are neither students nor teachers around you. There’s a table in front of you with various papers, pens, a small puzzle toy, and a calculator. A large window shows an empty office building; there are no Zombies in the empty building (as far as you can tell). Behind you is a dark and mysterious door that leads to a well-lit corridor with a fireproof ceiling and floor. You feel a sense of Wi-Fi around you, the grinding of an LCD operated coffee machine can be heard in the distance. You are not thirsty, but you rather have a craving for justice." + ANSI_RESET);
-				break;
-			case 1: 
-				System.out.println(ANSI_PURPLE + "You are in a long hallway. There’s a man wearing glasses at the end of it, he looks harmless. West is a wall, east is the man, to the north is nothing but empty offices, a desperate sight. The carpeting in the hallway feels soft, you hear the clicking of a mouse in the distance. Your office is south (behind you)." + ANSI_RESET);
-				break;
-			case 2:
-				System.out.println(ANSI_PURPLE + "You take the calculator from your desk. It’s a Casio FX-85gt Plus. The display shows the number 0.1134. You turn it upside down; now the Casio greets you with a friendly “hello”, nice. You hold the calculator in your hand." + ANSI_RESET);
-				break;
-			case 3: 
-				System.out.println(ANSI_PURPLE + "The man greets you and starts endlessly talking to you about his children and his holiday to Benidorm. You die of boredom." + ANSI_RESET);
-				break;
-			case 666:
-				break;
-			default:
-				break;
-		}
+	public static void printState(String story) {
+		System.out.println(ANSI_PURPLE + story + ANSI_RESET);
+	}
+
+	/**
+	 * 
+	 * @param stateId
+	 * @param storyArray
+	 * @return
+	 */
+	public static String getStory(int stateId, String[] storyArray) {
+		return storyArray[stateId];
 	}
 
 }
