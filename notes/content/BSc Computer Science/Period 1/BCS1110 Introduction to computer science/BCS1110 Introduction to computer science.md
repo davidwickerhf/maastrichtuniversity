@@ -25,6 +25,7 @@ None
 - [[BCS1110-6 Theory of Computation (2)]]
 - [[BCS1110-7 Computer Networks]]
 - [[BCS1110-8 Practical Network Applications]]
+- [[BCS1110-9 Information Security and Privacy]]
 
 %% End Waypoint %%
 

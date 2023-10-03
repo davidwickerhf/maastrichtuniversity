@@ -11,7 +11,6 @@ lecture-slides:
 contents
 
 - - - 
-- 
 
 
 ## Key takeaways

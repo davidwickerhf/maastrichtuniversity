@@ -149,6 +149,12 @@ lecture-slides: true
 	- **Redistribution** → redirects requests and responses through routers to avoid traffic
 	- **Caching** → saves frequently requested resources
 	- **Load balancing** → stores resources across multiple servers to manage load
+
+#### Distributed Systems
+- Aim at solving the high expenses of memory and CPU usage of certain processes
+- Linking “cheaper” computers into a bigger machine → each smaller machine solves or stores part of the problem
+- Challenges → Computer crashes
+
 - - - 
 
 > [!warning] Exam information

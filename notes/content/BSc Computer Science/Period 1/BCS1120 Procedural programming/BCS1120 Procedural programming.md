@@ -28,5 +28,6 @@ The course appears as desired prior knowledge for the courses Introduction to O
 - [[BCS1120-3 Conditionals]]
 - [[BCS1120-4 Loops]]
 - [[BCS1120-5 Arrays]]
+- [[BCS1120-6 Recursion]]
 
 %% End Waypoint %%

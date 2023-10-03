@@ -23,5 +23,7 @@ period:
 ## Lectures
 %% Begin Waypoint %%
 - [[Project Introduction]]
+- **Skill classes**
+	- [[BCS1300 Presenting-1 Fundamentals]]
 
 %% End Waypoint %%
