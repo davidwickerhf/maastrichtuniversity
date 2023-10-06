@@ -14,8 +14,32 @@
               "type": "custom-frames-notion",
               "state": {}
             }
+          },
+          {
+            "id": "0dabdf7aa7921942",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4afda2641305bd5a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/security.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "a723bbc1614aeb40",
@@ -82,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md"
+              }
             }
           },
           {
@@ -178,11 +205,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b41859adce1e03b0",
+  "active": "0dabdf7aa7921942",
   "lastOpenFiles": [
-    "BSc Computer Science/Period 1/BCS1140 Project 1-1/Skill classes/BCS1300 Presenting-1 Fundamentals.md",
-    "BSc Computer Science/Period 1/BCS1140 Project 1-1/BCS1140 Project 1-1.md",
-    "BSc Computer Science/Period 1/BCS1140 Project 1-1/Project Introduction.md",
+    "Attachments/DM-L10 Discrete Mathematics.pdf",
+    "Attachments/Screenshot 2023-10-02 at 2.28.09 PM.png",
+    "Attachments/security.pdf",
+    "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project Introduction.md",
+    "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project 1-1.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-11 Combinatorics.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md",
+    "BSc Computer Science/Period 1/BCS1300 Project 1-1/Skill classes/BCS1300 Presenting-1 Fundamentals.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-8 Practical Network Applications.md",
     "Personal/Work/Next Generation Sensors.md",
@@ -205,12 +237,10 @@
     "BSc Computer Science/Concepts/Uniform Resource Locator.md",
     "BSc Computer Science/Concepts",
     "Attachments/Screenshot 2023-09-25 at 2.19.03 PM.png",
-    "BSc Computer Science/Period 1/BCS1140 Project 1-1",
+    "BSc Computer Science/Period 1/BCS1300 Project 1-1",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/Labs/Lab 2.md",
     "Attachments/Game-Lab2 (1).pdf",
     "Personal/Work/Istituto Galileo Galilei.md",
-    "Personal/Work",
-    "Personal",
     "Templates/lecture.md",
     "Templates/topic.md",
     "Templates/quote.md",
@@ -218,14 +248,10 @@
     "Templates/daily.md",
     "Templates/concept.md",
     "Templates/book.md",
-    "Templates/BCSXXXX Course.md",
-    "Templates/author.md",
-    "Templates/assignment.md",
     "Attachments/IMG_1670.jpg",
     "Attachments/Screenshot 2023-09-18 at 2.19.17 PM.png",
     "Attachments/Screenshot 2023-09-19 at 2.47.15 PM.png",
     "Attachments/Screenshot 2023-09-19 at 1.48.36 PM.png",
-    "Attachments/Pasted Image 20230919085105_481.png",
     "Academics/IIS Blaise Pascal/Piano di studio esame.canvas"
   ]
 }

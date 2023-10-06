@@ -31,5 +31,7 @@ None
 - [[BCS1130-7&8 Relations (1 & 2)]]
 - [[BCS1130-8 Functions]]
 - [[BCS1130-9 Function properties]]
+- [[BCS1130-10 Combinatorics]]
+- [[BCS1130-11 Combinatorics]]
 
 %% End Waypoint %%
