@@ -10,3 +10,21 @@
 ## Other Materials
 
 - All lecture notes: #type/lecture
+
+## Contributing to the notes
+
+The repository (and notes) are open source, so you can contribute with your notes or suggest changes.
+The [lecture notes](https://notes.wicker.life) are essentially Markdown files contained in [this folder](/notes/content/). You can ignore everything other than the ["contents"](/notes/content/) folder in the ["notes"](/notes/) folder, as it is only code used to translate the markdownfiles into a NextJS website.
+
+To contribute to the notes and/or assignment submissions:
+
+1. Clone the repository on your local machine
+
+To contribute to the assignment/quizzes
+
+1. Make a merge request with your changes
+
+To contribute to the lecture notes
+
+1. Open the [content](/notes/content/) folder in Obsidian
+2. Make a merge request with your edits and notes
