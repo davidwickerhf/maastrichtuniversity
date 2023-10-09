@@ -1,3 +1,6 @@
 [submodule "BCS1110 Introduction to Computer Science/JavaCraft/javacraft"]
 	path = BCS1110 Introduction to Computer Science/JavaCraft/javacraft
 	url = https://gitlab.maastrichtuniversity.nl/bcs1110/javacraft.git
+[submodule "BCS1300 Project 1-1/pentominoes_phase_1"]
+	path = BCS1300 Project 1-1/pentominoes_phase_1
+	url = https://gitlab.maastrichtuniversity.nl/bcs_group07_2023/pentominoes_phase_1.git
