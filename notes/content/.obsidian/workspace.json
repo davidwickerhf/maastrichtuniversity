@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md"
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md"
               }
             }
           },
@@ -207,13 +207,14 @@
   },
   "active": "0dabdf7aa7921942",
   "lastOpenFiles": [
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-6 Set theory.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md",
     "Attachments/DM-L10 Discrete Mathematics.pdf",
     "Attachments/Screenshot 2023-10-02 at 2.28.09 PM.png",
     "Attachments/security.pdf",
     "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project Introduction.md",
     "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project 1-1.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-11 Combinatorics.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md",
     "BSc Computer Science/Period 1/BCS1300 Project 1-1/Skill classes/BCS1300 Presenting-1 Fundamentals.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-8 Practical Network Applications.md",
