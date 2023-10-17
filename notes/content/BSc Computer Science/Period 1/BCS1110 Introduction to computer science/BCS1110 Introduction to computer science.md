@@ -26,6 +26,7 @@ None
 - [[BCS1110-7 Computer Networks]]
 - [[BCS1110-8 Practical Network Applications]]
 - [[BCS1110-9 Information Security and Privacy]]
+- [[BCS1110-10 Exam Prep]]
 
 %% End Waypoint %%
 
