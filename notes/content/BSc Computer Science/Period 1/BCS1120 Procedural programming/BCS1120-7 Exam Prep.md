@@ -3,7 +3,7 @@ date: 2023-xx-xx
 type: lecture
 tags:
   - type/lecture
-course: BCS11X0
+course: BCS1120
 period: 1
 lecture-slides: true
 notes-complete:
