@@ -17,17 +17,17 @@ None
 
 ## Lectures
 %% Begin Waypoint %%
-- [[BCS1110-1 Intro lecture]]
-- [[BCS1110-2 Computer Hardware]]
-- [[BCS1110-3 Algorithms and Command Line]]
-- [[BCS1110-4 Command Line and Git]]
-- [[BCS1110-5 Theory of Computation]]
-- [[BCS1110-6 Theory of Computation (2)]]
-- [[BCS1110-7 Computer Networks]]
-- [[BCS1110-8 Practical Network Applications]]
-- [[BCS1110-9 Information Security and Privacy]]
-- [[BCS1110-10 Exam Prep]]
 - **Lectures**
+	- [[BCS1110-1 Intro lecture]]
+	- [[BCS1110-2 Computer Hardware]]
+	- [[BCS1110-3 Algorithms and Command Line]]
+	- [[BCS1110-4 Command Line and Git]]
+	- [[BCS1110-5 Theory of Computation]]
+	- [[BCS1110-6 Theory of Computation (2)]]
+	- [[BCS1110-7 Computer Networks]]
+	- [[BCS1110-8 Practical Network Applications]]
+	- [[BCS1110-9 Information Security and Privacy]]
+	- [[BCS1110-10 Exam Prep]]
 - **Tutorials**
 
 %% End Waypoint %%
