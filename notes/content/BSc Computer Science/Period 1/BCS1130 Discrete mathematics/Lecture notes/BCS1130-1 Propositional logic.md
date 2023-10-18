@@ -5,10 +5,10 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides: 
-notes-complete:
+lecture-slides: true
+notes-complete: false
 ---
- 
+## Lecture notes
 Look at [[TU Delft Logic]]
 
 ![[Lecture Notes - Chapter 1.pdf]]
@@ -38,3 +38,6 @@ Look at [[TU Delft Logic]]
 ![[Conditional propositions.pdf]]
 
 - If the assumption is false, the conditional is always true
+
+## Lecture slides
+![[Attachments/DM-L1 Discrete Mathematics.pdf]]

@@ -5,7 +5,7 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides: false
+lecture-slides: true
 notes-complete:
 ---
 ## Lecture notes
@@ -71,4 +71,4 @@ The following statements are always true:
 2. A
 
 ## Lecture slides
-![[DM-L5 (annotated).pdf]]
+![[DM-L5 Discrete Mathematics 1.pdf]]

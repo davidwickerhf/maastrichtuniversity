@@ -16,12 +16,12 @@
             }
           },
           {
-            "id": "a8bd37f5bd40e372",
+            "id": "2335c18622f31cd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110 Introduction to computer science.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110 Introduction to computer science.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110 Introduction to computer science.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110 Introduction to computer science.md"
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md"
               }
             }
           },
@@ -195,11 +195,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a9f759660a57bcd5",
+  "active": "2335c18622f31cd9",
   "lastOpenFiles": [
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-11 Combinatorics.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-10 Combinatorics.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-5 Set theory.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-3 Proofs.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-2 Logic and Proofs.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-8 Functions.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-7&8 Relations (1 & 2).md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-6 Set theory.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-4 Proof by induction.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-1 Propositional logic.md",
+    "Attachments/DM-L1 Discrete Mathematics.pdf",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L1 Discrete Mathematics.pdf",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-0 Intro lecture.md",
+    "Attachments/DM-L11 annotated (1)..pdf",
+    "Attachments/DM-L10 Discrete Mathematics (1)..pdf",
+    "Attachments/DM-L9 Discrete Mathematics.pdf",
+    "Attachments/DM-L5 Discrete Mathematics 1.pdf",
+    "Attachments/DM-L6 Discrete Mathematics.pdf",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM L3 Discrete Mathematics.pdf",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L4 Discrete Mathematics.pdf",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L5 Discrete Mathematics.pdf",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 3.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 2.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 1.md",
+    "Attachments/Screenshot 2023-10-18 at 1.21.30 PM.png",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110 Introduction to computer science.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-6 Theory of Computation (2).md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-5 Theory of Computation.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-7 Exam Prep.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-4 Loops.md",
@@ -207,42 +233,15 @@
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-2 Variables & Methods.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-1 Intro to Computing.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-0 Intro lecture.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120 Procedural programming.md",
-    "Attachments/Exam prep Prog 2324-BCS1120.pdf",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-10 Exam Prep.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-9 Information Security and Privacy.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-1 Intro lecture.md",
-    "Attachments/Exam Prep - Introduction to Computer Science.pdf",
-    "Attachments/Exam Prep Introduction.pdf",
-    "Attachments/Sample Paper Intro to CS.pdf",
     "Attachments/Pasted image 20231017134015.png",
     "Attachments/Pasted image 20231017133947.png",
     "Attachments/Pasted image 20231017133518.png",
     "Attachments/Pasted image 20231017133448.png",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-7&8 Relations (1 & 2).md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-6 Set theory.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-10 Combinatorics.md",
-    "Attachments/DM-L10 Discrete Mathematics.pdf",
     "Attachments/Screenshot 2023-10-02 at 2.28.09 PM.png",
-    "Attachments/security.pdf",
-    "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project Introduction.md",
-    "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project 1-1.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-11 Combinatorics.md",
-    "BSc Computer Science/Period 1/BCS1300 Project 1-1/Skill classes/BCS1300 Presenting-1 Fundamentals.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-7 Computer Networks.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-8 Practical Network Applications.md",
-    "Personal/Work/Next Generation Sensors.md",
-    "Attachments/practical networking lecture 1.pdf",
-    "Attachments/networks.pdf",
     "Attachments/Screenshot 2023-09-25 at 1.54.16 PM.png",
     "Attachments/Screenshot 2023-09-26 at 1.59.38 PM.png",
-    "IP Address.md",
     "Attachments/Screenshot 2023-09-26 at 1.57.57 PM.png",
     "Attachments/Screenshot 2023-09-26 at 1.45.40 PM.png",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-8 Functions.md",
-    "Excalidraw/Drawing 2023-09-26 09.46.48.excalidraw.md",
-    "BSc Computer Science/Concepts/Transmission Control Protocol.md",
-    "Attachments/Screenshot 2023-09-25 at 2.19.03 PM.png",
     "Academics/IIS Blaise Pascal/Piano di studio esame.canvas"
   ]
 }

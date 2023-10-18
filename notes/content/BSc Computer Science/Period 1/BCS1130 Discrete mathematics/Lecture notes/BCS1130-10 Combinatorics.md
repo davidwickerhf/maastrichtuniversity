@@ -5,7 +5,7 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides: 
+lecture-slides: true
 notes-complete:
 ---
 ## Lecture notes
@@ -20,4 +20,4 @@ notes
 
 - - - 
 ## Lecture slides
-![[DM-L10 Discrete Mathematics.pdf]]
+![[Attachments/DM-L10 Discrete Mathematics (1)..pdf]]

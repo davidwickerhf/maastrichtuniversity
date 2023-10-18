@@ -5,7 +5,7 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides: 
+lecture-slides: true
 notes-complete:
 ---
 ## Lecture notes
@@ -138,3 +138,4 @@ Checking the inverse function
 
 - - - 
 ## Lecture slides
+![[Attachments/DM-L9 Discrete Mathematics.pdf]]

@@ -29,6 +29,9 @@ None
 	- [[BCS1110-9 Information Security and Privacy]]
 	- [[BCS1110-10 Exam Prep]]
 - **Tutorials**
+	- [[Tutorial 1]]
+	- [[Tutorial 2]]
+	- [[Tutorial 3]]
 
 %% End Waypoint %%
 

@@ -5,7 +5,7 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides: 
+lecture-slides: true
 notes-complete:
 ---
 ## Lecture notes
@@ -78,3 +78,4 @@ Part 3
 
 - - - 
 ## Lecture slides
+![[Attachments/DM-L11 annotated (1)..pdf]]

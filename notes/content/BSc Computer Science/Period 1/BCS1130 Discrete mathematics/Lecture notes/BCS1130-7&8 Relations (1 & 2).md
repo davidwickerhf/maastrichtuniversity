@@ -5,7 +5,7 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides: 
+lecture-slides: true
 notes-complete:
 ---
 ## Lecture notes
@@ -166,7 +166,7 @@ Is the relation transitive? $\forall (x_1, y_1), (x_2, y_2), (x_3, y_3) \in R \t
 ![[DM-L7 (annotated).pdf]]
 
 #### Lecture 8
-- [ ] Add slides
+![[DM-L8 Discrete Mathematics.pdf]]
 
 #### Extra materials
 ![[Socrative L7.pdf]]

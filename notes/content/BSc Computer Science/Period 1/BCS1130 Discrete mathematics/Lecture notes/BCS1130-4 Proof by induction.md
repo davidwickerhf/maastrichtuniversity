@@ -5,11 +5,11 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides: 
+lecture-slides: true
 notes-complete:
 ---
 ## Lecture slides
-![[Proof by induction.pdf]]
+![[DM-L4 Discrete Mathematics.pdf]]
 
 ## Lecture notes
 Can you calculate the sum 1+2+3 + ….+ (n-1) + n (with n a natural number)

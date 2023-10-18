@@ -5,10 +5,9 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides: 
+lecture-slides: true
 notes-complete:
 ---
-## Lecture slides
 ## Lecture notes
 #### Proof by contradiction
 - You assume that what you want to prove is false
@@ -40,3 +39,5 @@ notes-complete:
 > 		- $1 - 2xy$ *is obviously smaller than 1*
 > 	- $\implies x^2 + y^2 ≤ 1 \square$
 
+## Lecture slides
+![[DM L3 Discrete Mathematics.pdf]]

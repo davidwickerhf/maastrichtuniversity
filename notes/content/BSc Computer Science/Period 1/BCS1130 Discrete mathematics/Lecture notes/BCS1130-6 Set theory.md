@@ -5,11 +5,11 @@ tags:
   - type/lecture
 course: BCS1130
 period: 1
-lecture-slides: 
+lecture-slides: true
 notes-complete:
 ---
 ## Lecture expectations
-- ﻿﻿Do you knon how set membership works?
+- ﻿﻿Do you know how set membership works?
 - ﻿﻿Do you understand the meaning of the set operators (complement, intersection, union, difference)
 - ﻿﻿Do you know how to use Venn diagrams to develop an intuition
 - ﻿﻿Do you understand the concept and definition of subset?
@@ -118,9 +118,8 @@ $\mathbb{R}^2 = \mathbb{R} \times \mathbb{R}$ → Cartesian plane
 - - - 
 ## Lecture slides
 
-- [ ] Replace with annotated notes
 ###### Lecture slides
-![[DM-L6 1.pdf]]
+![[Attachments/DM-L6 Discrete Mathematics.pdf]]
 
 ###### Partitions
 ![[Partitions.pdf]]
