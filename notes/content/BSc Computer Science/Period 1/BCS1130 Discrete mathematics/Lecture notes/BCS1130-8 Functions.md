@@ -6,7 +6,7 @@ tags:
 course: BCS1130
 period: 1
 lecture-slides: true
-notes-complete:
+notes-complete: true
 ---
 ## Lecture notes
 - [[#Definition of a function|Definition of a function]]
@@ -23,6 +23,7 @@ notes-complete:
 > - B → Codomain (asse y)
 > - Range: $\{f(x), x \in A\}, range(f) \subseteq B$
 
+![[Screenshot 2023-10-18 at 6.42.25 PM.png]]
 - Codomain and Range are different!
 ###### Examples of function definition
 - $f: N \to R$ where $f(x) = \sqrt(x)$
@@ -38,16 +39,21 @@ notes-complete:
 > - Codomain of $(f \circ g)$ → codomain of **f**
 
 - This condition must be true for the compound function: $range(g) \subseteq domain(f)$
-- [ ] Insert picture from slides
 
+![[Screenshot 2023-10-18 at 6.42.53 PM.png]]
 ###### Examples
 - $f: Z → Z, f(x) = x -4$
-- [ ] copy examples from slides
+- $g: Z → Z$, where $g(x) = x^2 + 4$
+
+- $f \circ g : Z → Z$ is properly defined, since the codomain of g and the domain of f are the same
+- $g \circ g: Z → Z$ is properly defined, since the codomain of f and the domain of g are the same
 - - - 
 
 
 ## Key takeaways
-- 
+- Do you understand what a function is?
+- ﻿﻿Do you know the meaning of 'domain', 'co-domain' and 'range?
+- ﻿﻿Do you understand how function composition works?
 
 - - - 
 ## Lecture slides

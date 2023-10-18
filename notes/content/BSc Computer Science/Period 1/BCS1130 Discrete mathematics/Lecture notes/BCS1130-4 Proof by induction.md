@@ -6,7 +6,7 @@ tags:
 course: BCS1130
 period: 1
 lecture-slides: true
-notes-complete:
+notes-complete: true
 ---
 ## Lecture slides
 ![[DM-L4 Discrete Mathematics.pdf]]
@@ -26,6 +26,7 @@ Can you calculate the sum 1+2+3 + ….+ (n-1) + n (with n a natural number)
 	- $P(n)$ is true → base case
 	- $P(n) → P(n+1) \forall n$ → (induction step)
 	- $P(n), P(n) → P(n+1) \implies P(n+1)$
+
 #### Induction example
 > [!note] Induction example
 > $$\forall n \in N \left( \sum_{k+1}^nk = \frac{n(n+1)}{2} \right)$$
@@ -60,14 +61,12 @@ Always use your assumption hypothesis!
 - $P(x+1) = 3 \cdot 4^x + 4^x -1 = 3 \cdot 4^x + 3k = 3(4^x + k)$ → multiple of 3
 
 #### Induction example 3
-- [ ] **==Ask for notes on this example cause it was confusing as fuck==**
-
 > [!note] Induction example 3
 > A country has two types of coins: 3 cents and 7 cents. Prove that you can make all sums of money starting from 12 cents (up to 1 cent accuracy) from these coins.
 
 **Explaining the example**
-$2 \cdot 7 = 5 \cdot 3$
-![[Induction proof 3.loom]]
+$2 \cdot 7 = 5 \cdot 3$![[Screenshot 2023-10-18 at 5.37.10 PM.png]]
+
 **Negation**: max 1x7, max 1x3 → cannot add up to 12 or more
 1. If we have 2x3 (at least), we can go 1 cent up
 2. If we have 2x7 (at least), we can go 1 cent up

@@ -6,20 +6,27 @@ tags:
 course: BCS1130
 period: 1
 lecture-slides: true
-notes-complete:
+notes-complete: true
 ---
-## Lecture expectations
-- ﻿﻿Do you know how set membership works?
-- ﻿﻿Do you understand the meaning of the set operators (complement, intersection, union, difference)
-- ﻿﻿Do you know how to use Venn diagrams to develop an intuition
-- ﻿﻿Do you understand the concept and definition of subset?
-- ﻿﻿Do you know how to prove that two sets are equal?
-- ﻿﻿Do you understand how to use the associative, distributive and de Morgan Laws? Can you prove them?
-- ﻿﻿Do you know how to use power sets? Can you formulate the power set of a (finite) set?
-- ﻿﻿Do you understand how set product works?
-- ﻿﻿Do you know what a partition is
 
 ## Lecture notes
+- [[#Proof example|Proof example]]
+	- [[#First implication|First implication]]
+	- [[#Second implication|Second implication]]
+- [[#Proof example (shorter)|Proof example (shorter)]]
+- [[#Proof example (truth table)|Proof example (truth table)]]
+- [[#Power set|Power set]]
+	- [[#Example of power sets|Example of power sets]]
+	- [[#Cardinality of a power set|Cardinality of a power set]]
+- [[#Product sets|Product sets]]
+	- [[#Example of product sets|Example of product sets]]
+	- [[#Cardinality of product sets|Cardinality of product sets]]
+	- [[#Properties|Properties]]
+- [[#Set partitions|Set partitions]]
+	- [[#Definition|Definition]]
+	- [[#How many partitions are there|How many partitions are there]]
+- - - 
+
 #### Proof example
 > [!note] Proof example
 > For all sets A, B, C, $(B \cap (A^c \cup C)^c = \phi) \iff (A \subseteq B^c \cup C)$
@@ -114,6 +121,17 @@ $\mathbb{R}^2 = \mathbb{R} \times \mathbb{R}$ → Cartesian plane
 ###### How many partitions are there
 > [!alert] Partitions
 > $$B_{n+1} = \sum^n_{k=0} \binom{n}{k} B_k$$
+
+## Key takeaways
+- ﻿﻿Do you know how set membership works?
+- ﻿﻿Do you understand the meaning of the set operators (complement, intersection, union, difference)
+- ﻿﻿Do you know how to use Venn diagrams to develop an intuition
+- ﻿﻿Do you understand the concept and definition of subset?
+- ﻿﻿Do you know how to prove that two sets are equal?
+- ﻿﻿Do you understand how to use the associative, distributive and de Morgan Laws? Can you prove them?
+- ﻿﻿Do you know how to use power sets? Can you formulate the power set of a (finite) set?
+- ﻿﻿Do you understand how set product works?
+- ﻿﻿Do you know what a partition is?
 
 - - - 
 ## Lecture slides

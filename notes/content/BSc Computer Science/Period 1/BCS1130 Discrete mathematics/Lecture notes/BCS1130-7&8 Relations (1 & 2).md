@@ -6,7 +6,7 @@ tags:
 course: BCS1130
 period: 1
 lecture-slides: true
-notes-complete:
+notes-complete: true
 ---
 ## Lecture notes
 - [[#Relation definition|Relation definition]]
@@ -15,7 +15,14 @@ notes-complete:
 - [[#Symmetric relations|Symmetric relations]]
 - [[#Transitive relations|Transitive relations]]
 - [[#Equivalence relations|Equivalence relations]]
-- [[#Example|Example]]
+	- [[#Example|Example]]
+- [[#Anti-symmetry|Anti-symmetry]]
+	- [[#Examples|Examples]]
+	- [[#Symmetry vs. Anti-symmetry|Symmetry vs. Anti-symmetry]]
+- [[#Partial order|Partial order]]
+	- [[#Examples|Examples]]
+- [[#Total order|Total order]]
+
 - - - 
 #### Relation definition
 > [!abstract] Definition
@@ -28,7 +35,7 @@ Example:
 $A = \{ 1,2,3\}$ →  $xRy$ if $x ≤ y$
 
 #### Relation diagrams
-- [ ] Include lecture screenshot
+![[Screenshot 2023-10-18 at 5.58.53 PM.png]]
 
 - - -
 
@@ -37,21 +44,21 @@ $A = \{ 1,2,3\}$ →  $xRy$ if $x ≤ y$
 > A relation R on a set A is reflexive if every element of A is related to itself:
 > $$\forall x \in A : x R x$$
 
-- [ ] Include lecture screenshot
+![[Screenshot 2023-10-18 at 5.59.07 PM.png]]
 
 #### Symmetric relations
 > [!abstract] Definition
 > A relation R on a set A is symmetric if for all elements a,b in A: $aRb \to bRa$
 > $$\forall a,b \in A : a R b \to bRa$$
 
-- [ ] include lecture screenshot
+![[Screenshot 2023-10-18 at 5.59.35 PM.png]]
 
 #### Transitive relations
 > [!abstract] Definition
 > A relation R on a set A is transitive if for all elements a,b,b in A:
 > $$(aRb \land bRc) → aRc$$
 
-- [ ] Include lecture screenshot
+![[Screenshot 2023-10-18 at 6.02.16 PM.png]]
 
 - - -
 
@@ -78,7 +85,7 @@ Let $A = \mathbb{N}$
 	- $(x-y) + (y-z) = x-z$ then $x-z$ is even → $xRz$ → Relation is transitive ✅
 - R is reflexive, transitive and symmetric → it is an equivalence relation ✅
 
-- [ ] Add screenshot from lecture
+![[Screenshot 2023-10-18 at 6.06.04 PM.png]]
 ###### Example
 > [!note] Example Relation on $R^2$
 > $R^2, (x,y)R(a,b)$ if $x+y = a+b$
@@ -91,9 +98,11 @@ Is the relation symmetric? $\forall(x_1, y_2), (x_2, y_2) \in R \times R, (x_1, 
 - then $x_2 +y_2 = x_1 + y_1$
 - so $(x_2, y_2)R(x_1, y_1)$ → the relation is reflexive ✅
 
-- [ ] complete notes for this →
 Is the relation transitive? $\forall (x_1, y_1), (x_2, y_2), (x_3, y_3) \in R \times R : (x_1, y_1)R(x_2, y_2) \land (x_2, y_2)R(x_3,y_3) → (x_1,y_2)R(x_3,y_3)$
-- Let 
+- Let $(x_1, y_1)R(x_2, y_2) \land (x_2, y_2)R(x_3, y_3)$
+- then $x_1 + y_1 = x_2 + y_2 \land x_2 + y_2 = x_3 +y_3$
+- so $x_1 + y_1 = x_3+y_3$
+- so $(x_1,y_1)R(x_3,y_3)$ → the relation is transitive ✅
 
 - - - 
 
@@ -106,20 +115,18 @@ Is the relation transitive? $\forall (x_1, y_1), (x_2, y_2), (x_3, y_3) \in R \t
 ###### Examples
 - $xRy$ if $x ≤ y$ on $\mathbb{R}$ → Anti-symmetric ✅
 - $xy$ if $x≤ y+10$, on $\mathbb{N}$ 
-	- **Not symmetric:** $x = 1, y=20$ then $xRy$, since $1≤20+10$, but $x!Ry$, since $20≤ 1+10$
+	- **Not symmetric:** $x = 1, y=20$ then $xRy$, since $1≤20+10$, but $x!Ry$, since $20≤ 1+10$ ❌
 	- **Not anti-symmetric:** $x=1, y=2$, then $xRy$ since $x≤ 2+10$ and $yRx$ since $2≤ 1+10$ ❌
 - $xRy$ if $x=y+10$ , on $\mathbb{N}$ → Anti-symmetric ✅
 	- assume $xRy$ and $x \neq y$
 		- then $x=y+10 \implies y = x-10 \neq x+10$
 		- so $y !Rx$ 
-- $xRy$ if $x+y = 10$, on $\mathbb{N}$ → Symmetric relation, **not** anti-symmetric ❌
-- 
-
-- [ ] Add more examples from slides
 
 ###### Symmetry vs. Anti-symmetry
-- **Symmetry** → all arrows go in 2 directions
-- **Anti-symmetry** → arrows between different elements **cannot** go in both directions
+- **==Symmetry==** → all arrows go in 2 directions
+- ==**Anti-symmetry**== → arrows between different elements **cannot** go in both directions
+
+![[Screenshot 2023-10-18 at 6.10.12 PM.png]]
 - - - 
 
 #### Partial order
@@ -132,8 +139,9 @@ Is the relation transitive? $\forall (x_1, y_1), (x_2, y_2), (x_3, y_3) \in R \t
 		- Every set is a subset of …
 	- **Anti-symmetry** → if $A \subseteq B \land B \subseteq A \implies A = B$ (set equality) ✅
 	- **Transitive** → if $A \subseteq B \land B \subseteq C \implies A \subseteq C$ ✅
-		- Let $x \in A \implies x \in B$ since $A \subseteq B$
-		-  [ ] complete note here
+		- Let $x \in A$ 
+		- $\implies x \in B$ since $A \subseteq B$
+		-  $\implies x \in C$ since $B \subseteq C$ 
 
 - $xRy$ if $x ≤ y$, on $\mathbb{R}$
 	- **Reflexive** → $x ≤x$ true (every number is smaller/equal than itself) ✅
@@ -152,12 +160,17 @@ Is the relation transitive? $\forall (x_1, y_1), (x_2, y_2), (x_3, y_3) \in R \t
 - - - 
 
 #### Total order
-> [!abstract] Definition
-> 
+> [!warning] Note
+> Not exam material
 
 - What is the difference between a partial order and a total order?
 	- **Partial order** → Transitive, Anti-symmetric, reflexive
 	- **Total order** → Partial order + $\forall x,y \in A: xRy \lor yRx$
+- - - 
+## Key takeaways
+- Do you know what anti-symmetry is?
+- ﻿﻿Do you understand that symmetry and anti-symmetry are NOT opposites?
+- ﻿﻿Do you know when a relation is a partial order. (and how to prove this)?
 
 - - - 
 
