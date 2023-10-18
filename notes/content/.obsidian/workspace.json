@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
+                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110 Introduction to computer science.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
+                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110 Introduction to computer science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
+                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110 Introduction to computer science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md"
+                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110 Introduction to computer science.md"
               }
             }
           },
@@ -195,9 +195,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a8bd37f5bd40e372",
+  "active": "a9f759660a57bcd5",
   "lastOpenFiles": [
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-5 Theory of Computation.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-6 Theory of Computation (2).md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-5 Theory of Computation.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-7 Exam Prep.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-4 Loops.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-3 Conditionals.md",
@@ -206,9 +209,9 @@
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-0 Intro lecture.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120 Procedural programming.md",
     "Attachments/Exam prep Prog 2324-BCS1120.pdf",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-10 Exam Prep.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-9 Information Security and Privacy.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-1 Intro lecture.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-10 Exam Prep.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-9 Information Security and Privacy.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-1 Intro lecture.md",
     "Attachments/Exam Prep - Introduction to Computer Science.pdf",
     "Attachments/Exam Prep Introduction.pdf",
     "Attachments/Sample Paper Intro to CS.pdf",
@@ -226,8 +229,8 @@
     "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project 1-1.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-11 Combinatorics.md",
     "BSc Computer Science/Period 1/BCS1300 Project 1-1/Skill classes/BCS1300 Presenting-1 Fundamentals.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-7 Computer Networks.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-8 Practical Network Applications.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-7 Computer Networks.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-8 Practical Network Applications.md",
     "Personal/Work/Next Generation Sensors.md",
     "Attachments/practical networking lecture 1.pdf",
     "Attachments/networks.pdf",
@@ -238,10 +241,7 @@
     "Attachments/Screenshot 2023-09-26 at 1.45.40 PM.png",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130-8 Functions.md",
     "Excalidraw/Drawing 2023-09-26 09.46.48.excalidraw.md",
-    "Excalidraw",
-    "Attachments/Socrative L7.pdf",
     "BSc Computer Science/Concepts/Transmission Control Protocol.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110-6 Theory of Computation (2).md",
     "Attachments/Screenshot 2023-09-25 at 2.19.03 PM.png",
     "Academics/IIS Blaise Pascal/Piano di studio esame.canvas"
   ]
