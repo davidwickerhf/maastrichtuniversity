@@ -90,7 +90,15 @@ Tabular representation of the transactions in a deterministic finite automaton
 > An NFA may follow any number of $\epsilon$-transitions at any time without consuming any input. NFAs are not required to follow such transitions.
 > 
 #### Designing NFAs
-- Guess and check method is enough
+1. **Understand the Language**: Before designing the NFA, make sure you understand the language or the set of strings you want the NFA to recognize.
+2. **Start Simple**: Begin with a basic structure. If you're designing an NFA for a language that accepts strings ending in '01', start with that basic requirement.
+3. **Use ε-Transitions**: One of the powers of NFAs is the ability to move from one state to another without consuming an input symbol, using ε-transitions. This can simplify your design in many cases.
+4. **Multiple Transitions**: Remember that for a given state and input symbol, an NFA can have transitions to multiple states. Use this feature to represent multiple possibilities.
+5. **Avoid Overcomplicating**: Just because you can have multiple transitions doesn't mean you always should. If a simpler design works, go with it.
+6. **Design Incrementally**: If you're trying to design an NFA for a complex language, break the problem down. Design smaller NFAs for simpler languages and then combine them.
+7. **Use Sub-automata**: For complex languages, design sub-automata for different parts of the language and then connect them using ε-transitions.
+8. **Test with Strings**: Once you've designed your NFA, test it with various strings to ensure it accepts those it should and rejects those it shouldn't.
+9. **Convert to DFA (Optional)**: If you find creating a NFA difficult, maybe you can solve the problem using a DFA, remember that any NFA can be converted to an equivalent DFA.
 #### Difference between NFAs and DFAs
 - Any language that can be accepted by a DFA can be accepted by an NFA
 	- (Every DFA is technically an NFA)

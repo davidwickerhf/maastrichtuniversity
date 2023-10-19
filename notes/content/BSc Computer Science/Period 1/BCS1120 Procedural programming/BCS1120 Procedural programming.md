@@ -22,13 +22,22 @@ The course appears as desired prior knowledge for the courses Introduction to O
 
 ## Lectures
 %% Begin Waypoint %%
-- [[BCS1120-0 Intro lecture]]
-- [[BCS1120-1 Intro to Computing]]
-- [[BCS1120-2 Variables & Methods]]
-- [[BCS1120-3 Conditionals]]
-- [[BCS1120-4 Loops]]
-- [[BCS1120-5 Arrays]]
-- [[BCS1120-6 Recursion]]
-- [[BCS1120-7 Exam Prep]]
+- **Exam papers**
+	- **2021**
+		- [[E1 Attempt]]
+		- [[E1-2021.pdf]]
+	- **2021 resit**
+		- [[E2-2021.pdf]]
+	- **2022**
+		- [[Exam 2022-2023 KEN1120.pdf]]
+- **Lectures**
+	- [[BCS1120-0 Intro lecture]]
+	- [[BCS1120-1 Intro to Computing]]
+	- [[BCS1120-2 Variables & Methods]]
+	- [[BCS1120-3 Conditionals]]
+	- [[BCS1120-4 Loops]]
+	- [[BCS1120-5 Arrays]]
+	- [[BCS1120-6 Recursion]]
+	- [[BCS1120-7 Exam Prep]]
 
 %% End Waypoint %%
