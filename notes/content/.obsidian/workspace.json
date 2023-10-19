@@ -6,7 +6,6 @@
       {
         "id": "e812e1a0adacd3af",
         "type": "tabs",
-        "dimension": 42.15017064846416,
         "children": [
           {
             "id": "b41859adce1e03b0",
@@ -17,12 +16,38 @@
             }
           },
           {
-            "id": "75e3b38a8903ccfa",
+            "id": "70140405eb6cd2cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
+                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "659d400acb4167fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d5bfa85a6143a5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -30,24 +55,7 @@
             }
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "86ef69547a83bd6a",
-        "type": "tabs",
-        "dimension": 57.84982935153583,
-        "children": [
-          {
-            "id": "b01fab37952595af",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L9 Discrete Mathematics.pdf"
-              }
-            }
-          }
-        ]
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md"
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md"
               }
             }
           },
@@ -213,11 +221,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "75e3b38a8903ccfa",
+  "active": "2d5bfa85a6143a5e",
   "lastOpenFiles": [
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110 Introduction to computer science.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 6.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 5.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 4.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 2.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 3.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 1.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-9 Information Security and Privacy.md",
+    "Attachments/Tutorial Sheet 6.pdf",
+    "Attachments/Tutorial Sheet 3.pdf",
+    "Attachments/Tutorial Sheet 3.docx",
+    "Attachments/Tutorial Sheet 5.pdf",
+    "Attachments/Tutorial Sheet 4.pdf",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
     "Attachments/Screenshot 2023-10-18 at 7.02.52 PM.png",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L9 Discrete Mathematics.pdf",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
     "Attachments/Screenshot 2023-10-18 at 6.51.03 PM.png",
     "Attachments/Screenshot 2023-10-18 at 6.50.41 PM.png",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L8 Discrete Mathematics.pdf",
@@ -233,34 +254,21 @@
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-6 Set theory.md",
     "Attachments/Screenshot 2023-10-18 at 5.59.35 PM.png",
     "Attachments/Screenshot 2023-10-18 at 5.59.07 PM.png",
-    "Attachments/Screenshot 2023-10-18 at 5.58.53 PM.png",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L5 Discrete Mathematics.pdf",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-5 Set theory.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-4 Proof by induction.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L4 Discrete Mathematics.pdf",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-3 Proofs.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-11 Combinatorics.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-10 Combinatorics.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-2 Logic and Proofs.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-1 Propositional logic.md",
-    "Attachments/DM-L1 Discrete Mathematics.pdf",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L1 Discrete Mathematics.pdf",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-0 Intro lecture.md",
-    "Attachments/DM-L11 annotated (1)..pdf",
-    "Attachments/DM-L10 Discrete Mathematics (1)..pdf",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 3.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 2.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 1.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110 Introduction to computer science.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-6 Theory of Computation (2).md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-5 Theory of Computation.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-7 Exam Prep.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-4 Loops.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-3 Conditionals.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-2 Variables & Methods.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-1 Intro to Computing.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-0 Intro lecture.md",
     "Academics/IIS Blaise Pascal/Piano di studio esame.canvas"
   ]
 }
