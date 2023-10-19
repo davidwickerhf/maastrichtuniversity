@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
+                "file": "BSc Computer Science/BSc Computer Science.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
+                "file": "BSc Computer Science/BSc Computer Science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
+                "file": "BSc Computer Science/BSc Computer Science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md"
+                "file": "BSc Computer Science/BSc Computer Science.md"
               }
             }
           },
@@ -223,13 +223,16 @@
   },
   "active": "2d5bfa85a6143a5e",
   "lastOpenFiles": [
+    "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project 1-1.md",
+    "BSc Computer Science/BSc Computer Science.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110 Introduction to computer science.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 1.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 6.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 5.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 4.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 2.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 3.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 1.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-9 Information Security and Privacy.md",
     "Attachments/Tutorial Sheet 6.pdf",
     "Attachments/Tutorial Sheet 3.pdf",
@@ -258,7 +261,6 @@
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-5 Set theory.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-4 Proof by induction.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-3 Proofs.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-11 Combinatorics.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-10 Combinatorics.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-2 Logic and Proofs.md",
@@ -267,8 +269,6 @@
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-6 Theory of Computation (2).md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-5 Theory of Computation.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-7 Exam Prep.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-4 Loops.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120-3 Conditionals.md",
     "Academics/IIS Blaise Pascal/Piano di studio esame.canvas"
   ]
 }
