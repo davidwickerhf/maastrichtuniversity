@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/BSc Computer Science.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-4 Proof by induction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/BSc Computer Science.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-4 Proof by induction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/BSc Computer Science.md",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-4 Proof by induction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc Computer Science/BSc Computer Science.md"
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-4 Proof by induction.md"
               }
             }
           },
@@ -223,8 +223,9 @@
   },
   "active": "2d5bfa85a6143a5e",
   "lastOpenFiles": [
-    "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project 1-1.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-3 Proofs.md",
     "BSc Computer Science/BSc Computer Science.md",
+    "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project 1-1.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110 Introduction to computer science.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 1.md",
@@ -260,7 +261,6 @@
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L5 Discrete Mathematics.pdf",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-5 Set theory.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-4 Proof by induction.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-3 Proofs.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-11 Combinatorics.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-10 Combinatorics.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-2 Logic and Proofs.md",
