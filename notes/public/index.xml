@@ -9,8 +9,14 @@
     <title>BSc Computer Science</title>
     <link>https://notes.wicker.life/BSc-Computer-Science/BSc-Computer-Science</link>
     <guid>https://notes.wicker.life/BSc-Computer-Science/BSc-Computer-Science</guid>
-    <description>First year core courses § Concepts Transmission Control Protocol Uniform Resource Locator Period 1 BCS1110 Introduction to computer science BCS1120 Procedural programming BCS1130 Discrete mathematics BCS1140 Project 1-1 Project Introduction Period 2 BCS1220 Objects in programming BCS1440 Calculus .</description>
+    <description>First year core courses § Concepts IP Address Transmission Control Protocol Uniform Resource Locator Period 1 BCS1110 Introduction to computer science BCS1120 Procedural programming BCS1130 Discrete mathematics BCS1300 Project 1-1 Period 2 BCS1220 Objects in programming BCS1440 Calculus .</description>
     <pubDate>Mon, 25 Sep 2023 13:24:23 GMT</pubDate>
+  </item><item>
+    <title>IP Address</title>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Concepts/IP-Address</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Concepts/IP-Address</guid>
+    <description> The ISP provides the IP Addresses → 4 byte (4 * 8 bits = 32 bits) address IPv4 and IPv6 standards Static IP → IP Address does not change (e.g. for web services) Dynamic IP → IP addresses change frequently (e.</description>
+    <pubDate>Tue, 26 Sep 2023 11:59:07 GMT</pubDate>
   </item><item>
     <title>Transmission Control Protocol</title>
     <link>https://notes.wicker.life/BSc-Computer-Science/Concepts/Transmission-Control-Protocol</link>
@@ -31,40 +37,34 @@
     <pubDate>Tue, 26 Sep 2023 12:49:39 GMT</pubDate>
   </item><item>
     <title>BCS1110-1 Intro lecture</title>
-    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-1-Intro-lecture</link>
-    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-1-Intro-lecture</guid>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-1-Intro-lecture</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-1-Intro-lecture</guid>
     <description> Lecture notes § Standardisation vs Non-Standardisation George Polya’s problem solving approach Lecture 1 tutorial § Recommended readings § Nine algorithms that changed the future by John MacCormick .</description>
     <pubDate>Sun, 03 Sep 2023 22:00:00 GMT</pubDate>
   </item><item>
+    <title>BCS1110-10 Exam Prep</title>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-10-Exam-Prep</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-10-Exam-Prep</guid>
+    <description> Lecture notes Lecture 1 (Introduction) Lecture 2 (Hardware) Lecture 3 &amp; 4 Lecture 5 Lecture 6 Lecture 7 Lecture 8 Lecture 9 Demo exam paper Key takeaways Lecture slides Lecture notes § Lecture 1 (Introduction) § BCS1110-1 Intro lecture Is computer science a science? Engineering? Why? Read Required Reading → Why social aspects matter in computer science problems HTML example of creativity and logic intertwined in computer science Standardization &amp; Non-Standardization → e.</description>
+    <pubDate>Thu, 19 Oct 2023 15:24:55 GMT</pubDate>
+  </item><item>
     <title>BCS1110-2 Computer Hardware</title>
-    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-2-Computer-Hardware</link>
-    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-2-Computer-Hardware</guid>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-2-Computer-Hardware</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-2-Computer-Hardware</guid>
     <description> Exam info Most important is: Binary number system (and conversion) What CPU is and how it works Basic computer components Lecture notes § Initial terms § Transistors → Can amplify or switch eletronic signals and eletrical power.</description>
     <pubDate>Tue, 05 Sep 2023 13:20:50 GMT</pubDate>
   </item><item>
     <title>BCS1110-3 Algorithms and Command Line</title>
-    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-3-Algorithms-and-Command-Line</link>
-    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-3-Algorithms-and-Command-Line</guid>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-3-Algorithms-and-Command-Line</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-3-Algorithms-and-Command-Line</guid>
     <description>Lecture notes § Lecture slides § .</description>
     <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
   </item><item>
     <title>BCS1110-4 Command Line and Git</title>
-    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-4-Command-Line-and-Git</link>
-    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-4-Command-Line-and-Git</guid>
+    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-4-Command-Line-and-Git</link>
+    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-4-Command-Line-and-Git</guid>
     <description>Lecture notes § Version control and Git § Functions of version control Saves versions Assigns unique names to each version Maintains the relations between the various versions Keeps track of the current version pointer Most common actions in version control Commit / Checkin → Current version gets updated with the changes Dropping a version / Reverting back → move the current version back to a previous commit Master/Main branch → “Official” version Repository → Structured library of a version control mechanism (local or online) Checking out → Retrieving a read-only copy of the code Merge → Conflict → Issues in merging commits.</description>
     <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>BCS1110-5 Theory of Computation</title>
-    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-5-Theory-of-Computation</link>
-    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-5-Theory-of-Computation</guid>
-    <description>Lecture notes § Lecture contents and key points Introduction - Automata - Definition of problems - Finite automata Formal language theory - Important terms - String - Language - The model Finite automata FSA Examples Deterministic finite automaton Lecture contents and key points § Formal language theory Finite automata FSA Examples Recognizing languages with DFAs Deterministi Finite Automaton Introduction § TOC Attempts to answer the question of what problems we can solve with a computer (e.</description>
-    <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>BCS1110-6 Theory of Computation (2)</title>
-    <link>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-6-Theory-of-Computation-(2)</link>
-    <guid>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-6-Theory-of-Computation-(2)</guid>
-    <description>Lecture notes § Lecture contents Deterministic finite automaton Tabular DFA Regular languages - Introduction - Complement of a language - Complementing regular languages - Closure properties Nondeterministic finite automaton - NFA Acceptance - [[#epsilon—transitions|ϵ- Transitions]] Designing NFAs - Introduction - Guess and check Difference between NFAs and DFAs Lecture contents § Tabular DFAs Regular Languages NGAs Designing NFAs Tutorial Questions Deterministic finite automaton § Formal definition D=(Q,Σ,δ,q0​,F) D → Automaton Q → Set of states Σ → alphabet δ → Transition function q0​ → Start state F → Accepting state Tabular DFA § Tabular representation of the transactions in a deterministic finite automaton Possible exam question A possible exam question is to draw up the tabular representation of a DFA Regular languages § Introduction § Definition A language L is called a regular language if there exists a DFA D such that L(D)=L If L is a language and L(D) = L, we say that D recognizes the language L Complement of a language § Definition Given a language L⊆Σ∗, the complement of that language (L’) is the language of all strings in Σ∗ that aren’t in L: L′=Σ∗−L Complementing regular languages § L={w∈{a,b}∗∣ w contains aa as a substring } L={w∈{a,b}∗∣ w does not contain aa as a substring } Closure properties § Theorem If L is a regular language, then L’ is also a regular language.</description>
-    <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

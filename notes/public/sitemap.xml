@@ -2,6 +2,9 @@
     <loc>https://notes.wicker.life/BSc-Computer-Science/BSc-Computer-Science</loc>
     <lastmod>2023-09-25T13:24:23.664Z</lastmod>
   </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Concepts/IP-Address</loc>
+    <lastmod>2023-09-26T11:59:07.898Z</lastmod>
+  </url><url>
     <loc>https://notes.wicker.life/BSc-Computer-Science/Concepts/Transmission-Control-Protocol</loc>
     <lastmod>2023-09-25T13:25:03.009Z</lastmod>
   </url><url>
@@ -11,95 +14,134 @@
     <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-Introduction-to-computer-science</loc>
     <lastmod>2023-09-26T12:49:39.996Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-1-Intro-lecture</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-1-Intro-lecture</loc>
     <lastmod>2023-09-03T22:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-2-Computer-Hardware</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-10-Exam-Prep</loc>
+    <lastmod>2023-10-19T15:24:55.300Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-2-Computer-Hardware</loc>
     <lastmod>2023-09-05T13:20:50.005Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-3-Algorithms-and-Command-Line</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-3-Algorithms-and-Command-Line</loc>
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-4-Command-Line-and-Git</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-4-Command-Line-and-Git</loc>
     <lastmod>2023-09-12T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-5-Theory-of-Computation</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-5-Theory-of-Computation</loc>
     <lastmod>2023-09-18T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-6-Theory-of-Computation-(2)</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-6-Theory-of-Computation-(2)</loc>
     <lastmod>2023-09-19T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-7-Computer-Networks</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-7-Computer-Networks</loc>
     <lastmod>2023-09-25T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/BCS1110-8-Practical-Network-Applications</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-8-Practical-Network-Applications</loc>
     <lastmod>2023-09-26T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Lectures/BCS1110-9-Information-Security-and-Privacy</loc>
+    <lastmod>2023-10-02T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Tutorials/Tutorial-1</loc>
+    <lastmod>2023-10-18T11:19:38.121Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Tutorials/Tutorial-2</loc>
+    <lastmod>2023-10-18T11:31:00.179Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Tutorials/Tutorial-3</loc>
+    <lastmod>2023-10-18T11:37:15.811Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Tutorials/Tutorial-4</loc>
+    <lastmod>2023-10-19T14:07:38.386Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Tutorials/Tutorial-5</loc>
+    <lastmod>2023-10-19T14:11:49.619Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1110-Introduction-to-computer-science/Tutorials/Tutorial-6</loc>
+    <lastmod>2023-10-19T14:15:29.733Z</lastmod>
   </url><url>
     <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-Procedural-programming</loc>
     <lastmod>2023-09-22T09:03:52.582Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/Labs/Lab-1</loc>
-    <lastmod>2023-09-08T10:06:49.543Z</lastmod>
-  </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/Labs/Lab-2</loc>
-    <lastmod>2023-09-22T09:04:09.405Z</lastmod>
-  </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-0-Intro-lecture</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-0-Intro-lecture</loc>
     <lastmod>2023-09-05T14:32:16.151Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-1-M1-L1</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-1-Intro-to-Computing</loc>
     <lastmod>2023-09-06T11:59:43.651Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-2-M2-L2</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-2-Variables-&-Methods</loc>
     <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/W1-Intro,-Variables-and-Methods/BCS1120-2-W1-M2-L2</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-3-Conditionals</loc>
     <lastmod>2023-09-06T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-4-Loops</loc>
+    <lastmod>2023-09-26T14:10:04.528Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-5-Arrays</loc>
+    <lastmod>2023-09-26T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-6-Recursion</loc>
+    <lastmod>2023-10-02T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1120-Procedural-programming/BCS1120-7-Exam-Prep</loc>
+    <lastmod>2023-10-19T15:24:55.781Z</lastmod>
   </url><url>
     <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-Discrete-mathematics</loc>
     <lastmod>2023-09-26T07:44:56.766Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-0-Intro-lecture</loc>
-    <lastmod>2023-09-26T12:59:33.599Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-0-Intro-lecture</loc>
+    <lastmod>2023-10-19T15:24:55.797Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-1-Propositional-logic</loc>
-    <lastmod>2023-09-26T12:59:33.604Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-1-Propositional-logic</loc>
+    <lastmod>2023-10-19T15:24:55.801Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-2-Logic-and-Proofs</loc>
-    <lastmod>2023-09-26T12:59:33.612Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-10-Combinatorics</loc>
+    <lastmod>2023-10-19T15:24:55.807Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-3-Proofs</loc>
-    <lastmod>2023-09-26T12:59:33.630Z</lastmod>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-11-Combinatorics</loc>
+    <lastmod>2023-10-04T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-4-Proof-by-induction</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-2-Logic-and-Proofs</loc>
+    <lastmod>2023-10-19T15:24:55.835Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-3-Proofs</loc>
+    <lastmod>2023-10-19T15:24:55.846Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-4-Proof-by-induction</loc>
     <lastmod>2023-09-12T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-5-Set-theory</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-5-Set-theory</loc>
     <lastmod>2023-09-13T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-6-Set-theory</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-6-Set-theory</loc>
     <lastmod>2023-09-19T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-7&8-Relations-(1-&-2)</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-7&8-Relations-(1-&-2)</loc>
     <lastmod>2023-09-20T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/BCS1130-8-Functions</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-8-Functions</loc>
     <lastmod>2023-09-26T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1140-Project-1-1/BCS1140-Project-1-1</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1130-Discrete-mathematics/Lecture-notes/BCS1130-9-Function-properties</loc>
+    <lastmod>2023-09-23T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1300-Project-1-1/BCS1300-Project-1-1</loc>
     <lastmod>2023-09-25T06:41:52.309Z</lastmod>
   </url><url>
-    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1140-Project-1-1/Project-Introduction</loc>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1300-Project-1-1/BCS1300-Project-Introduction</loc>
     <lastmod>2023-09-25T06:50:27.740Z</lastmod>
+  </url><url>
+    <loc>https://notes.wicker.life/BSc-Computer-Science/Period-1/BCS1300-Project-1-1/Skill-classes/BCS1300-Presenting-1-Fundamentals</loc>
+    <lastmod>2023-09-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://notes.wicker.life/BSc-Computer-Science/Period-2/BCS1220-Objects-in-programming</loc>
     <lastmod>2023-06-21T05:36:49.513Z</lastmod>
   </url><url>
     <loc>https://notes.wicker.life/BSc-Computer-Science/Period-2/BCS1440-Calculus</loc>
     <lastmod>2023-06-21T05:39:31.825Z</lastmod>
-  </url><url>
-    <loc>https://notes.wicker.life/IP-Address</loc>
-    <lastmod>2023-09-26T11:59:07.898Z</lastmod>
   </url><url>
     <loc>https://notes.wicker.life/</loc>
     <lastmod>2023-09-20T13:04:48.596Z</lastmod>

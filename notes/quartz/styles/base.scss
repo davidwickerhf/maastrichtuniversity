@@ -3,6 +3,11 @@
 @use "./callouts.scss";
 @use "./variables.scss" as *;
 
+iframe {
+  width: 100%;
+  min-height: 500px;
+}
+
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: none;
