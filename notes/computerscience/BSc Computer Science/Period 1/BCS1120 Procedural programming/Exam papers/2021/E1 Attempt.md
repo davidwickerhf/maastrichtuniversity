@@ -10,19 +10,14 @@
 	2. For every new tire (4 tires)
 		1. Inflate the wheel 
 		2. Balance the wheel
-
 ###### Question 2
 **C.** The outcome is “you did it!”
-
 ###### Question 3
 **A.** Byte code is given as input to the Java Virtual machine
-
 ###### Question 4
 B. Java Virtual Machine is a compiler
-
 ###### Question 5
 Either C or D
-
 ###### Question 6
 public static int max(==int data[10]==) {
 	int max = 0;
@@ -42,11 +37,12 @@ public static int max(==int data[10]==) {
 ###### Question 8
 ```java
 public static void printDigits(int x) {
-	if (X) return;
-
+	if (x == 0) return;
 	else {
-		System.out.println(X);
-		printDigits(X);
+		System.out.println(x-(x/10)*10);
+		printDigits(x/10);
 	}
 }
 ```
+
+###### Question 9

@@ -131,7 +131,8 @@ $\mathbb{R}^2 = \mathbb{R} \times \mathbb{R}$ → Cartesian plane
 - ﻿﻿Do you understand how to use the associative, distributive and de Morgan Laws? Can you prove them?
 - ﻿﻿Do you know how to use power sets? Can you formulate the power set of a (finite) set?
 - ﻿﻿Do you understand how set product works?
-- ﻿﻿Do you know what a partition is?
+- ﻿﻿Do you know what a partition is?.
+
 
 - - - 
 ## Lecture slides
