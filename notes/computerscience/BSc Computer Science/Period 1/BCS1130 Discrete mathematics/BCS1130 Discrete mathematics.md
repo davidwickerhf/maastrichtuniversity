@@ -20,6 +20,7 @@ None
 - [S.J. Maubach](https://www.maastrichtuniversity.nl/sj-maubach)
 
 ## Lectures
+%% Begin Waypoint %%
 - **Lecture notes**
 	- [[BCS1130-0 Intro lecture]]
 	- [[BCS1130-1 Propositional logic]]
@@ -33,7 +34,20 @@ None
 	- [[BCS1130-9 Function properties]]
 	- [[BCS1130-10 Combinatorics]]
 	- [[BCS1130-11 Combinatorics]]
+- **Lecture Slides**
+	- [[DM L3 Discrete Mathematics.pdf]]
+	- [[DM-L1 Discrete Mathematics.pdf]]
+	- [[DM-L4 Discrete Mathematics.pdf]]
+	- [[DM-L5 Discrete Mathematics.pdf]]
+	- [[DM-L6 Discrete Mathematics.pdf]]
+	- [[DM-L7 Discrete Mathematics.pdf]]
+	- [[DM-L8 Discrete Mathematics.pdf]]
+	- [[DM-L9 Discrete Mathematics.pdf]]
+	- [[DM-L10 Discrete Mathematics (1)..pdf]]
+	- [[DM-L11 annotated (1)..pdf]]
 - **Professor notes**
 	- [[Lecture Notes Chapter 1.pdf]]
 	- [[Lecture Notes Chapter 2.pdf]]
 	- [[Lecture Notes Chapter 3.pdf]]
+
+%% End Waypoint %%
