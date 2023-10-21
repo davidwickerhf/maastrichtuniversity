@@ -6,7 +6,6 @@
       {
         "id": "e812e1a0adacd3af",
         "type": "tabs",
-        "dimension": 54.65616045845272,
         "children": [
           {
             "id": "b41859adce1e03b0",
@@ -17,12 +16,15 @@
             }
           },
           {
-            "id": "724f8f119ebc9d81",
+            "id": "3c80891f771e7968",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1-2021.pdf"
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -30,20 +32,16 @@
         "currentTab": 1
       },
       {
-        "id": "09c0f9902c6c3326",
+        "id": "ea17fc8e4a878ee0",
         "type": "tabs",
-        "dimension": 45.343839541547275,
         "children": [
           {
-            "id": "2b1a9ce4bc9529bb",
+            "id": "f0d8bd17f278bcbe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L9 Discrete Mathematics.pdf"
               }
             }
           }
@@ -97,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 324.5
   },
   "right": {
     "id": "a723bbc1614aeb40",
@@ -114,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1-2021.pdf",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1-2021.pdf",
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1-2021.pdf"
+                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md"
               }
             }
           },
@@ -213,15 +210,18 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "724f8f119ebc9d81",
+  "active": "3c80891f771e7968",
   "lastOpenFiles": [
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L9 Discrete Mathematics.pdf",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-8 Functions.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-7&8 Relations (1 & 2).md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-0 Intro lecture.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1-2021.pdf",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-7&8 Relations (1 & 2).md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-1 Propositional logic.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-3 Proofs.md",
     "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-2 Logic and Proofs.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-0 Intro lecture.md",
     "index.md",
     "Attachments/Screenshot 2023-10-19 at 10.11.00 PM.png",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120 Procedural programming.md",
@@ -248,9 +248,6 @@
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-2 Computer Hardware.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 1.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 5.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 4.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-7 Computer Networks.md",
-    "Attachments/Tutorial Sheet 6.pdf",
     "Attachments/Screenshot 2023-10-18 at 7.02.52 PM.png",
     "Attachments/Screenshot 2023-10-18 at 6.51.03 PM.png",
     "Attachments/Screenshot 2023-10-18 at 6.50.41 PM.png",

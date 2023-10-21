@@ -134,6 +134,8 @@ $\mathbb{R}^2 = \mathbb{R} \times \mathbb{R}$ → Cartesian plane
 - ﻿﻿Do you know what a partition is?.
 
 
+
+
 - - - 
 ## Lecture slides
 

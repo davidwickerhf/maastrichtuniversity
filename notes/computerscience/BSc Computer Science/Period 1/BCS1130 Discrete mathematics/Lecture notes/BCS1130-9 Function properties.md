@@ -80,9 +80,7 @@ We use one of the definitions, for example the definition of f(x) when x is even
 We can also use the other definition:
 - Let $y \in Z, y = - \frac{x -1}{2}$ 
 	- $→ x = -2y+1$ so x is **odd**
-	- $\implies f(x) = f(-2y + 1) = \frac{y - 1 + 1}{2} = y$ 
-
-- [ ] complete notes with slides examples
+	- $\implies f(x) = f(-2y + 1) = \frac{2y - 1 + 1}{2} = y$ 
 
 **Example 3**
 - [ ] take detailed notes of this example
@@ -91,18 +89,29 @@ $f: \mathbb{P}(A) → \mathbb{N} \cup \{o\}, f(B) = |B|$
 
 #### Bijections
 > [!abstract] Definition
-> A function $f: A → B$ is a bijection if it is injective and surjective 
+> A **==function==** $f: A → B$ is a bijection if it is **==injective==** and surjective 
 > *(Each element of the domain is mapped to **exactly 1 element** of the codomain)*
 
 ![[Screenshot 2023-10-18 at 7.02.52 PM.png]]
 ###### Proving a function is bijective
-- [ ] take note son examples of proving functions are bijective
+**Example 1**
+$f: N → N, f(x) = 3x - 4$
+- Not a properly defined function!
+- Since $1 \in N$ (domain), but $f(1) = -1 \notin N$ (co-domain)
 
 **Example 2**
 $f: Z → Z, f(x) = 3x - 4$
+- Check if it is injective: $\forall x_1, x_2 \in Z : x_1 \neq x_2 \implies f(x_1) \neq f(x_2)$ **(def)**
+	- Let $x_1, x_2 \in Z, x_1 \neq x_2$
+	- then $3x_1 -4 \neq 3x_2 -4$
+	- so $f(x_1) \neq f(x_2)$ → Injective ✅
+- Check if it is surjective: $\forall y \in Z : \exists x \in Z y = f(x)$ **(def)**
+	- Disproof by counter example
+	- $0 \in Z$ (co-domain) → $0 = f(x)$
+	- $\iff 0 = 3x-4$
+	- $\iff x = \frac{4}{3} \notin Z$ → x is not in the domain, f is not surjective ❌
 
-Check if it is injective
-Check if it is surjective
+The function is not bijective ❌
 
 **Example 3**
 $f: R → R, f(x) = 3x -4$
@@ -114,7 +123,7 @@ Check if it is **injective**
 
 Check if it is **surjective**
 - Let $y \in R$ (co-domain)
-	- 
+	- $y = f(x) = 3x-4 \iff x = \frac{y+4}{3}$
 	- choose an $x = \frac{y + 4}{3 } \in R$
 	- ( $y = f(x) = 3x-4 \implies x = \frac{y+4}{3}$) 
 	- and $f(x) = 3(\frac{y+4}{3}) - 4 = y$  → Surjective ✅
@@ -136,10 +145,16 @@ $f: R - \{2\} \to R, f(x) = \frac{1}{x-2}$
 Calculating the inverse
 
 
+
 Checking the inverse function
 
 ## Key takeaways
-- [ ] copy checklist from slides
+- Do you know what injective, surjective means?
+- ﻿﻿Can you prove that a function is injective?
+- ﻿﻿Can you prove that a function is surjective?
+- ﻿﻿Do you know what a bijection is?
+- ﻿﻿Do you understand that only bijective functions are invertible?
+- ﻿﻿Do you know how to check that a function is the inverse?
 
 - - - 
 ## Lecture slides

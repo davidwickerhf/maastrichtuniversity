@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-6 Set theory.md",
+                "file": "BSc Computer Science/BSc Computer Science.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -71,6 +72,16 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "fcb876ab23d00445",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
       }
     ],
     "currentTab": 0
@@ -85,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-6 Set theory.md",
+            "file": "BSc Computer Science/BSc Computer Science.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-6 Set theory.md",
+            "file": "BSc Computer Science/BSc Computer Science.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +125,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-6 Set theory.md"
+            "file": "BSc Computer Science/BSc Computer Science.md"
           }
         }
       }
@@ -123,17 +134,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a1feb2d0c75ad10e",
+  "active": "aee7941f1441f99d",
   "lastOpenFiles": [
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/BCS1110 Introduction to computer science.md",
+    "BSc Computer Science/BSc Computer Science.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-6 Set theory.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-7 Computer Networks.md",
     "Templates/book.md",
     "Templates/topic.md",
@@ -164,7 +180,6 @@
     "Attachments/Pasted image 20231017134015.png",
     "Attachments/Pasted image 20231017133947.png",
     "Attachments/Pasted image 20231017133448.png",
-    "BSc Computer Science/BSc Computer Science.md",
     "BSc Computer Science/Period 2/BCS1440 Calculus.md",
     "Attachments/Screenshot 2023-09-05 at 3.10.50 PM.png",
     "Attachments/Screenshot 2023-09-18 at 2.19.17 PM.png",
@@ -177,8 +192,6 @@
     "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project 1-1.md",
     "BSc Computer Science/Period 1/BCS1300 Project 1-1/BCS1300 Project Introduction.md",
     "BSc Computer Science/Period 1/BCS1120 Procedural programming/Lectures/BCS1120-5 Arrays.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Lectures/BCS1120-6 Recursion.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 6.md"
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md"
   ]
 }
