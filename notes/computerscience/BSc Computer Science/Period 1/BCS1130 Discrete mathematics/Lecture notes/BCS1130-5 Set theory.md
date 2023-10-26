@@ -8,21 +8,18 @@ period: 1
 lecture-slides: true
 notes-complete: true
 ---
-- [[#Lecture notes|Lecture notes]]
-	- [[#Intro notation|Intro notation]]
-	- [[#Describing sets|Describing sets]]
-	- [[#Subsets|Subsets]]
-	- [[#Set equality|Set equality]]
-	- [[#Union, intersection, difference of sets|Union, intersection, difference of sets]]
-	- [[#Complement of a set|Complement of a set]]
-	- [[#Proofs with sets|Proofs with sets]]
-	- [[#Associativity|Associativity]]
-	- [[#Distributive laws|Distributive laws]]
-	- [[#De Morgan laws|De Morgan laws]]
-- [[#Key takeaways|Key takeaways]]
-- [[#Lecture slides|Lecture slides]]
-
 ## Lecture notes
+- [[#Intro notation|Intro notation]]
+- [[#Describing sets|Describing sets]]
+- [[#Subsets|Subsets]]
+- [[#Set equality|Set equality]]
+- [[#Union, intersection, difference of sets|Union, intersection, difference of sets]]
+- [[#Complement of a set|Complement of a set]]
+- [[#Proofs with sets|Proofs with sets]]
+- [[#Associativity|Associativity]]
+- [[#Distributive laws|Distributive laws]]
+- [[#De Morgan laws|De Morgan laws]]
+- - - 
 #### Intro notation
 - **Set** → Collection of specified, unordered and not duplicate objets. Can be infinite or finite or empty: $\{1,2,3,4\}$ or $\{\}$ (empty set can also be represented with $\phi$ )
 - **Cardinality of a set** → Number of elements in the set: $|\{1,2,3,4\}|=4$

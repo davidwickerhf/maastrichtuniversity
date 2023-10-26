@@ -4,6 +4,7 @@
 	- [[IP Address]]
 	- [[Transmission Control Protocol]]
 	- [[Uniform Resource Locator]]
+- **[[Notability notes]]**
 - **Period 1**
 	- **[[BCS1110 Introduction to computer science]]**
 	- **[[BCS1120 Procedural programming]]**
@@ -14,6 +15,5 @@
 	- [[BCS1440 Calculus]]
 
 %% End Waypoint %%
-
 
 

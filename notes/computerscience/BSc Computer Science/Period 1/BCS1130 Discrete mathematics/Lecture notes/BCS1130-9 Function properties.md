@@ -6,7 +6,7 @@ tags:
 course: BCS1130
 period: 1
 lecture-slides: true
-notes-complete:
+notes-complete: true
 ---
 ## Lecture notes
 - [[#Injective functions|Injective functions]]
@@ -136,17 +136,24 @@ Then the function is **bijective** ✅
 > The inverse of a function reverses the function (inverting all the arrows).
 > A function needs to be **==bijective==** for the inverse function to be properly defined
 
-###### Examples
-- [ ] copy detailed example notes from slides
-
-**Example 1**
+![[Screenshot 2023-10-21 at 5.27.44 PM.png]]
+#### Example
 $f: R - \{2\} \to R, f(x) = \frac{1}{x-2}$
 
-Calculating the inverse
+**Calculating the inverse**
+1. We start by calculating the inverse function
+	1. $y=f\left( x\right) =\dfrac{1}{x-2}\Leftrightarrow x-2=\dfrac{1}{y}\Leftrightarrow x=\dfrac{1}{y}+2$
+	2. so $f^{-1}\left( y\right) =\dfrac{1}{y}+2$
+2. Is $f^{-1}(x)$ is defined on domain $R$ (co-domain of $f$)?
+	1. No, it is defined for $y=0$
+	2. $\implies f : R-\{2\} → R - \{0\}, f(x) = \frac{1}{x-2}$
+3. We adjust the domain of $f^{-1}$ so that they are both inverse functions of one another, making them **bijective**
+	1. $f:\mathbb{R} -\left\{ 2\right\} \rightarrow \mathbb{R} -\left\{ 0\right\} ,f\left( x\right) =\dfrac{1}{x-2}$
+	2. $f^{-1}:\mathbb{R} - \left\{ 0\right\} \rightarrow \mathbb{R} -\left\{ 2\right\} ,f^{-1}\left( x\right) =\dfrac{1}{y}+2$
 
-
-
-Checking the inverse function
+**Checking the inverse function**
+$$\begin{aligned}\left( 1\right) f\left( f^{-1}\left( y\right) \right) ,y\in \mathbb{R} -\left\{ 0\right\} \\
+\left( 2\right) f^{-1}\left( f\left( x\right) \right) ,x\in \mathbb{R} -\left\{ 2\right\} \end{aligned}$$
 
 ## Key takeaways
 - Do you know what injective, surjective means?

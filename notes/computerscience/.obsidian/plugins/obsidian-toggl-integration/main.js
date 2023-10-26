@@ -12431,6 +12431,15 @@ var QueryIntervalParser = class extends Parser {
             break;
         }
         _tokens.splice(0, 3);
+        break;
+      }
+      default: {
+        const defaultDate = (0, import_moment.default)(_tokens[pos], ISODateFormat, true);
+        if (defaultDate.isValid()) {
+          _from = defaultDate;
+          _to = _from.clone();
+          _tokens.splice(0, 1);
+        }
       }
     }
     if (_from && _to && _to.diff(_from) < 0) {
@@ -12567,6 +12576,11 @@ var _SelectionParser = class extends Parser {
         if (mode === "INCLUDE" /* INCLUDE */) {
           query.includedTags = list;
         } else if (mode === "EXCLUDE" /* EXCLUDE */) {
+          if (query.type === "SUMMARY" /* SUMMARY */) {
+            throw new QueryParseError(
+              "Filtering by excluded tags is not supported for summary reports."
+            );
+          }
           query.excludedTags = list;
         }
         break;
@@ -18902,6 +18916,7 @@ function enrichObjectWithTags(object) {
 }
 
 // lib/ui/views/TogglReportBlock.svelte
+var import_moment4 = __toESM(require_moment());
 function add_css8(target) {
   append_styles(target, "svelte-9i56kc", ".container.svelte-9i56kc{white-space:normal}");
 }
@@ -19382,6 +19397,10 @@ function instance15($$self, $$props, $$invalidate) {
       case "PAST" /* PAST */:
         return `Past ${tokens[2]} ${tokens[3].toLowerCase()}`;
       default:
+        const defaultDate = (0, import_moment4.default)(tokens[1], ISODateFormat, true);
+        if (defaultDate.isValid()) {
+          return defaultDate.format("LL");
+        }
         return "Untitled Toggl Report";
     }
   }
@@ -19500,11 +19519,11 @@ var DailySummary = derived(
 );
 
 // lib/toggl/TogglService.ts
-var import_moment5 = __toESM(require_moment());
+var import_moment6 = __toESM(require_moment());
 var import_obsidian4 = require("obsidian");
 
 // lib/toggl/ApiManager.ts
-var import_moment4 = __toESM(require_moment());
+var import_moment5 = __toESM(require_moment());
 var import_obsidian3 = require("obsidian");
 
 // lib/util/ExternalizedPromise.ts
@@ -20033,10 +20052,10 @@ var TogglAPI = class {
   }
   async getRecentTimeEntries() {
     const response = await this._api.reports.details(this._settings.workspace.id, {
-      end_date: (0, import_moment4.default)().format("YYYY-MM-DD"),
+      end_date: (0, import_moment5.default)().format("YYYY-MM-DD"),
       order_by: "date",
       order_dir: "desc",
-      start_date: (0, import_moment4.default)().subtract(9, "day").format("YYYY-MM-DD")
+      start_date: (0, import_moment5.default)().subtract(9, "day").format("YYYY-MM-DD")
     }).catch(handleError);
     return response.filter(
       (item) => Array.isArray(item.time_entries) && item.time_entries.length > 0
@@ -20044,7 +20063,7 @@ var TogglAPI = class {
   }
   async getDailySummary() {
     const response = await this._api.reports.projectsSummary(this._settings.workspace.id, {
-      start_date: (0, import_moment4.default)().format("YYYY-MM-DD")
+      start_date: (0, import_moment5.default)().format("YYYY-MM-DD")
     }).catch(handleError);
     return response;
   }
@@ -20085,8 +20104,8 @@ var TogglAPI = class {
     return this._api.timeEntries.start({
       ...entry,
       created_with: "Toggl Track for Obsidian",
-      duration: -(0, import_moment4.default)().unix(),
-      start: (0, import_moment4.default)().format(),
+      duration: -(0, import_moment5.default)().unix(),
+      start: (0, import_moment5.default)().format(),
       stop: null,
       workspace_id: parseInt(this._settings.workspace.id)
     }).catch(handleError);
@@ -20095,7 +20114,7 @@ var TogglAPI = class {
     return this._api.timeEntries.stop(entry).catch(handleError);
   }
   async getCurrentTimer() {
-    return this._api.timeEntries.current().catch(handleError);
+    return this._api.timeEntries.current();
   }
 };
 var handleError = (error) => {
@@ -20195,9 +20214,16 @@ var TogglService = class {
     let curr;
     try {
       curr = await this._apiManager.getCurrentTimer();
+      if (this._ApiAvailable === "DEGRADED" /* DEGRADED */) {
+        this._ApiAvailable = "AVAILABLE" /* AVAILABLE */;
+      }
     } catch (err) {
       console.error("Error reaching Toggl API");
       console.error(err);
+      if (this._ApiAvailable !== "DEGRADED" /* DEGRADED */) {
+        new import_obsidian4.Notice("Error updating active Toggl time entry. Retrying...");
+        this._ApiAvailable = "DEGRADED" /* DEGRADED */;
+      }
       return;
     }
     if (curr != null && curr.workspace_id != this.workspaceId && curr.project_id != void 0) {
@@ -20362,7 +20388,7 @@ function getObjectIdsFromQuery(query) {
   return { client_ids, project_ids, tag_ids };
 }
 function getTimeChartResolution(from, to) {
-  const durationInDays = (0, import_moment5.default)(to).diff((0, import_moment5.default)(from), "days");
+  const durationInDays = (0, import_moment6.default)(to).diff((0, import_moment6.default)(from), "days");
   if (durationInDays <= 31) {
     return "day";
   }
@@ -20372,7 +20398,7 @@ function getTimeChartResolution(from, to) {
   return "month";
 }
 function getTimeChartDates(from, resolution, count) {
-  const startDate = (0, import_moment5.default)(from);
+  const startDate = (0, import_moment6.default)(from);
   const dates = [];
   for (let i = 0; i < count; i++) {
     const date = startDate.clone().add(i, resolution);
@@ -20401,7 +20427,7 @@ var TogglSettingsTab = class extends import_obsidian5.PluginSettingTab {
   }
   addApiTokenSetting(containerEl) {
     new import_obsidian5.Setting(containerEl).setName("API Token").setDesc(
-      "Enter your Toggl Track API token to use this plugin. You can find yours at https://track.toggl.com/profile."
+      "Enter your Toggl Track API token to use this plugin. You can find yours at the bottom of https://track.toggl.com/profile."
     ).addText(
       (text2) => text2.setPlaceholder("Your API token").setValue(this.plugin.settings.apiToken || "").onChange(async (value) => {
         this.plugin.settings.apiToken = value;
@@ -20485,7 +20511,7 @@ var TogglSettingsTab = class extends import_obsidian5.PluginSettingTab {
 var import_obsidian6 = require("obsidian");
 
 // lib/ui/views/TogglSidebarPane.svelte
-var import_moment6 = __toESM(require_moment());
+var import_moment7 = __toESM(require_moment());
 
 // node_modules/svelte/transition/index.mjs
 function fade(node, { delay = 0, duration = 400, easing = identity } = {}) {
@@ -21902,8 +21928,8 @@ function instance22($$self, $$props, $$invalidate) {
       $$invalidate(1, duration = 0);
       return;
     }
-    const start2 = (0, import_moment6.default)(timer2.start);
-    const diff = (0, import_moment6.default)().diff(start2, "seconds");
+    const start2 = (0, import_moment7.default)(timer2.start);
+    const diff = (0, import_moment7.default)().diff(start2, "seconds");
     $$invalidate(1, duration = diff);
     timeoutHandle = window.setTimeout(updateDuration, 1e3);
   }

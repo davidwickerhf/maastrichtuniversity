@@ -31,7 +31,7 @@ notes-complete: true
 > [!note] Proof example
 > For all sets A, B, C, $(B \cap (A^c \cup C)^c = \phi) \iff (A \subseteq B^c \cup C)$
 
-![[Proof with sets|{width:100%}]]
+![[Screenshot 2023-10-23 at 9.06.37 AM.png]]
 
 We try to prove that the statement is true (which we identified using Venn Diagrams)
 

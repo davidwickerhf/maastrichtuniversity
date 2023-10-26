@@ -6,7 +6,7 @@ tags:
 course: BCS1130
 period: 1
 lecture-slides: true
-notes-complete:
+notes-complete: true
 ---
 ## Lecture notes
 - Rule of sum
@@ -73,8 +73,7 @@ Part 2
 Part 3
 - Repetition allowed, order doesn’t matter
 - 
-## Key takeaways
-- a
+
 
 - - - 
 ## Lecture slides

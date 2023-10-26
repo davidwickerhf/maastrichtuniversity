@@ -17,6 +17,17 @@ None
 
 ## Lectures
 %% Begin Waypoint %%
+- **Exam prep**
+	- [[ExamPrep.pdf]]
+	- [[Sample+Paper-2+2023%3A24.pdf]]
+	- [[Sample+Paper+2023%3A24.pdf]]
+- **Lecture slides**
+	- [[Lecture+1+Introduction.pdf]]
+	- [[Lecture+1+TOC.pdf]]
+	- [[Lecture+2+Computing+Hardware.pdf]]
+	- [[networks_short.pdf]]
+	- [[security_short.pdf]]
+	- [[tocTwo.pdf]]
 - **Lectures**
 	- [[BCS1110-1 Intro lecture]]
 	- [[BCS1110-2 Computer Hardware]]
@@ -28,7 +39,13 @@ None
 	- [[BCS1110-8 Practical Network Applications]]
 	- [[BCS1110-9 Information Security and Privacy]]
 	- [[BCS1110-10 Exam Prep]]
+- **Required readings**
+	- [[Notes on required reading 2]]
+	- [[Required+Reading+Lecture+1.pdf]]
+	- [[Required+Reading+Lecture+2.pdf]]
 - **Tutorials**
+	- [[Solution-01-tut.pdf]]
+	- [[Solution-03-tut.pdf]]
 	- [[Tutorial 1]]
 	- [[Tutorial 2]]
 	- [[Tutorial 3]]

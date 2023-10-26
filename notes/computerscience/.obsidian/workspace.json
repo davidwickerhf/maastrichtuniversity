@@ -4,57 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e812e1a0adacd3af",
+        "id": "c6c6ff0174637db3",
         "type": "tabs",
         "children": [
           {
-            "id": "b41859adce1e03b0",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-notion",
-              "state": {}
-            }
-          },
-          {
-            "id": "3c80891f771e7968",
+            "id": "9b8f90d5d6003802",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
+                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "b2bdeb896777932d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BSc Computer Science/BSc Computer Science.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "ea17fc8e4a878ee0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f0d8bd17f278bcbe",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L9 Discrete Mathematics.pdf"
               }
             }
           }
@@ -108,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 282.5
   },
   "right": {
     "id": "a723bbc1614aeb40",
@@ -124,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/BSc Computer Science.md",
+                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/BSc Computer Science.md",
+                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSc Computer Science/BSc Computer Science.md"
+                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md"
               }
             }
           },
@@ -211,66 +173,64 @@
       "switcher:Open quick switcher": true,
       "templates:Insert template": true,
       "workspaces:Manage workspace layouts": true,
+      "remotely-save:Remotely Save": false,
       "obsidian-custom-frames:Open Notion": false,
       "obsidian-custom-frames:Open Todoist": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "periodic-notes:Open today": false,
+      "open-vscode:VSCode": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false,
       "templater-obsidian:Templater": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-projects:Open projects": false,
-      "notion-like-tables:Create new loom": false,
-      "open-vscode:VSCode": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "b2bdeb896777932d",
+  "active": "9b8f90d5d6003802",
   "lastOpenFiles": [
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/BCS1130 Discrete mathematics.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture Slides/DM-L9 Discrete Mathematics.pdf",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-8 Functions.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-7&8 Relations (1 & 2).md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-0 Intro lecture.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1-2021.pdf",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-1 Propositional logic.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-3 Proofs.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-2 Logic and Proofs.md",
-    "index.md",
-    "Attachments/Screenshot 2023-10-19 at 10.11.00 PM.png",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/BCS1120 Procedural programming.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-6 Theory of Computation (2).md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/Untitled.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2022",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021 resit",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 2.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Lectures/BCS1120-7 Exam Prep.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Lectures/BCS1120-6 Recursion.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Lectures/BCS1120-5 Arrays.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Lectures/BCS1120-4 Loops.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Lectures/BCS1120-3 Conditionals.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Lectures/BCS1120-2 Variables & Methods.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Lectures/BCS1120-1 Intro to Computing.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Lectures/BCS1120-0 Intro lecture.md",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Lectures",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/untitled folder",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021 resit/E2-2021.pdf",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2022/Exam 2022-2023 KEN1120.pdf",
-    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-5 Theory of Computation.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lecture slides/tocTwo.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1120/BCS1120 Quizzes/Quiz 1a.pdf",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-2 Computer Hardware.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 1.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-7 Computer Networks.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-6 Theory of Computation (2).md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 5.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 2.md",
+    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Exam prep/Exam contents.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Required readings/Required reading 1.pdf",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 3.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-5 Theory of Computation.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 4.md",
+    "Untitled.md",
+    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Lectures/L9 Security & privacy.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Lectures/L7 Computer networks.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Lectures/L5 tok.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Lectures/L6 tok.pdf",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-4 Command Line and Git.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-3 Algorithms and Command Line.md",
+    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Lectures/L2 computing hardware.pdf",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Required readings/Notes on required reading 2.md",
+    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Lectures/L1 introduction.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Required readings/Required reading 2.pdf",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 6.md",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 1.md",
+    "Attachments/Screenshot 2023-10-23 at 9.06.37 AM.png",
+    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-1 Intro lecture.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-3 Proofs.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-8 Functions.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-11 Combinatorics.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-10 Combinatorics.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-7&8 Relations (1 & 2).md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-6 Set theory.md",
+    "Screenshot 2023-10-23 at 9.06.37 AM.png",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-5 Set theory.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-4 Proof by induction.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-2 Logic and Proofs.md",
+    "Attachments/Screenshot 2023-10-21 at 5.27.44 PM.png",
+    "Attachments/Pasted image 20231021174334.png",
+    "Attachments/Screenshot 2023-10-19 at 10.11.00 PM.png",
     "Attachments/Screenshot 2023-10-18 at 7.02.52 PM.png",
     "Attachments/Screenshot 2023-10-18 at 6.51.03 PM.png",
     "Attachments/Screenshot 2023-10-18 at 6.50.41 PM.png",
     "Attachments/Screenshot 2023-10-18 at 6.42.53 PM.png",
     "Attachments/Screenshot 2023-10-18 at 6.42.25 PM.png",
-    "Attachments/Screenshot 2023-10-18 at 6.10.12 PM.png",
-    "Attachments/Screenshot 2023-10-18 at 6.06.04 PM.png",
-    "Attachments/Screenshot 2023-10-18 at 6.02.16 PM.png",
-    "Attachments/Screenshot 2023-10-18 at 5.59.35 PM.png",
     "Academics/IIS Blaise Pascal/Piano di studio esame.canvas"
   ]
 }

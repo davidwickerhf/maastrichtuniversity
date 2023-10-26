@@ -1,0 +1,91 @@
+%% Begin Waypoint %%
+- **Welcome**
+	- [[Getting Started (2).pdf]]
+	- [[Tools 2.pdf]]
+- **Year 1**
+	- **Period 1**
+		- **BCS1110**
+			- **BCS1110**
+				- [[Tutorial Lecture 2.pdf]]
+				- [[Tutorial Sheet 3.pdf]]
+				- [[Tutorial Sheet 6.pdf]]
+			- **BCS1110 Exam prep**
+				- [[Exam contents.pdf]]
+				- [[ICS Notes.pdf]]
+				- [[Sample+Paper-2+2023%3A24.pdf]]
+				- [[Sample+Paper+2023%3A24.pdf]]
+			- **BCS1110 Lectures**
+				- [[L1 introduction.pdf]]
+				- [[L2 computing hardware.pdf]]
+				- [[L5 tok.pdf]]
+				- [[L6 tok.pdf]]
+				- [[L7 Computer networks.pdf]]
+				- [[L9 Security & privacy.pdf]]
+			- **BCS1110 Required readings**
+				- [[Required reading 1.pdf]]
+				- [[Required reading 2.pdf]]
+			- **BCS1110 Tutorial**
+				- [[Solution-01-tut.pdf]]
+				- [[Solution-03-tut.pdf]]
+				- [[Tutorial Lecture 1.pdf]]
+				- [[Tutorial Lecture 2.pdf]]
+				- [[Tutorial Sheet 3.pdf]]
+				- [[Tutorial Sheet 4.pdf]]
+				- [[Tutorial Sheet 5.pdf]]
+				- [[Tutorial Sheet 6.pdf]]
+		- **BCS1120**
+			- **BCS1120 Exam papers**
+				- [[E1-2020.pdf]]
+				- [[E1-2020key.pdf]]
+				- [[E1-2021.pdf]]
+				- [[E1-2021key.pdf]]
+				- [[E2-2020.pdf]]
+				- [[E2-2020key.pdf]]
+				- [[E2-2021.pdf]]
+				- [[E2-2021key.pdf]]
+				- [[Exam+2022-2023+KEN1120.pdf]]
+				- [[KEY+Exam+2022-2023+KEN1120.pdf]]
+			- **BCS1120 Homework**
+				- [[M2 Homework.pdf]]
+				- [[M3 Homework.pdf]]
+				- [[M4 Homework.pdf]]
+				- [[M5 Homework.pdf]]
+				- [[M6 Homework.pdf]]
+			- **BCS1120 Lectures**
+				- [[Lecture 1.pdf]]
+				- [[Lecture 2.pdf]]
+				- [[Lecture 3 Conditionals.pdf]]
+				- [[Lecture 4.pdf]]
+				- [[Lecture 5.pdf]]
+				- [[Lecture 6.pdf]]
+				- [[Recap 1.pdf]]
+			- **BCS1120 Quizzes**
+				- [[Quiz 0.pdf]]
+				- [[Quiz 1a.pdf]]
+		- **BCS1130**
+			- **BCS1130**
+				- [[Discrete mathemathics.pdf]]
+				- [[Inventing functions.pdf]]
+				- [[Lecture Notes Chapter 1.pdf]]
+				- [[Lecture Notes Chapter 2.pdf]]
+				- [[Lecture Notes Chapter 3.pdf]]
+				- [[P1 Formula sheet.pdf]]
+			- **Exam prep**
+				- **BCS1130 Exam Prep**
+					- [[Exam 2021-2022.pdf]]
+					- [[Note 22 Oct 2023.pdf]]
+					- [[Practice Exam Questions - Tutorial 1 (1).pdf]]
+					- [[Practice Exam Questions - Tutorial 2 (1).pdf]]
+					- [[Practice Exam Questions - Tutorial 3 (1).pdf]]
+					- [[Practice Exam Questions - Tutorial 4.pdf]]
+					- [[Practice Exam Questions - Tutorial 5 (1).pdf]]
+					- [[Practice Exam Questions - Tutorial 5 (2).pdf]]
+					- [[Practice Exam Questions - Tutorial 5 (3).pdf]]
+					- [[Practice Exam Questions - Tutorial 5.pdf]]
+					- [[Resit 2021-2022.pdf]]
+					- [[Resit 2022-2023.pdf]]
+			- **Week 1**
+				- **BCS1130 W1**
+					- [[Tutorial 1 exercises.pdf]]
+
+%% End Waypoint %%

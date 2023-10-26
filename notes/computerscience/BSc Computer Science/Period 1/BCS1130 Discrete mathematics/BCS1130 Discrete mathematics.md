@@ -21,6 +21,26 @@ None
 
 ## Lectures
 %% Begin Waypoint %%
+- **Exam preparation**
+	- **Exam papers**
+		- [[Exam 2021-2022.pdf]]
+		- [[Resit 2021-2022.pdf]]
+		- [[Resit 2022-2023.pdf]]
+	- **Exam style questions**
+		- [[Practice Exam Questions - Tutorial 1 (1).pdf]]
+		- [[Practice Exam Questions - Tutorial 2 (1).pdf]]
+		- [[Practice Exam Questions - Tutorial 3 (1).pdf]]
+		- [[Practice Exam Questions - Tutorial 4.pdf]]
+		- [[Practice Exam Questions - Tutorial 5.pdf]]
+	- **Solutions**
+		- [[Resit 2022-2023 - Solutions.pdf]]
+		- [[Solutions - Exam 2021-2022-1.pdf]]
+		- [[Solutions - Practice Exam Questions - Tutorial 1.pdf]]
+		- [[Solutions - Practice Exam Questions - Tutorial 2.pdf]]
+		- [[Solutions - Practice Exam Questions - Tutorial 3.pdf]]
+		- [[Solutions - Practice Exam Questions - Tutorial 4.pdf]]
+		- [[Solutions - Practice Exam Questions - Tutorial 5.pdf]]
+		- [[Solutions - Resit 2021-2022.pdf]]
 - **Lecture notes**
 	- [[BCS1130-0 Intro lecture]]
 	- [[BCS1130-1 Propositional logic]]
@@ -45,9 +65,18 @@ None
 	- [[DM-L9 Discrete Mathematics.pdf]]
 	- [[DM-L10 Discrete Mathematics (1)..pdf]]
 	- [[DM-L11 annotated (1)..pdf]]
+	- [[DM-L12.pdf]]
 - **Professor notes**
 	- [[Lecture Notes Chapter 1.pdf]]
 	- [[Lecture Notes Chapter 2.pdf]]
 	- [[Lecture Notes Chapter 3.pdf]]
+- **Solutions**
+	- [[Solutions - Book - Chapter 1.pdf]]
+	- [[Solutions - Book - Chapter 2.pdf]]
+	- [[Solutions - Book - Chapter 3.pdf]]
+	- [[Solutions - Book - Chapter 4.pdf]]
+	- [[Solutions - Lecture Notes - Chapter 1 (1).pdf]]
+	- [[Solutions - Lecture Notes - Chapter 2.pdf]]
+	- [[Solutions - Lecture Notes - Chapter 3.pdf]]
 
 %% End Waypoint %%
