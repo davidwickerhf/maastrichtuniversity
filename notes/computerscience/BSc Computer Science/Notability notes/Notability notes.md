@@ -45,6 +45,8 @@
 				- [[E2-2021key.pdf]]
 				- [[Exam+2022-2023+KEN1120.pdf]]
 				- [[KEY+Exam+2022-2023+KEN1120.pdf]]
+				- [[Note 26 Oct 2023.pdf]]
+				- [[Terminology notes.pdf]]
 			- **BCS1120 Homework**
 				- [[M2 Homework.pdf]]
 				- [[M3 Homework.pdf]]
