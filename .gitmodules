@@ -4,3 +4,6 @@
 [submodule "BCS1300 Project 1-1/pentominoes_phase_1"]
 	path = BCS1300 Project 1-1/pentominoes_phase_1
 	url = https://gitlab.maastrichtuniversity.nl/bcs_group07_2023/pentominoes_phase_1.git
+[submodule "BCS1300 Project 1-1/pentominoes_phase_2"]
+	path = BCS1300 Project 1-1/pentominoes_phase_2
+	url = https://gitlab.maastrichtuniversity.nl/bcs_group07_2023/pentominoes_phase_2.git

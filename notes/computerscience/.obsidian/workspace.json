@@ -4,23 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "c6c6ff0174637db3",
+        "id": "6f531f0e8709b4ae",
         "type": "tabs",
         "children": [
           {
-            "id": "9b8f90d5d6003802",
+            "id": "1fb356e793c53a12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md",
+                "file": "BSc Computer Science/Period 2/BCS1440 Calculus/Lecture notes/BCS1440-1 Functions and Continuity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "48841167266a9a01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BSc Computer Science/Period 2/BCS1440 Calculus/Lecture notes/BCS1440-2 Limits.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "517f445ed48ad1c9",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-notion",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -70,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 282.5,
+    "collapsed": true
   },
   "right": {
     "id": "a723bbc1614aeb40",
@@ -86,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +125,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md"
-              }
+              "state": {}
             }
           },
           {
@@ -183,46 +202,46 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9b8f90d5d6003802",
+  "active": "517f445ed48ad1c9",
   "lastOpenFiles": [
-    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1120/BCS1120 Exam papers/Terminology notes.pdf",
-    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1120/BCS1120 Exam papers/Note 26 Oct 2023.pdf",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lecture slides/tocTwo.pdf",
-    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1120/BCS1120 Quizzes/Quiz 1a.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 2/BCS1440/BCS1440 Homework/H1 & T1 Continuity and limits.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 2/BCS1440/BCS1440 Homework/H1 Solutions.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Assignments/A3.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Assignments/A2.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Assignments/A1.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Assignments",
+    "BSc Computer Science/Notability notes/Year 1/Period 2/BCS1440/BCS1440 Homework/Q0 Introductory quiz.pdf",
+    "BSc Computer Science/Notability notes/Year 1/Period 2/BCS1440/BCS1440 Slides/L2 Limits and Asymptotes.pdf",
+    "BSc Computer Science/Notability notes/BCS1530 Assignments/A3.pdf",
+    "BSc Computer Science/Notability notes/BCS1530 Assignments/A1.pdf",
+    "BSc Computer Science/Notability notes/BCS1530 Assignments/A2.pdf",
+    "BSc Computer Science/Period 2/BCS1440 Calculus/Lecture notes/BCS1440-2 Limits.md",
+    "BSc Computer Science/Period 2/BCS1530 Logic/BCS1530 Logic.md",
+    "BSc Computer Science/Period 2/BCS1440 Calculus/BCS1440 Calculus.md",
+    "BSc Computer Science/Period 2/BCS1220 Objects in programming/BCS1220 Objects in programming.md",
+    "BSc Computer Science/Period 2/BCS1220 Objects in programming/Lecture notes/BCS1220-0 Intro lecture.md",
+    "BSc Computer Science/Period 2/BCS1530 Logic/Lecture notes/BCS1530-1 Propositional Logic.md",
+    "BSc Computer Science/Period 2/BCS1530 Logic/Lecture notes/BCS1530-0 Intro lecture.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-1 Propositional logic.md",
+    "TU Delft Logic.md",
+    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-2 Logic and Proofs.md",
+    "BSc Computer Science/Period 2/BCS1440 Calculus/Lecture notes/BCS1440-0 Intro Lecture.md",
+    "BSc Computer Science/Period 2/BCS1440 Calculus/Lecture notes/BCS1440-1 Functions and Continuity.md",
+    "BSc Computer Science/Period 2/Untitled.md",
+    "BSc Computer Science/Period 1/BCS1120 Procedural programming/Exam papers/2021/E1 Attempt.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-2 Computer Hardware.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-7 Computer Networks.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-6 Theory of Computation (2).md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 5.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 2.md",
-    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Exam prep/Exam contents.pdf",
-    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Required readings/Required reading 1.pdf",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 3.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-5 Theory of Computation.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 4.md",
     "Untitled.md",
-    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Lectures/L9 Security & privacy.pdf",
-    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Lectures/L7 Computer networks.pdf",
-    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Lectures/L5 tok.pdf",
-    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Lectures/L6 tok.pdf",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-4 Command Line and Git.md",
     "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-3 Algorithms and Command Line.md",
-    "BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Lectures/L2 computing hardware.pdf",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Required readings/Notes on required reading 2.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 6.md",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Tutorials/Tutorial 1.md",
     "Attachments/Screenshot 2023-10-23 at 9.06.37 AM.png",
-    "BSc Computer Science/Period 1/BCS1110 Introduction to computer science/Lectures/BCS1110-1 Intro lecture.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-3 Proofs.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-8 Functions.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-9 Function properties.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-11 Combinatorics.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-10 Combinatorics.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-7&8 Relations (1 & 2).md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-6 Set theory.md",
     "Screenshot 2023-10-23 at 9.06.37 AM.png",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-5 Set theory.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-4 Proof by induction.md",
-    "BSc Computer Science/Period 1/BCS1130 Discrete mathematics/Lecture notes/BCS1130-2 Logic and Proofs.md",
     "Attachments/Screenshot 2023-10-21 at 5.27.44 PM.png",
     "Attachments/Pasted image 20231021174334.png",
     "Attachments/Screenshot 2023-10-19 at 10.11.00 PM.png",

@@ -11,8 +11,9 @@
 	- **[[BCS1130 Discrete mathematics]]**
 	- **[[BCS1300 Project 1-1]]**
 - **Period 2**
-	- [[BCS1220 Objects in programming]]
-	- [[BCS1440 Calculus]]
+	- **[[BCS1220 Objects in programming]]**
+	- **[[BCS1440 Calculus]]**
+	- **[[BCS1530 Logic]]**
 
 %% End Waypoint %%
 

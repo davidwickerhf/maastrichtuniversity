@@ -1,4 +1,8 @@
 %% Begin Waypoint %%
+- **BCS1530 Assignments**
+	- [[A1.pdf]]
+	- [[A2.pdf]]
+	- [[A3.pdf]]
 - **Welcome**
 	- [[Getting Started (2).pdf]]
 	- [[Tools 2.pdf]]
@@ -64,6 +68,7 @@
 			- **BCS1120 Quizzes**
 				- [[Quiz 0.pdf]]
 				- [[Quiz 1a.pdf]]
+				- [[Quiz solutions.pdf]]
 		- **BCS1130**
 			- **BCS1130**
 				- [[Discrete mathemathics.pdf]]
@@ -89,5 +94,46 @@
 			- **Week 1**
 				- **BCS1130 W1**
 					- [[Tutorial 1 exercises.pdf]]
+	- **Period 2**
+		- **BCS1120**
+			- **BCS1120 Slides**
+				- [[L1 Intro.pdf]]
+				- [[L1 Part 1.pdf]]
+				- [[L1 Part 2.pdf]]
+		- **BCS1220**
+			- **BCS1220 Slides**
+				- [[L1 Intro.pdf]]
+				- [[L1 Part 1.pdf]]
+				- [[L1 Part 2.pdf]]
+		- **BCS1440**
+			- **BCS1140 Textbooks**
+				- [[Note Oct 30, 2023.pdf]]
+				- [[Robert Calculus.pdf]]
+				- [[Thomas Calculus.pdf]]
+			- **BCS1440 Exam papers**
+				- [[Exam2013_calculus.pdf]]
+				- [[Exam2021_calculus.pdf]]
+			- **BCS1440 Homework**
+				- [[H1 & T1 Continuity and limits.pdf]]
+				- [[H1 Solutions.pdf]]
+				- [[Q0 Introductory quiz.pdf]]
+			- **BCS1440 Notes**
+				- [[Chain Rules Sheet.pdf]]
+				- [[L1 Limits and Continuity.pdf]]
+				- [[L2 Limits.pdf]]
+				- [[ODE Summary Sheet.pdf]]
+			- **BCS1440 Slides**
+				- [[L1 Functions and continuity.pdf]]
+				- [[L2 Limits and Asymptotes.pdf]]
+		- **BCS1530**
+			- **BCS1530 Assignments**
+				- [[A1.pdf]]
+				- [[A2.pdf]]
+				- [[A3.pdf]]
+			- **BCS1530 Notes**
+				- [[Note 1 Nov 2023.pdf]]
+				- [[Note 31 Oct 2023.pdf]]
+			- **BCS1530 Textbooks**
+				- [[Logic in Action.pdf]]
 
 %% End Waypoint %%
