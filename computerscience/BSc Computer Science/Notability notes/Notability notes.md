@@ -1,22 +1,4 @@
 %% Begin Waypoint %%
-- **BCS1220 Exam Prep**
-	- [[Preparation-Exam-2023.pdf]]
-	- [[test+review_TB.pdf]]
-- **BCS1530 Assignments**
-	- [[A1.pdf]]
-	- [[A2.pdf]]
-	- [[A3.pdf]]
-- **BCS1530 Slides**
-	- [[LiA-chp08-predicate+logic+summary.pdf]]
-- **Russian**
-	- [[Textbook.pdf]]
-- **Stappato**
-	- [[Note 3 Nov 2023.pdf]]
-	- [[Note 6 Nov 2023 (2).pdf]]
-	- [[Note 9 Nov 2023.pdf]]
-- **Welcome**
-	- [[Getting Started (2).pdf]]
-	- [[Tools 2.pdf]]
 - **Year 1**
 	- **Period 1**
 		- **BCS1110**
@@ -228,7 +210,7 @@
 	- **Period 4**
 		- **BCS1410 Linear Algebra**
 			- **BCS1410 Exercises**
-				- [[BSc Computer Science/Notability notes/Year 1/Period 4/BCS1410 Linear Algebra/BCS1410 Exercises/Tutorial 1.pdf]]
+				- [[Tutorial 1.pdf]]
 			- **BCS1410 Lectures**
 				- [[L1 Systems of linear equations and Gaussian elimination.pdf]]
 

@@ -1,18 +1,27 @@
-# Quartz v4
+# Maastricht University
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+## BSc in Computer Science
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+This repository contains all of the assignments, projects and quizzes I worked on during my studies at Maastricht University.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+My lecture notes can be found [here](https://notes.wicker.life)
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Contributing to the notes
 
-## Sponsors
+The repository (and notes) are open source, so you can contribute with your notes or suggest changes.
+The [lecture notes](https://notes.wicker.life) are essentially Markdown files contained in [this folder](/notes/computerscience/). All lecture notes include mathematical formulas which are taken with LaTex.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+> You can ignore everything other than the ["computerscience"](/notes/computerscience/) folder inside of the ["notes"](/notes/) folder, as it is only code used to translate the markdownfiles into a NextJS website.
+
+To contribute to the notes and/or assignment submissions:
+
+1. Clone the repository on your local machine
+
+To contribute to the assignment/quizzes
+
+1. Make a merge request with your changes
+
+To contribute to the lecture notes
+
+1. Open the [computerscience](/notes/computerscience/) folder in Obsidian
+2. Make a merge request with your edits and notes
