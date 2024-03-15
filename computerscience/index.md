@@ -1,6 +1,7 @@
 ## BCS Courses
 
 - [[BSc Computer Science|Courses overview and lecture notes]]
+- [Further notes and flash-cards](https://www.remnote.com/a/Courses/65f4531ba28945dcc0913917)
 
 ## Assignments and homework
 
