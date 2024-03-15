@@ -23,7 +23,7 @@ Desired prior knowledge: Basic Java Programming
 
 ## Lectures
 %% Begin Waypoint %%
-- [[9015002824Dlm3QMPh]]
+- [[BCS1220 Objects in programming]]
 - **Exam prep**
 	- [[CS2Notes.pdf]]
 	- [[Preparation-Exam-2023-Answers.doc]]
