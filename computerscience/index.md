@@ -1,5 +1,5 @@
 ---
-title: BSc Computer Science
+title: Notes and coursework
 ---
 ## BCS Courses
 
