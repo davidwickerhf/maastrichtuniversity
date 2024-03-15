@@ -1,0 +1,235 @@
+%% Begin Waypoint %%
+- **BCS1220 Exam Prep**
+	- [[Preparation-Exam-2023.pdf]]
+	- [[test+review_TB.pdf]]
+- **BCS1530 Assignments**
+	- [[A1.pdf]]
+	- [[A2.pdf]]
+	- [[A3.pdf]]
+- **BCS1530 Slides**
+	- [[LiA-chp08-predicate+logic+summary.pdf]]
+- **Russian**
+	- [[Textbook.pdf]]
+- **Stappato**
+	- [[Note 3 Nov 2023.pdf]]
+	- [[Note 6 Nov 2023 (2).pdf]]
+	- [[Note 9 Nov 2023.pdf]]
+- **Welcome**
+	- [[Getting Started (2).pdf]]
+	- [[Tools 2.pdf]]
+- **Year 1**
+	- **Period 1**
+		- **BCS1110**
+			- **BCS1110**
+				- [[Tutorial Lecture 2.pdf]]
+				- [[Tutorial Sheet 3.pdf]]
+				- [[Tutorial Sheet 6.pdf]]
+			- **BCS1110 Exam prep**
+				- [[Exam contents.pdf]]
+				- [[ICS Notes.pdf]]
+				- [[Sample+Paper-2+2023%3A24.pdf]]
+				- [[Sample+Paper+2023%3A24.pdf]]
+			- **BCS1110 Lectures**
+				- [[L1 introduction.pdf]]
+				- [[L2 computing hardware.pdf]]
+				- [[L5 tok.pdf]]
+				- [[L6 tok.pdf]]
+				- [[L7 Computer networks.pdf]]
+				- [[L9 Security & privacy.pdf]]
+			- **BCS1110 Required readings**
+				- [[Required reading 1.pdf]]
+				- [[Required reading 2.pdf]]
+			- **BCS1110 Tutorial**
+				- [[Solution-01-tut.pdf]]
+				- [[Solution-03-tut.pdf]]
+				- [[Tutorial Lecture 1.pdf]]
+				- [[Tutorial Lecture 2.pdf]]
+				- [[Tutorial Sheet 3.pdf]]
+				- [[Tutorial Sheet 4.pdf]]
+				- [[Tutorial Sheet 5.pdf]]
+				- [[Tutorial Sheet 6.pdf]]
+		- **BCS1120**
+			- **BCS1120 Exam papers**
+				- [[E1-2020.pdf]]
+				- [[E1-2020key.pdf]]
+				- [[E1-2021.pdf]]
+				- [[E1-2021key.pdf]]
+				- [[E2-2020.pdf]]
+				- [[E2-2020key.pdf]]
+				- [[E2-2021.pdf]]
+				- [[E2-2021key.pdf]]
+				- [[Exam+2022-2023+KEN1120.pdf]]
+				- [[KEY+Exam+2022-2023+KEN1120.pdf]]
+				- [[Note 26 Oct 2023.pdf]]
+				- [[Terminology notes.pdf]]
+			- **BCS1120 Homework**
+				- [[M2 Homework.pdf]]
+				- [[M3 Homework.pdf]]
+				- [[M4 Homework.pdf]]
+				- [[M5 Homework.pdf]]
+				- [[M6 Homework.pdf]]
+			- **BCS1120 Lectures**
+				- [[Lecture 1.pdf]]
+				- [[Lecture 2.pdf]]
+				- [[Lecture 3 Conditionals.pdf]]
+				- [[Lecture 4.pdf]]
+				- [[Lecture 5.pdf]]
+				- [[Lecture 6.pdf]]
+				- [[Recap 1.pdf]]
+			- **BCS1120 Quizzes**
+				- [[Quiz 0.pdf]]
+				- [[Quiz 1a.pdf]]
+				- [[Quiz solutions.pdf]]
+		- **BCS1130**
+			- **BCS1130**
+				- [[Discrete mathemathics.pdf]]
+				- [[Inventing functions.pdf]]
+				- [[Lecture Notes Chapter 1.pdf]]
+				- [[Lecture Notes Chapter 2.pdf]]
+				- [[Lecture Notes Chapter 3.pdf]]
+				- [[P1 Formula sheet.pdf]]
+			- **Exam prep**
+				- **BCS1130 Exam Prep**
+					- [[DM Exam Solutions.pdf]]
+					- [[Exam 2021-2022.pdf]]
+					- [[Note 10 Jan 2024.pdf]]
+					- [[Note 22 Oct 2023.pdf]]
+					- [[Practice Exam Questions - Tutorial 1 (1).pdf]]
+					- [[Practice Exam Questions - Tutorial 2 (1).pdf]]
+					- [[Practice Exam Questions - Tutorial 3 (1).pdf]]
+					- [[Practice Exam Questions - Tutorial 4.pdf]]
+					- [[Practice Exam Questions - Tutorial 5 (1).pdf]]
+					- [[Practice Exam Questions - Tutorial 5 (2).pdf]]
+					- [[Practice Exam Questions - Tutorial 5 (3).pdf]]
+					- [[Practice Exam Questions - Tutorial 5.pdf]]
+					- [[Resit 2021-2022.pdf]]
+					- [[Resit 2022-2023.pdf]]
+					- [[Resit Prep.pdf]]
+				- **BCS1130 Resit prep**
+					- [[Section 1.pdf]]
+			- **Week 1**
+				- **BCS1130 W1**
+					- [[Tutorial 1 exercises.pdf]]
+	- **Period 2**
+		- **BCS1120**
+			- **BCS1120 Slides**
+				- [[L1 Intro.pdf]]
+				- [[L1 Part 1.pdf]]
+				- [[L1 Part 2.pdf]]
+		- **BCS1220**
+			- **BCS1220 Exam Prep**
+				- [[Exam notes]]
+				- [[Preparation-Exam-2023-Answers.pdf]]
+				- [[Preparation-Exam-2023.pdf]]
+				- [[test review_TB.pdf]]
+				- [[test+review_TB.pdf]]
+			- **BCS1220 Labs**
+				- [[Lab 1.pdf]]
+			- **BCS1220 Slides**
+				- [[L0 Intro.pdf]]
+				- [[L1 Part 1.pdf]]
+				- [[L1 Part 2.pdf]]
+				- [[L2 Interfaces and Polymorphism.pdf]]
+				- [[L3 Inheritance.pdf]]
+				- [[L4 Graphics and Event Handling.pdf]]
+				- [[L5 Advaned User Interfaces.pdf]]
+				- [[L6 Exception Handling and Strams.pdf]]
+				- [[L7 Intro to Python.pdf]]
+		- **BCS1440**
+			- **BCS1140 Otti Notes**
+				- [[L9 ODE Summary.pdf]]
+				- [[L10 Chaim Rule Summary.pdf]]
+				- [[Lecture 3.pdf]]
+				- [[Lecture 4 (2).pdf]]
+				- [[Lecture 5 (2).pdf]]
+				- [[Lecture 7 & 8.pdf]]
+				- [[Lecture 10.pdf]]
+				- [[Lecture 11.pdf]]
+			- **BCS1140 Textbooks**
+				- [[Note Oct 30, 2023.pdf]]
+				- [[Robert Calculus.pdf]]
+				- [[Thomas Calculus.pdf]]
+			- **BCS1440 Exam papers**
+				- [[ca_cheat_sheet.pdf]]
+				- [[Exam2013_calculus.pdf]]
+				- [[Exam2021_calculus.pdf]]
+				- [[Example exam solved (2).pdf]]
+				- [[formula sheet (2).pdf]]
+				- [[Integration.pdf]]
+				- [[mock+exam.pdf]]
+				- [[revision (2).pdf]]
+			- **BCS1440 Homework**
+				- [[Bonus Assignment 1.pdf]]
+				- [[H1 & T1 Continuity and limits.pdf]]
+				- [[H1 Solutions.pdf]]
+				- [[Q0 Introductory quiz.pdf]]
+				- [[T2 Differentiation.pdf]]
+				- [[T3 Applications of Differentiation.pdf]]
+			- **BCS1440 Notes**
+				- [[Chain Rules Sheet.pdf]]
+				- [[Integration techniques .pdf]]
+				- [[Introduction to differential equations.pdf]]
+				- [[L1 Limits and Continuity.pdf]]
+				- [[L2 Limits.pdf]]
+				- [[Note 6 Nov 2023.pdf]]
+				- [[Note 15 Nov 2023 (2).pdf]]
+				- [[ODE Summary Sheet.pdf]]
+			- **BCS1440 Slides**
+				- [[L1 Functions and continuity.pdf]]
+				- [[L2 Limits and Asymptotes.pdf]]
+				- [[L3 Differentiation.pdf]]
+				- [[L4 Applications of Differentiation.pdf]]
+				- [[L5 Integration.pdf]]
+				- [[L6 Integration Techniques.pdf]]
+				- [[L7 Sequences and Series.pdf]]
+				- [[L8 Sequences and Series.pdf]]
+				- [[L9 Differential Equations.pdf]]
+				- [[L10 Intro to Multivariate Calculus.pdf]]
+				- [[L11 Double Integrals.pdf]]
+		- **BCS1530**
+			- **BCS1530 Assignments**
+				- [[A1 (2).pdf]]
+				- [[A1 Answers.pdf]]
+				- [[A1.pdf]]
+				- [[A2 Answers.pdf]]
+				- [[A2.pdf]]
+				- [[A3 Answers.pdf]]
+				- [[A3.pdf]]
+				- [[Example Exam Answers.pdf]]
+				- [[Example Exam.pdf]]
+				- [[Logic+Example+Exam.pdf]]
+			- **BCS1530 Exam Prep**
+				- [[Logic Rule Set.pdf]]
+				- [[Natural Deduction.pdf]]
+			- **BCS1530 Notes**
+				- [[Note 1 Nov 2023.pdf]]
+				- [[Note 9 Nov 2023 (2).pdf]]
+				- [[Note 14 Nov 2023.pdf]]
+				- [[Note 15 Nov 2023.pdf]]
+				- [[Note 22 Nov 2023.pdf]]
+				- [[Note 31 Oct 2023.pdf]]
+			- **BCS1530 Prof Notes**
+				- [[Extra Lecture.pdf]]
+				- [[Lecture 2 (2).pdf]]
+				- [[Lecture 3 (2).pdf]]
+				- [[Lecture 4 (3).pdf]]
+				- [[Lecture 5 (3).pdf]]
+				- [[Lecture 6 (2).pdf]]
+				- [[Lecture 7.pdf]]
+				- [[Lecture 8.pdf]]
+				- [[Lecture 9.pdf]]
+				- [[Predicate Logic Proofs Rules.pdf]]
+			- **BCS1530 Slides**
+				- [[hoare-logic.pdf]]
+				- [[LiA-chp06-summary.pdf]]
+				- [[LiA-chp08-predicate+logic+summary.pdf]]
+			- **BCS1530 Textbooks**
+				- [[Logic in Action.pdf]]
+	- **Period 4**
+		- **BCS1410 Linear Algebra**
+			- **BCS1410 Exercises**
+				- [[BSc Computer Science/Notability notes/Year 1/Period 4/BCS1410 Linear Algebra/BCS1410 Exercises/Tutorial 1.pdf]]
+			- **BCS1410 Lectures**
+				- [[L1 Systems of linear equations and Gaussian elimination.pdf]]
+
+%% End Waypoint %%

@@ -1,0 +1,5 @@
+- **Functionality**
+	- Separates information into packets
+	- Sends and reassembles packets
+	- Ensures information is complete and correct
+- **Packet** → data parcel sent across a network
