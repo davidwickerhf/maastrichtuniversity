@@ -179,7 +179,7 @@ Is the relation transitive? $\forall (x_1, y_1), (x_2, y_2), (x_3, y_3) \in R \t
 ![[DM-L7 (annotated).pdf]]
 
 #### Lecture 8
-![[DM-L8 Discrete Mathematics.pdf]]
+![[Attachments/DM-L8 Discrete Mathematics.pdf]]
 
 #### Extra materials
 ![[Socrative L7.pdf]]

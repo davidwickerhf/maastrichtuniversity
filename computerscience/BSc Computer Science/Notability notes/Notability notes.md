@@ -9,8 +9,8 @@
 			- **BCS1110 Exam prep**
 				- [[Exam contents.pdf]]
 				- [[ICS Notes.pdf]]
-				- [[Sample+Paper-2+2023%3A24.pdf]]
-				- [[Sample+Paper+2023%3A24.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Exam prep/Sample+Paper-2+2023%3A24.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Exam prep/Sample+Paper+2023%3A24.pdf]]
 			- **BCS1110 Lectures**
 				- [[L1 introduction.pdf]]
 				- [[L2 computing hardware.pdf]]
@@ -22,8 +22,8 @@
 				- [[Required reading 1.pdf]]
 				- [[Required reading 2.pdf]]
 			- **BCS1110 Tutorial**
-				- [[Solution-01-tut.pdf]]
-				- [[Solution-03-tut.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Tutorial/Solution-01-tut.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1110/BCS1110 Tutorial/Solution-03-tut.pdf]]
 				- [[Tutorial Lecture 1.pdf]]
 				- [[Tutorial Lecture 2.pdf]]
 				- [[Tutorial Sheet 3.pdf]]
@@ -34,11 +34,11 @@
 			- **BCS1120 Exam papers**
 				- [[E1-2020.pdf]]
 				- [[E1-2020key.pdf]]
-				- [[E1-2021.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1120/BCS1120 Exam papers/E1-2021.pdf]]
 				- [[E1-2021key.pdf]]
 				- [[E2-2020.pdf]]
 				- [[E2-2020key.pdf]]
-				- [[E2-2021.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1120/BCS1120 Exam papers/E2-2021.pdf]]
 				- [[E2-2021key.pdf]]
 				- [[Exam+2022-2023+KEN1120.pdf]]
 				- [[KEY+Exam+2022-2023+KEN1120.pdf]]
@@ -52,11 +52,11 @@
 				- [[M6 Homework.pdf]]
 			- **BCS1120 Lectures**
 				- [[Lecture 1.pdf]]
-				- [[Lecture 2.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1120/BCS1120 Lectures/Lecture 2.pdf]]
 				- [[Lecture 3 Conditionals.pdf]]
-				- [[Lecture 4.pdf]]
-				- [[Lecture 5.pdf]]
-				- [[Lecture 6.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1120/BCS1120 Lectures/Lecture 4.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1120/BCS1120 Lectures/Lecture 5.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1120/BCS1120 Lectures/Lecture 6.pdf]]
 				- [[Recap 1.pdf]]
 			- **BCS1120 Quizzes**
 				- [[Quiz 0.pdf]]
@@ -66,26 +66,26 @@
 			- **BCS1130**
 				- [[Discrete mathemathics.pdf]]
 				- [[Inventing functions.pdf]]
-				- [[Lecture Notes Chapter 1.pdf]]
-				- [[Lecture Notes Chapter 2.pdf]]
-				- [[Lecture Notes Chapter 3.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1130/BCS1130/Lecture Notes Chapter 1.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1130/BCS1130/Lecture Notes Chapter 2.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1130/BCS1130/Lecture Notes Chapter 3.pdf]]
 				- [[P1 Formula sheet.pdf]]
 			- **Exam prep**
 				- **BCS1130 Exam Prep**
 					- [[DM Exam Solutions.pdf]]
-					- [[Exam 2021-2022.pdf]]
+					- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1130/Exam prep/BCS1130 Exam Prep/Exam 2021-2022.pdf]]
 					- [[Note 10 Jan 2024.pdf]]
 					- [[Note 22 Oct 2023.pdf]]
-					- [[Practice Exam Questions - Tutorial 1 (1).pdf]]
-					- [[Practice Exam Questions - Tutorial 2 (1).pdf]]
-					- [[Practice Exam Questions - Tutorial 3 (1).pdf]]
-					- [[Practice Exam Questions - Tutorial 4.pdf]]
+					- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1130/Exam prep/BCS1130 Exam Prep/Practice Exam Questions - Tutorial 1 (1).pdf]]
+					- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1130/Exam prep/BCS1130 Exam Prep/Practice Exam Questions - Tutorial 2 (1).pdf]]
+					- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1130/Exam prep/BCS1130 Exam Prep/Practice Exam Questions - Tutorial 3 (1).pdf]]
+					- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1130/Exam prep/BCS1130 Exam Prep/Practice Exam Questions - Tutorial 4.pdf]]
 					- [[Practice Exam Questions - Tutorial 5 (1).pdf]]
 					- [[Practice Exam Questions - Tutorial 5 (2).pdf]]
 					- [[Practice Exam Questions - Tutorial 5 (3).pdf]]
-					- [[Practice Exam Questions - Tutorial 5.pdf]]
-					- [[Resit 2021-2022.pdf]]
-					- [[Resit 2022-2023.pdf]]
+					- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1130/Exam prep/BCS1130 Exam Prep/Practice Exam Questions - Tutorial 5.pdf]]
+					- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1130/Exam prep/BCS1130 Exam Prep/Resit 2021-2022.pdf]]
+					- [[BSc Computer Science/Notability notes/Year 1/Period 1/BCS1130/Exam prep/BCS1130 Exam Prep/Resit 2022-2023.pdf]]
 					- [[Resit Prep.pdf]]
 				- **BCS1130 Resit prep**
 					- [[Section 1.pdf]]
@@ -121,7 +121,7 @@
 			- **BCS1140 Otti Notes**
 				- [[L9 ODE Summary.pdf]]
 				- [[L10 Chaim Rule Summary.pdf]]
-				- [[Lecture 3.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1440/BCS1140 Otti Notes/Lecture 3.pdf]]
 				- [[Lecture 4 (2).pdf]]
 				- [[Lecture 5 (2).pdf]]
 				- [[Lecture 7 & 8.pdf]]
@@ -129,10 +129,10 @@
 				- [[Lecture 11.pdf]]
 			- **BCS1140 Textbooks**
 				- [[Note Oct 30, 2023.pdf]]
-				- [[Robert Calculus.pdf]]
-				- [[Thomas Calculus.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1440/BCS1140 Textbooks/Robert Calculus.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1440/BCS1140 Textbooks/Thomas Calculus.pdf]]
 			- **BCS1440 Exam papers**
-				- [[ca_cheat_sheet.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1440/BCS1440 Exam papers/ca_cheat_sheet.pdf]]
 				- [[Exam2013_calculus.pdf]]
 				- [[Exam2021_calculus.pdf]]
 				- [[Example exam solved (2).pdf]]
@@ -171,13 +171,13 @@
 		- **BCS1530**
 			- **BCS1530 Assignments**
 				- [[A1 (2).pdf]]
-				- [[A1 Answers.pdf]]
-				- [[A1.pdf]]
-				- [[A2 Answers.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Assignments/A1 Answers.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Assignments/A1.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Assignments/A2 Answers.pdf]]
 				- [[A2.pdf]]
-				- [[A3 Answers.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Assignments/A3 Answers.pdf]]
 				- [[A3.pdf]]
-				- [[Example Exam Answers.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Assignments/Example Exam Answers.pdf]]
 				- [[Example Exam.pdf]]
 				- [[Logic+Example+Exam.pdf]]
 			- **BCS1530 Exam Prep**
@@ -191,26 +191,26 @@
 				- [[Note 22 Nov 2023.pdf]]
 				- [[Note 31 Oct 2023.pdf]]
 			- **BCS1530 Prof Notes**
-				- [[Extra Lecture.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Prof Notes/Extra Lecture.pdf]]
 				- [[Lecture 2 (2).pdf]]
 				- [[Lecture 3 (2).pdf]]
 				- [[Lecture 4 (3).pdf]]
 				- [[Lecture 5 (3).pdf]]
 				- [[Lecture 6 (2).pdf]]
-				- [[Lecture 7.pdf]]
-				- [[Lecture 8.pdf]]
-				- [[Lecture 9.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Prof Notes/Lecture 7.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Prof Notes/Lecture 8.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Prof Notes/Lecture 9.pdf]]
 				- [[Predicate Logic Proofs Rules.pdf]]
 			- **BCS1530 Slides**
-				- [[hoare-logic.pdf]]
-				- [[LiA-chp06-summary.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Slides/hoare-logic.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Slides/LiA-chp06-summary.pdf]]
 				- [[LiA-chp08-predicate+logic+summary.pdf]]
 			- **BCS1530 Textbooks**
-				- [[Logic in Action.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 2/BCS1530/BCS1530 Textbooks/Logic in Action.pdf]]
 	- **Period 4**
 		- **BCS1410 Linear Algebra**
 			- **BCS1410 Exercises**
-				- [[Tutorial 1.pdf]]
+				- [[BSc Computer Science/Notability notes/Year 1/Period 4/BCS1410 Linear Algebra/BCS1410 Exercises/Tutorial 1.pdf]]
 			- **BCS1410 Lectures**
 				- [[L1 Systems of linear equations and Gaussian elimination.pdf]]
 

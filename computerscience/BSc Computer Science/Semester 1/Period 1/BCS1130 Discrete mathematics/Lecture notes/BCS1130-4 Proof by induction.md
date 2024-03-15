@@ -9,7 +9,7 @@ lecture-slides: true
 notes-complete: true
 ---
 ## Lecture slides
-![[DM-L4 Discrete Mathematics.pdf]]
+![[Attachments/DM-L4 Discrete Mathematics.pdf]]
 
 ## Lecture notes
 Can you calculate the sum 1+2+3 + ….+ (n-1) + n (with n a natural number)

@@ -29,7 +29,6 @@ traversal are also part of the course. Furthermore, design principles for algori
 
 ## Lectures and materials
 %% Begin Waypoint %%
-- [[BCS1420 Data Structures and Algorithms]]
 - **Lecture notes**
 	- [[DSA Lecture Notes - Algorithm Analysis -1.pdf]]
 	- [[DSA Lecture Notes - Hash Tables-1.pdf]]

@@ -106,4 +106,4 @@ Tabular representation of the transactions in a deterministic finite automaton
 
 - - - 
 ## Lecture slides
-![[tocTwo.pdf]]
+![[Attachments/tocTwo.pdf]]

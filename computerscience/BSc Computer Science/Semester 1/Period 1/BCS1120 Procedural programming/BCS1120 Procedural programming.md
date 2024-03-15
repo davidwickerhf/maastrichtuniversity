@@ -38,7 +38,6 @@ The course appears as desired prior knowledge for the courses Introduction to O
 		- [[Poker.java]]
 	- **assignment-6**
 		- [[ArrayAssignment.java]]
-- [[BCS1120 Procedural programming]]
 - **Exam papers**
 	- **2021**
 		- [[E1 Attempt]]
