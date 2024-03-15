@@ -22,6 +22,23 @@ The course appears as desired prior knowledge for the courses Introduction to O
 
 ## Lectures
 %% Begin Waypoint %%
+- **assignments**
+	- **assignment-0**
+		- [[HelloWorld.java]]
+	- **assignment-1**
+		- [[NeuroConverter.java]]
+	- **assignment-2**
+		- [[RPSLO.java]]
+	- **assignment-3**
+		- [[CoolNumbers.java]]
+	- **assignment-4**
+		- [[MatrixMult.java]]
+	- **assignment-5**
+		- [[ArrayManipulation.java]]
+		- [[Poker.java]]
+	- **assignment-6**
+		- [[ArrayAssignment.java]]
+- [[BCS1120 Procedural programming]]
 - **Exam papers**
 	- **2021**
 		- [[E1 Attempt]]
@@ -30,6 +47,24 @@ The course appears as desired prior knowledge for the courses Introduction to O
 		- [[E2-2021.pdf]]
 	- **2022**
 		- [[Exam 2022-2023 KEN1120.pdf]]
+- **exam-prep**
+	- [[DiagonalPrint.java]]
+	- [[DigitTransformer.java]]
+	- [[RecursivePrint.java]]
+- **labs**
+	- **lab-1**
+		- [[Game.java]]
+	- **lab-2**
+		- [[Game.java]]
+	- **lab-3**
+		- [[Game.java]]
+- **lecture-exercises**
+	- **evaluation**
+		- [[Lecture2a.java]]
+		- [[Lecture2b.java]]
+		- [[Lecture2d.java]]
+	- **recursion**
+		- [[Lecture6b.java]]
 - **Lectures**
 	- [[BCS1120-0 Intro lecture]]
 	- [[BCS1120-1 Intro to Computing]]
@@ -39,5 +74,8 @@ The course appears as desired prior knowledge for the courses Introduction to O
 	- [[BCS1120-5 Arrays]]
 	- [[BCS1120-6 Recursion]]
 	- [[BCS1120-7 Exam Prep]]
+- **quizzes**
+	- [[Quiz 2.mov]]
+	- [[TestQ2.java]]
 
 %% End Waypoint %%
