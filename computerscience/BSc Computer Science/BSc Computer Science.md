@@ -1,4 +1,6 @@
 ## First year core courses
+Under [[Documents]] you will find the Student Handbook and the  Academic Calendar. 
+
 %% Begin Waypoint %%
 - **[[Concepts]]**
 - **[[Documents]]**
