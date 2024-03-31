@@ -42,4 +42,4 @@ Comparisons have a constant branching factor.   Regardless of the constant (2 or
 - 
 
 ## Key personalities
-- 
+-  

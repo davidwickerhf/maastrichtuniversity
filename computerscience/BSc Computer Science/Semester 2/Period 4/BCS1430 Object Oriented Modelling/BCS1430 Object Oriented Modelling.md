@@ -28,6 +28,7 @@ period:
 	- [[OOM Project Introduction]]
 	- [[OOM Project Overview.pdf]]
 	- [[Phase 1 Report.pdf]]
+	- [[Phase 2 Group 3.pdf]]
 	- [[Phase1Template.docx]]
 	- [[Phase2Template.docx]]
 - **Slides**
@@ -38,6 +39,7 @@ period:
 	- [[W3L1Actual.pdf]]
 	- [[W3L2W4L1Actual.pdf]]
 	- [[W5L1.pdf]]
+	- [[W5L2Final.pdf]]
 - **Tutorials**
 	- [[T1 Tutorial.pdf]]
 	- [[T2 Tutorial.pdf]]

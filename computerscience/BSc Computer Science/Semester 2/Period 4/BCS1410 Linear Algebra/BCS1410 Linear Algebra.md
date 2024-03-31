@@ -29,22 +29,31 @@ None
 - [ ] L6 Determinants, perspective projections
 - [ ] L7 Vector Spaces (part 1) (book: 4.1, 4.2)
 - [ ] L8 Vector Spaces (part 2) (book: 4.3, 4.4, 4.5)
+- [ ] L9 Eigenvalues and Eigenvectors (book: 5.1, 5.2)
+- [ ] L10 Diagonalization (book: 5.2, 5.3)
+- [ ] L11 Orthogonality and Symmetric Matrices (book 6.1, 6.2, 7.1)
+
+## Further materials
+
+```NiftyLinks
+url: https://www.youtube.com/playlist?list=PLl-gb0E4MII03hiCrZa7YqxUMEeEPmZqK
+title: Linear Algebra (Entire Course)
+description: Kimberly Brehm
+favicon: https://www.google.com/favicon.ico
+
+```
+```NiftyLinks
+url: https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+title: Essence of Linear Algebra
+description: 3Blue1Brown Course
+favicon: https://www.google.com/favicon.ico
+
+```
 
 ## Lectures
 %% Begin Waypoint %%
-- **Exercises**
-	- [[Week 1 solutions.pdf]]
-	- [[Week 1]]
-	- [[Week 2 solutions.pdf]]
-	- [[Week 2]]
-	- [[Week 3 solutions.pdf]]
-	- [[Week 3]]
-	- [[Week 4 solutions.pdf]]
-	- [[Week 4]]
-	- [[Week 5 solutions.pdf]]
-	- [[Week 5]]
+- **[[Exercises]]**
 - **Lecture Notes**
-	- [[BCS1410-0 Intro Lecture]]
 	- [[BCS1410-1 Lecture 1.pdf]]
 	- [[BCS1410-2 Lecture 2.pdf]]
 	- [[BCS1410-3 Lecture 3.pdf]]
@@ -54,8 +63,11 @@ None
 	- [[BCS1410-7 Lecture 7.pdf]]
 	- [[BCS1410-8 Lecture 8.pdf]]
 	- [[BCS1410-9 Lecture 9.pdf]]
+	- [[BCS1410-10 Lecture 10.pdf]]
+	- [[BCS1410-11 Lecture 11.pdf]]
+	- [[Further notes]]
+	- [[Summary]]
 - **Practice exam questions**
-	- [[Practice Exam Questions Week 1.pdf]]
 	- [[Week 1 Solutions.pdf]]
 	- [[Week 1.pdf]]
 	- [[Week 2.pdf]]
