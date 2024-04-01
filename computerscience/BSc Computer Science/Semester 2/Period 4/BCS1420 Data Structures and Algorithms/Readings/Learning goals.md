@@ -102,3 +102,48 @@ Readings: [[W5 Readings]]
 ###### Graph theory
 1. Understand the concept of **==graph theory==** and it's relation to computer science and data structures
 - - -
+
+## Week 6
+Readings: [[W6 Readings]]
+###### Tries
+1. Understand the basic concepts of **==trees==** and be able to explain its use in data structures and algorithms.
+2. Be able to **==implement a basic trie in Java==** and understand its time and space complexity.
+3. Understand the concepts of **==prefix tries==** and be able to implement them in Java. Understand their time and space complexity and how they improve over basic tries.
+4. Understand the **==compression of tries==** and how to implement this concept.
+5. Understand the use of tries in various fields such as natural language processing, computer science and bioinformatics.
+6. Be able to apply tries to solve real-world problems and explain their performance.
+7. Understand the basic concepts of **==Trie data structure==** and be able to explain the advantages and disadvantages of Trie data structure.
+8. Be able to implement various **==Trie operations==** such as insertion, deletion, search, and traversal in Java
+9. Understand the time and space complexity of Trie operations and be able to analyse the performance of a given implementation.
+10. Understand the use of Trie in various fields such as text completion, spell checking, IP routing, and DNA sequence analysis.
+###### String Algorithms
+1. Understand the basic concepts of **==pattern matching algorithms==** and be able to explain the advantages and disadvantages of different pattern matching techniques.
+2. Be able to implement the **==brute-force pattern matching==** algorithm in Java and understand its time and space complexity.
+3. Understand the concepts of the **==KMP algorithm==** and be able to implement it in Java. Understand its time and space complexity and how it improves over the brute force algorithm.
+4. Understand the concepts of the **==Boyer-Moore algorithm==** and be able to implement it in Java. Understand its time and space complexity and how it improves over the KMP algorithm.
+5. Understand the use of pattern matching algorithms in various fields such as natural language processing, computer science and bioinformatics.
+6. Be able to apply pattern matching algorithms to solve real-world problems and explain their performance.
+7. Understand the basic concepts of **==string matching algorithm==** and be able to explain the advantages and disadvantages of different string matching techniques.
+8. Understand the time and space complexity of string matching algorithms and be able to analyse the performance of a given implementation.
+###### Algorithmic Methods
+1. Understand the basic concepts of **==greedy algorithms==** and be able to explain the advantages and disadvantages of using greedy algorithms over other problem-solving techniques.
+2. Understand the time and space complexity of greedy algorithms and be able to analyse the performance of a given implementation.
+3. Understand the concept of a greedy choice and be able to identify it in a problem and apply it to solve it.
+4. Understand the concept of optimal substructure and be able to identify it in a problem and apply it to solve it.
+5. Understand the concept of **==greedy versus dynamic programming==** and be able to choose between them based on the problem statement.
+6. Be able to implement a greedy algorithm in a real-world application and explain its performance.
+7. Understand the basic concepts of **==divide-and-conquer==** and be able to explain the advantages and disadvantages of using divide-and-conquer over other problem-solving techniques.
+8. Understand the time and space complexity of divide-and-conquer algorithms and be able to analyze the performance of a given implementation.
+9. Understand the concept of breaking down a problem into smaller subproblems and be able to apply it to solve a problem.
+10. Understand the concept of recursion and how it is used in divide-and-conquer algorithms. 
+11. Understand the concept of merge step and be able to implement it in divide-and-conquer algorithms such as merge sort.
+12. Understand the concept of base case and be able to identify it and implement it in divide-and-conquer algorithms.
+13. Be able to implement a divide-and-conquer algorithm in a real-world application and explain its performance.
+14. Understand the basic concepts of dynamic programming and be able to explain the advantages and disadvantages of using dynamic programming over other problem-solving techniques.
+15. Understand the time and space complexity of dynamic programming algorithms and be able to analyse the performance of a given implementation.
+16. Understand the concept of overlapping subproblems and be able to identify it in a problem and apply dynamic programming to solve it.
+17. Understand the concept of optimal substructure and be able to identify it in a problem and apply dynamic programming to solve it.
+18. Understand the concept of memoization and be able to implement it in dynamic programming algorithms.
+19. Understand the concept of tabulation and be able to implement it in dynamic programming algorithms
+20. Understand the use of dynamic programming in various fields such as operations research, computer science, and mathematics.
+21. Be able to implement a dynamic programming algorithm in a real-world application and explain its performance.

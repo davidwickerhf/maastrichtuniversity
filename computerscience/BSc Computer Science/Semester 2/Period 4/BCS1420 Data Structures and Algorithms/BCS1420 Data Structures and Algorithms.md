@@ -45,6 +45,7 @@ traversal are also part of the course. Furthermore, design principles for algori
 	- [[W3 Readings]]
 	- [[W4 Readings]]
 	- [[W5 Readings]]
+	- [[W6 Readings]]
 - **Slides**
 	- [[Introduction24.pdf]]
 	- [[OOP in Java-1.pdf]]

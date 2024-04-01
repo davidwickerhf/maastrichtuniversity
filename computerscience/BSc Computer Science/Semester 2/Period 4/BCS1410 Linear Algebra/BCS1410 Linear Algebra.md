@@ -65,6 +65,7 @@ favicon: https://www.google.com/favicon.ico
 	- [[BCS1410-9 Lecture 9.pdf]]
 	- [[BCS1410-10 Lecture 10.pdf]]
 	- [[BCS1410-11 Lecture 11.pdf]]
+	- [[Full notes]]
 	- [[Further notes]]
 	- [[Summary]]
 - **Practice exam questions**
@@ -74,6 +75,15 @@ favicon: https://www.google.com/favicon.ico
 	- [[Week 3.pdf]]
 	- [[Week 4.pdf]]
 	- [[Week 5.pdf]]
+- **Practice exams**
+	- [[Exam 2021-2022 - Solutions.pdf]]
+	- [[Exam 2021-2022.pdf]]
+	- [[Exam 2022-2023 - Solutions.pdf]]
+	- [[Exam 2022-2023.pdf]]
+	- [[Resit 2021-2022 - Solutions.pdf]]
+	- [[Resit 2021-2022.pdf]]
+	- [[Resit 2022-2023 - Solutions.pdf]]
+	- [[Resit 2022-2023.pdf]]
 - **Textbook**
 	- [[Linear Algebra.pdf]]
 

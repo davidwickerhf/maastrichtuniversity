@@ -129,3 +129,58 @@ $$
 
 The vertical line in the augmented matrix separates the coefficients of the variables (on the left) from the constants (on the right), visually distinguishing the parts of the system of equations.
 - - - 
+#### Span
+In the context of Systems of Linear Equations (SLEs), the term "span" refers to the concept of spanning sets from linear algebra. Specifically, it describes the set of all possible vectors that can be created by taking linear combinations of a given set of vectors. In the context of SLEs, these vectors usually represent the columns of the coefficient matrix associated with the system.
+##### Definition
+Given a set of vectors $v_1, v_2, ..., v_n$ in a vector space $V$, the span of these vectors, denoted as $\text{Span}(v_1, v_2, ..., v_n)$, is the set of all vectors that can be formed by linear combinations of $v_1, v_2, ..., v_n$. A linear combination of these vectors can be written as $c_1v_1 + c_2v_2 + ... + c_nv_n$, where $c_1, c_2, ..., c_n$ are scalars.
+##### Span in SLEs
+In the context of an SLE represented as $Ax = b$, where $A$ is the coefficient matrix, $x$ is the vector of variables, and $b$ is the vector of constants:
+
+- The columns of $A$ represent the vectors.
+- The span of these column vectors determines the set of all possible outcomes ($b$ vectors) that can be achieved through the system of linear equations.
+- If $b$ is in the span of the columns of $A$, the system has at least one solution.
+- The concept of span is closely related to the idea of the column space of $A$, which is the span of its column vectors.
+##### Importance
+The span of the column vectors in $A$ tells us about the solutions of the SLE:
+- **Consistency:** If the vector $b$ is within the span of the columns of $A$, the system is consistent (it has at least one solution).
+- **Inconsistency:** If $b$ is not in the span, the system is inconsistent (no solution exists).
+- **Dimensionality of Solutions:** The dimension of the span (or the column space) of $A$ can indicate the number of linearly independent directions in which solutions to the system can vary, affecting the number and type of solutions (unique, infinite, or none).
+
+#### Example of finding the Span
+Let's consider a system of linear equations (SLE) and illustrate how the concept of span relates to finding solutions.
+###### System of Linear Equations Example
+Consider the following system of linear equations:
+
+1. $2x + y = 5$
+2. $4x + 2y = 10$
+
+These equations can be represented in matrix form as $Ax = b$, where
+
+$$
+A = \begin{pmatrix}
+2 & 1 \\
+4 & 2 \\
+\end{pmatrix}, \quad
+x = \begin{pmatrix}
+x \\
+y \\
+\end{pmatrix}, \quad
+b = \begin{pmatrix}
+5 \\
+10 \\
+\end{pmatrix}
+$$
+###### Column Vectors of A
+The matrix $A$ has two column vectors:
+
+- $v_1 = \begin{pmatrix} 2 \\ 4 \end{pmatrix}$
+- $v_2 = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$
+###### Span of the Column Vectors
+The span of these vectors, $\text{Span}(v_1, v_2)$, represents all linear combinations of $v_1$ and $v_2$. However, if you look closely, you'll notice that $v_2$ is just $v_1$ scaled by a factor of $\frac{1}{2}$. Therefore, $v_1$ and $v_2$ are linearly dependent, and the span of these vectors is essentially all vectors along the line defined by $v_1$ (or $v_2$).
+###### Solution to the SLE
+- By inspecting the system, we see that the second equation is just the first equation multiplied by 2. This redundancy means our system doesn't span the entire plane of $\mathbb{R}^2$ but rather a line.
+- The vector $b = \begin{pmatrix} 5 \\ 10 \end{pmatrix}$ is exactly two times the vector $\begin{pmatrix} 2.5 \\ 5 \end{pmatrix}$, which can be obtained from the equation $2x + y = 5$ by choosing $x = 2.5$ and $y = 0$.
+- Since $b$ is on the line spanned by $v_1$ and $v_2$, it means the system has solutions, and in this case, an infinite number of solutions because the system is underdetermined (the equations are linearly dependent).
+###### Geometric Interpretation
+Geometrically, both equations represent the same line in $\mathbb{R}^2$. Any point $(x, y)$ on this line is a solution to the system. The span of the column vectors of $A$ (the line) includes the vector $b$, which confirms that solutions exist.
+
