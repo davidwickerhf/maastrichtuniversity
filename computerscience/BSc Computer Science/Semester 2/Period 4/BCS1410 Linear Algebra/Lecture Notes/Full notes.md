@@ -175,12 +175,99 @@ Consider $A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$
 - - - 
 
 #### L8 More about vector spaces
+[[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-11 Lecture 11.pdf|BCS1410-11 Lecture 11]]
+###### Key Concepts:
+- **Basis and Dimension**: Fundamental concepts for understanding vector spaces, including how to construct a vector space and the minimum number of vectors needed for its basis.
+- **Nul(A), Col(A), and Row(A)**: Essential subspaces associated with any matrix $A$, representing the null space, column space, and row space, respectively.
+###### Formulas and Definitions:
+- **Basis of a Vector Space**: A set of vectors in a vector space $V$ that is linearly independent and spans $V$. The number of vectors in a basis is the dimension of $V$, denoted as $\text{dim}(V)$.
+- **Null Space (Nul A)**: The set of all vectors $\mathbf{x}$ such that $A\mathbf{x}=\mathbf{0}$. A basis for $\text{Nul}(A)$ can be found by solving $A\mathbf{x}=\mathbf{0}$ and expressing the solution set in vector form.
+- **Column Space (Col A)**: The set of all linear combinations of the columns of $A$. A basis for $\text{Col}(A)$ can be found from the pivot columns of $A$ in its reduced echelon form.
+- **Row Space (Row A)**: The set of all linear combinations of the rows of $A$. A basis for $\text{Row}(A)$ corresponds to the non-zero rows in the reduced echelon form of $A$.
+###### Examples:
+- **Basis for $\mathbb{R}^3$**: The standard basis is $\{\begin{pmatrix}1 \\ 0 \\ 0\end{pmatrix}, \begin{pmatrix}0 \\ 1 \\ 0\end{pmatrix}, \begin{pmatrix}0 \\ 0 \\ 1\end{pmatrix}\}$.
+- **Basis for a Polynomial Space $P_n$**: The set of polynomials of degree at most $n$ has a basis of $\{1, x, x^2, \ldots, x^n\}$.
+- **Subspaces**: For any matrix $A$, $\text{Nul}(A)$, $\text{Col}(A)$, and $\text{Row}(A)$ are subspaces of appropriate $\mathbb{R}^n$ or $\mathbb{R}^m$ spaces, with dimensions giving key insights into the properties of $A$.
+###### Important Theorems and Proofs:
+- **Invertible Matrix Theorem**: Connects the concept of an invertible matrix with properties like being row equivalent to the identity matrix, having a non-zero determinant, and the absence of free variables for uniqueness of solutions to systems of linear equations.
+- **Subspace Criterion**: A subset $W$ of a vector space $V$ is a subspace if and only if it is non-empty, closed under vector addition and scalar multiplication, and contains the zero vector.
+
 - - - 
 
 #### L9 Eigenvalues and Eigenvectors
+[[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-11 Lecture 11.pdf|BCS1410-11 Lecture 11]]
+###### Key Concepts:
+- **Eigenvalues and Eigenvectors**: Fundamental concepts in linear algebra that describe vectors that only change by a scalar factor when a linear transformation is applied.
+- **Characteristic Polynomial**: A polynomial that is instrumental in finding the eigenvalues of a matrix.
+###### Formulas and Definitions:
+- **Eigenvalue and Eigenvector Definition**: For a square matrix $A$, a scalar $\lambda$ is an eigenvalue if there exists a non-zero vector $\mathbf{v}$ such that $A\mathbf{v} = \lambda\mathbf{v}$. The vector $\mathbf{v}$ is called an eigenvector corresponding to $\lambda$.
+- **Characteristic Polynomial**: Given by $\text{det}(A - \lambda I) = 0$, where $I$ is the identity matrix of the same size as $A$. Solving this equation for $\lambda$ gives the eigenvalues of $A$.
+- **Eigenspace**: The set of all eigenvectors corresponding to a particular eigenvalue $\lambda$, along with the zero vector, forms a subspace related to $A$ called the eigenspace of $\lambda$.
+###### Examples:
+- **Finding Eigenvalues**: For matrix $A$, solve $\text{det}(A - \lambda I) = 0$ to find eigenvalues $\lambda$.
+- **Finding Eigenvectors**: Once eigenvalues $\lambda$ are known, solve $(A - \lambda I)\mathbf{v} = \mathbf{0}$ to find the corresponding eigenvectors $\mathbf{v}$.
+###### Important Theorems and Proofs:
+- **Invertibility and Eigenvalues**: A matrix $A$ is invertible if and only if $0$ is not an eigenvalue of $A$.
+- **Trace and Determinant**: The trace of $A$, denoted $\text{tr}(A)$, is the sum of eigenvalues of $A$, and the determinant of $A$, $\text{det}(A)$, is the product of its eigenvalues.
+###### Concrete examples
+*To illustrate the process of finding eigenvalues and eigenvectors, let's go through a detailed example with a 2x2 matrix. This process involves two main steps: finding the eigenvalues and then finding the eigenvectors corresponding to those eigenvalues.*
+-  **==Step 1: Finding Eigenvalues==**
+Consider the matrix $A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$.
+
+1. **Determine the characteristic equation** by calculating the determinant of $A - \lambda I$, where $I$ is the identity matrix, and $\lambda$ represents the eigenvalues of $A$.
+   
+   $$\text{det}(A - \lambda I) = \text{det}\left(\begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\ 0 & \lambda \end{pmatrix}\right) = \text{det}\begin{pmatrix} 4-\lambda & 1 \\ 2 & 3-\lambda \end{pmatrix}$$
+
+   $$= (4-\lambda)(3-\lambda) - (2)(1) = \lambda^2 - 7\lambda + 10 = 0$$
+2. **Solve the characteristic equation** for $\lambda$.
+
+   $$\lambda^2 - 7\lambda + 10 = 0$$
+   The solutions to this quadratic equation are the eigenvalues. In this case, $\lambda_1 = 2$ and $\lambda_2 = 5$.
+
+-  ==**Step 2: Finding Eigenvectors**==
+Once the eigenvalues are determined, we find the eigenvectors by solving $(A - \lambda I)\mathbf{v} = \mathbf{0}$ for each eigenvalue.
+-  **For $\lambda_1 = 2$:**
+1. Substitute $\lambda_1$ into the equation and solve for $\mathbf{v}$.
+
+   $$\begin{pmatrix} 4-2 & 1 \\ 2 & 3-2 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+
+   $$\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+
+2. Solving this system, we find that $x = -y$. We can choose $y = 1$, so an eigenvector corresponding to $\lambda_1 = 2$ is $\mathbf{v}_1 = \begin{pmatrix} -1 \\ 1 \end{pmatrix}$.
+-  **For $\lambda_2 = 5$:**
+1. Substitute $\lambda_2$ into the equation and solve for $\mathbf{v}$.
+
+   $$\begin{pmatrix} 4-5 & 1 \\ 2 & 3-5 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+
+   $$\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+
+1. Solving this system, we find that $x = y$. Choosing $x = 1$, an eigenvector corresponding to $\lambda_2 = 5$ is $\mathbf{v}_2 = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
+
 - - - 
 
 #### L10 Diagonalization
+[[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-11 Lecture 11.pdf|BCS1410-11 Lecture 11]]
+###### Key Concepts:
+- **Diagonalization**: A matrix $A$ is diagonalizable if it is similar to a diagonal matrix, meaning there exists an invertible matrix $P$ such that $P^{-1}AP$ is a diagonal matrix.
+- **Eigenvalues and Eigenvectors**: Essential for the process of diagonalization, where eigenvalues populate the diagonal of the diagonal matrix, and eigenvectors form the columns of matrix $P$.
+###### Formulas and Definitions:
+- **Diagonal Matrix**: A square matrix in which the entries outside the main diagonal are all zero. The main diagonal can contain any scalar, including the eigenvalues of $A$.
+- **Similar Matrices**: Two matrices $A$ and $B$ are similar if $B = P^{-1}AP$, where $P$ is an invertible matrix.
+- **Theorem on Eigenvalues**: Similar matrices have the same eigenvalues.
+###### Examples:
+- **Diagonalization Process**:
+    1. **Find Eigenvalues**: Solve $\text{det}(A - \lambda I) = 0$ for $\lambda$ to find the eigenvalues of $A$.
+    2. **Find Eigenvectors**: For each eigenvalue $\lambda$, solve $(A - \lambda I)\mathbf{x} = \mathbf{0}$ to find the corresponding eigenvectors.
+    3. **Form Matrix $P$**: Assemble a matrix $P$ using the eigenvectors as columns.
+    4. **Compute $P^{-1}AP$**: The result is a diagonal matrix $D$ with eigenvalues on the diagonal.
+- **Example with Specific Matrix**:
+    - Given $A = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$, find eigenvalues $\lambda_1 = 3$ and $\lambda_2 = 1$, and corresponding eigenvectors $\mathbf{v}_1 = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$ and $\mathbf{v}_2 = \begin{pmatrix} -1 \\ 1 \end{pmatrix}$. Matrix $P$ is $\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}$, and $P^{-1}AP = \begin{pmatrix} 3 & 0 \\ 0 & 1 \end{pmatrix}$.
+###### Important Theorems and Proofs:
+- **Diagonalizability Criteria**: A matrix $A$ is diagonalizable if it has $n$ linearly independent eigenvectors. If $A$ has $n$ distinct eigenvalues, it is automatically diagonalizable.
+###### Applications:
+- **Solving Differential Equations**: Diagonalization simplifies the process of solving systems of linear differential equations.
+- **Efficient Computation**: Powers of matrices can be easily computed when the matrix is diagonalizable.
+
 - - - 
 
 #### L11 Orthogonality and symmetric matrices

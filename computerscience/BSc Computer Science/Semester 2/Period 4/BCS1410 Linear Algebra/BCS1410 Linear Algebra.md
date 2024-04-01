@@ -67,7 +67,6 @@ favicon: https://www.google.com/favicon.ico
 	- [[BCS1410-11 Lecture 11.pdf]]
 	- [[Full notes]]
 	- [[Further notes]]
-	- [[Summary]]
 - **Practice exam questions**
 	- [[Week 1 Solutions.pdf]]
 	- [[Week 1.pdf]]
