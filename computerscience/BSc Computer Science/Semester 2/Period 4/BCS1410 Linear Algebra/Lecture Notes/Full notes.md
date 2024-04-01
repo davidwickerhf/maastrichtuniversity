@@ -1,4 +1,4 @@
-#### L1 Systems of linear equations, Gaussian elimination
+## L1 Systems of linear equations, Gaussian elimination
 [[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-1 Lecture 1.pdf|BCS1410-1 Lecture 1]]
 ###### Key Concepts:
 - **Systems of Linear Equations**: Solutions of sets of equations that work for all equations within the set, representing lines in $\mathbb{R}^2$.
@@ -19,7 +19,7 @@
 - **Reduced Row Echelon Form (RREF)**: A further refinement of REF, where each leading entry is the only non-zero entry in its column, making it unique for a matrix.
 
 - - - 
-#### L2 Vector and matrix equations
+## L2 Vector and matrix equations
 [[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-2 Lecture 2.pdf|BCS1410-2 Lecture 2]]
 ###### Key Concepts:
 - **Matrix Equations**: Viewed as a column perspective to an SLE, especially useful in applications like machine learning where columns represent features.
@@ -37,7 +37,7 @@
 
 - - - 
 
-#### L3 Solution sets, linear independence
+## L3 Solution sets, linear independence
 [[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-3 Lecture 3.pdf|BCS1410-3 Lecture 3]]
 ###### Key Concepts:
 - **Homogeneous SLE**: An SLE of the form $Ax=0$ is always consistent because it has at least the trivial solution (all zeros).
@@ -56,7 +56,7 @@
 
 - - - 
 
-#### L4 Linear transformations, matrix algebra
+## L4 Linear transformations, matrix algebra
 [[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-4 Lecture 4.pdf|BCS1410-4 Lecture 4]]
 ###### Key Concepts:
 - **Matrix Algebra and Transformations**: Focus on linear transformations and their representation through matrices.
@@ -76,7 +76,7 @@
 
 - - - 
 
-#### L5 Perspective projections, inverse of matrices
+## L5 Perspective projections, inverse of matrices
 [[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-5 Lecture 5.pdf|BCS1410-5 Lecture 5]]
 ###### Key Concepts:
 - **Inverse of a Matrix**: The concept of an inverse matrix is crucial for solving systems of linear equations, among other applications.
@@ -95,7 +95,7 @@
 
 - - -
 
-#### L6 Determinants
+## L6 Determinants
 [[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-6 Lecture 6.pdf|BCS1410-6 Lecture 6]]
 ###### Key Concepts:
 - **Inverse Matrix and Cryptography**: Explores the application of inverse matrices in cryptography, such as the Hill cipher algorithm.
@@ -156,7 +156,7 @@ Consider $A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$
 ![[Screenshot 2024-04-01 at 13.28.34.png]]
 - - - 
 
-#### L7 Vector spaces
+## L7 Vector spaces
 [[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-7 Lecture 7.pdf|BCS1410-7 Lecture 7]]
 ###### Key Concepts:
 - **Vector Spaces**: Fundamental concept in linear algebra, encompassing sets of vectors in any dimension, including functions, polynomials, and more.
@@ -174,7 +174,7 @@ Consider $A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$
 
 - - - 
 
-#### L8 More about vector spaces
+## L8 More about vector spaces
 [[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-11 Lecture 11.pdf|BCS1410-11 Lecture 11]]
 ###### Key Concepts:
 - **Basis and Dimension**: Fundamental concepts for understanding vector spaces, including how to construct a vector space and the minimum number of vectors needed for its basis.
@@ -194,7 +194,7 @@ Consider $A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$
 
 - - - 
 
-#### L9 Eigenvalues and Eigenvectors
+## L9 Eigenvalues and Eigenvectors
 [[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-11 Lecture 11.pdf|BCS1410-11 Lecture 11]]
 ###### Key Concepts:
 - **Eigenvalues and Eigenvectors**: Fundamental concepts in linear algebra that describe vectors that only change by a scalar factor when a linear transformation is applied.
@@ -245,7 +245,7 @@ Once the eigenvalues are determined, we find the eigenvectors by solving $(A - \
 
 - - - 
 
-#### L10 Diagonalization
+## L10 Diagonalization
 [[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-11 Lecture 11.pdf|BCS1410-11 Lecture 11]]
 ###### Key Concepts:
 - **Diagonalization**: A matrix $A$ is diagonalizable if it is similar to a diagonal matrix, meaning there exists an invertible matrix $P$ such that $P^{-1}AP$ is a diagonal matrix.
@@ -270,7 +270,7 @@ Once the eigenvalues are determined, we find the eigenvectors by solving $(A - \
 
 - - - 
 
-#### L11 Orthogonality and symmetric matrices
+## L11 Orthogonality and symmetric matrices
 [[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Lecture Notes/BCS1410-11 Lecture 11.pdf|BCS1410-11 Lecture 11]]
 ###### Key Concepts:
 - **Symmetric Matrices**: A central topic of the lecture, where the matrix is equal to its transpose, i.e., $A = A^T$.

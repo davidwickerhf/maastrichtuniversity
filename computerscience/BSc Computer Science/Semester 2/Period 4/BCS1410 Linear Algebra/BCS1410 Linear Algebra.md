@@ -65,6 +65,7 @@ favicon: https://www.google.com/favicon.ico
 	- [[BCS1410-9 Lecture 9.pdf]]
 	- [[BCS1410-10 Lecture 10.pdf]]
 	- [[BCS1410-11 Lecture 11.pdf]]
+	- [[Exam prep]]
 	- [[Full notes]]
 	- [[Further notes]]
 - **Practice exam questions**
