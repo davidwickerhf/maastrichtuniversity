@@ -275,7 +275,7 @@ Consider $A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$
 - **Trace and Determinant**: The trace of $A$, denoted $\text{tr}(A)$, is the sum of eigenvalues of $A$, and the determinant of $A$, $\text{det}(A)$, is the product of its eigenvalues.
 #### Concrete examples
 *To illustrate the process of finding eigenvalues and eigenvectors, let's go through a detailed example with a 2x2 matrix. This process involves two main steps: finding the eigenvalues and then finding the eigenvectors corresponding to those eigenvalues.*
--  **==Step 1: Finding Eigenvalues==**
+###### ==Step 1: Finding Eigenvalues==
 Consider the matrix $A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$.
 
 1. **Determine the characteristic equation** by calculating the determinant of $A - \lambda I$, where $I$ is the identity matrix, and $\lambda$ represents the eigenvalues of $A$.
@@ -288,24 +288,21 @@ Consider the matrix $A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$.
    $$\lambda^2 - 7\lambda + 10 = 0$$
    The solutions to this quadratic equation are the eigenvalues. In this case, $\lambda_1 = 2$ and $\lambda_2 = 5$.
 
--  ==**Step 2: Finding Eigenvectors**==
+###### ==Step 2: Finding Eigenvectors==
 Once the eigenvalues are determined, we find the eigenvectors by solving $(A - \lambda I)\mathbf{v} = \mathbf{0}$ for each eigenvalue.
 -  **For $\lambda_1 = 2$:**
-1. Substitute $\lambda_1$ into the equation and solve for $\mathbf{v}$.
+	1. Substitute $\lambda_1$ into the equation and solve for $\mathbf{v}$.
 
    $$\begin{pmatrix} 4-2 & 1 \\ 2 & 3-2 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
 
    $$\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
 
-2. Solving this system, we find that $x = -y$. We can choose $y = 1$, so an eigenvector corresponding to $\lambda_1 = 2$ is $\mathbf{v}_1 = \begin{pmatrix} -1 \\ 1 \end{pmatrix}$.
+	1. Solving this system, we find that $x = -y$. We can choose $y = 1$, so an eigenvector corresponding to $\lambda_1 = 2$ is $\mathbf{v}_1 = \begin{pmatrix} -1 \\ 1 \end{pmatrix}$.
 -  **For $\lambda_2 = 5$:**
-1. Substitute $\lambda_2$ into the equation and solve for $\mathbf{v}$.
-
-   $$\begin{pmatrix} 4-5 & 1 \\ 2 & 3-5 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
-
-   $$\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
-
-1. Solving this system, we find that $x = y$. Choosing $x = 1$, an eigenvector corresponding to $\lambda_2 = 5$ is $\mathbf{v}_2 = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
+	1. Substitute $\lambda_2$ into the equation and solve for $\mathbf{v}$.
+	   $$\begin{pmatrix} 4-5 & 1 \\ 2 & 3-5 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+	$$\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+	1. Solving this system, we find that $x = y$. Choosing $x = 1$, an eigenvector corresponding to $\lambda_2 = 5$ is $\mathbf{v}_2 = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
 - - - 
 
