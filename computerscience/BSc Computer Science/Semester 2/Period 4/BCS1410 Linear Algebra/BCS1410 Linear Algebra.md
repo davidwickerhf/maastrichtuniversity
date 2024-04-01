@@ -52,40 +52,40 @@ favicon: https://www.google.com/favicon.ico
 
 ## Lectures
 %% Begin Waypoint %%
-- **[Exercises](./Exercises/Exercises.md)**
+- **[[Exercises]]**
 - **Lecture Notes**
-	- [BCS1410-1 Lecture 1.pdf](./Lecture%20Notes/BCS1410-1%20Lecture%201.pdf)
-	- [BCS1410-2 Lecture 2.pdf](./Lecture%20Notes/BCS1410-2%20Lecture%202.pdf)
-	- [BCS1410-3 Lecture 3.pdf](./Lecture%20Notes/BCS1410-3%20Lecture%203.pdf)
-	- [BCS1410-4 Lecture 4.pdf](./Lecture%20Notes/BCS1410-4%20Lecture%204.pdf)
-	- [BCS1410-5 Lecture 5.pdf](./Lecture%20Notes/BCS1410-5%20Lecture%205.pdf)
-	- [BCS1410-6 Lecture 6.pdf](./Lecture%20Notes/BCS1410-6%20Lecture%206.pdf)
-	- [BCS1410-7 Lecture 7.pdf](./Lecture%20Notes/BCS1410-7%20Lecture%207.pdf)
-	- [BCS1410-8 Lecture 8.pdf](./Lecture%20Notes/BCS1410-8%20Lecture%208.pdf)
-	- [BCS1410-9 Lecture 9.pdf](./Lecture%20Notes/BCS1410-9%20Lecture%209.pdf)
-	- [BCS1410-10 Lecture 10.pdf](./Lecture%20Notes/BCS1410-10%20Lecture%2010.pdf)
-	- [BCS1410-11 Lecture 11.pdf](./Lecture%20Notes/BCS1410-11%20Lecture%2011.pdf)
-	- [Exam prep](./Lecture%20Notes/Exam%20prep.md)
-	- [Full notes](./Lecture%20Notes/Full%20notes.md)
-	- [Full notes.pdf](./Lecture%20Notes/Full%20notes.pdf)
-	- [Further notes](./Lecture%20Notes/Further%20notes.md)
+	- [[BCS1410-1 Lecture 1.pdf]]
+	- [[BCS1410-2 Lecture 2.pdf]]
+	- [[BCS1410-3 Lecture 3.pdf]]
+	- [[BCS1410-4 Lecture 4.pdf]]
+	- [[BCS1410-5 Lecture 5.pdf]]
+	- [[BCS1410-6 Lecture 6.pdf]]
+	- [[BCS1410-7 Lecture 7.pdf]]
+	- [[BCS1410-8 Lecture 8.pdf]]
+	- [[BCS1410-9 Lecture 9.pdf]]
+	- [[BCS1410-10 Lecture 10.pdf]]
+	- [[BCS1410-11 Lecture 11.pdf]]
+	- [[Exam prep]]
+	- [[Full notes]]
+	- [[Full notes.pdf]]
+	- [[Further notes]]
 - **Practice exam questions**
-	- [Week 1 Solutions.pdf](./Practice%20exam%20questions/Week%201%20Solutions.pdf)
-	- [Week 1.pdf](./Practice%20exam%20questions/Week%201.pdf)
-	- [Week 2.pdf](./Practice%20exam%20questions/Week%202.pdf)
-	- [Week 3.pdf](./Practice%20exam%20questions/Week%203.pdf)
-	- [Week 4.pdf](./Practice%20exam%20questions/Week%204.pdf)
-	- [Week 5.pdf](./Practice%20exam%20questions/Week%205.pdf)
+	- [[Week 1 Solutions.pdf]]
+	- [[Week 1.pdf]]
+	- [[Week 2.pdf]]
+	- [[Week 3.pdf]]
+	- [[Week 4.pdf]]
+	- [[Week 5.pdf]]
 - **Practice exams**
-	- [Exam 2021-2022 - Solutions.pdf](./Practice%20exams/Exam%202021-2022%20-%20Solutions.pdf)
-	- [Exam 2021-2022.pdf](./Practice%20exams/Exam%202021-2022.pdf)
-	- [Exam 2022-2023 - Solutions.pdf](./Practice%20exams/Exam%202022-2023%20-%20Solutions.pdf)
-	- [Exam 2022-2023.pdf](./Practice%20exams/Exam%202022-2023.pdf)
-	- [Resit 2021-2022 - Solutions.pdf](./Practice%20exams/Resit%202021-2022%20-%20Solutions.pdf)
-	- [Resit 2021-2022.pdf](./Practice%20exams/Resit%202021-2022.pdf)
-	- [Resit 2022-2023 - Solutions.pdf](./Practice%20exams/Resit%202022-2023%20-%20Solutions.pdf)
-	- [Resit 2022-2023.pdf](./Practice%20exams/Resit%202022-2023.pdf)
+	- [[Exam 2021-2022 - Solutions.pdf]]
+	- [[Exam 2021-2022.pdf]]
+	- [[Exam 2022-2023 - Solutions.pdf]]
+	- [[Exam 2022-2023.pdf]]
+	- [[Resit 2021-2022 - Solutions.pdf]]
+	- [[Resit 2021-2022.pdf]]
+	- [[Resit 2022-2023 - Solutions.pdf]]
+	- [[Resit 2022-2023.pdf]]
 - **Textbook**
-	- [Linear Algebra.pdf](./Textbook/Linear%20Algebra.pdf)
+	- [[Linear Algebra.pdf]]
 
 %% End Waypoint %%
