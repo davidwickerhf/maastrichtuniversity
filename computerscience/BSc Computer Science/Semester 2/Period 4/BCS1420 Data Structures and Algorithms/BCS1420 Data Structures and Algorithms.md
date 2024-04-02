@@ -29,8 +29,15 @@ traversal are also part of the course. Furthermore, design principles for algori
 
 ## Lectures and materials
 %% Begin Waypoint %%
-- **Course topics**
-	- [[Dynamic programming]]
+- **[[Course topics]]**
+- **Exam preparation**
+	- [[DSA 2023 - B1 & B2-1.pdf]]
+	- [[DSA Exam 2022-1.pdf]]
+	- [[DSA Exam Prep 2024.pdf]]
+	- [[Exam DSA 2018-1.pdf]]
+	- [[Exam DSA 2018key-1.pdf]]
+	- [[Exam DSA 2021 - Solution-1.pdf]]
+	- [[Resit Exam DSA 2021-1.pdf]]
 - **Lecture notes**
 	- [[DSA Lecture Notes - Algorithm Analysis -1.pdf]]
 	- [[DSA Lecture Notes - Divide and Conquer-1.pdf]]
@@ -41,7 +48,6 @@ traversal are also part of the course. Furthermore, design principles for algori
 	- [[DSA Lecture Notes - String Algorithms v2-1.pdf]]
 	- [[DSA Lecture Notes - Tries-1.pdf]]
 - **Lectures**
-	- [[BCS1420-0 Intro Lecture]]
 	- [[BCS1420-2 Lecture 2.pdf]]
 	- [[BCS1520-2.2 Catcuh Lecture.pdf]]
 	- [[BCS1520-4 Lecture 4.pdf]]
@@ -64,29 +70,6 @@ traversal are also part of the course. Furthermore, design principles for algori
 	- [[Algorithms.pdf]]
 	- [[Chapter 9.pdf]]
 	- [[Grokkings Algorithms.pdf]]
-- **Tutorials**
-	- **Tutorial 1**
-		- [[T1]]
-		- [[Tutorial 1.pdf]]
-	- **Tutorial 2**
-		- [[Tutorial 2.pdf]]
-	- **Tutorial 3**
-		- [[BinarySearchTree.java]]
-		- [[BinaryTreeMaximumPathSum.java]]
-		- [[TreeNode.java]]
-		- [[Tutorial 3 solutions]]
-		- [[Tutorial 3.pdf]]
-	- **Tutorial 4**
-		- [[Tutorial 4.pdf]]
-	- **Tutorial 5**
-		- [[FriendChainFinder.java]]
-		- **Solutions**
-			- [[FriendChainFinder.java]]
-			- [[IndependentSets.java]]
-			- [[IndependentSetVerifier.java]]
-			- [[UniversalSinkFinder.java]]
-		- [[Tutorial 5.pdf]]
-- [[Untitled 1]]
-- [[Untitled]]
+- **[[Tutorials]]**
 
 %% End Waypoint %%

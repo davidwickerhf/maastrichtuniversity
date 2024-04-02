@@ -25,7 +25,6 @@ A naive approach is to try all combinations of items. This approach has a time c
 Consider items with weights and values, and a knapsack capacity. Fill the grid cell by cell, deciding at each step whether to include the current item based on its value and weight, comparing with previous solutions to optimize the total value.
 
 #### Implementation in Java
-
 Here's a simplified Java code snippet for solving the knapsack problem using dynamic programming:
 
 ```java
