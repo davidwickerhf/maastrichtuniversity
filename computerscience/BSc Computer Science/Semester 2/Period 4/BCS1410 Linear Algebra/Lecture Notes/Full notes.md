@@ -137,6 +137,37 @@
 #### Important Theorems and Proofs:
 - **Injectivity and Surjectivity of Linear Transformations**: A linear transformation is injective (one-to-one) if and only if it maps distinct vectors to distinct vectors, and surjective (onto) if every vector in the codomain is the image of at least one vector from the domain.
 - **Matrix Algebra Properties**: Including the properties of matrix addition, scalar multiplication, and the special cases of the transpose and symmetric matrices.
+#### Transpose matrices
+###### Symmetry for Square Matrices
+- **Definition:** A square matrix $A$ is symmetric if $A = A^T$.
+- **Implication:** The matrix is equal to its transpose.
+###### Transpose of a Transpose
+- **Property:** $(A^T)^T = A$
+- **Implication:** Applying the transpose operation twice returns the original matrix.
+###### Transpose of a Sum
+- **Property:** $(A + B)^T = A^T + B^T$
+- **Implication:** The transpose of a sum is the sum of the transposes.
+###### Transpose of a Product
+- **Property:** $(AB)^T = B^T A^T$
+- **Implication:** When matrices are multiplied, the order of multiplication is reversed in the transpose.
+###### Transpose of a Scalar Multiplication
+- **Property:** $(cA)^T = cA^T$ where $c$ is a scalar.
+- **Implication:** Scalar multiplication is distributive over the transpose operation.
+###### Rank
+- **Property:** $rank(A) = rank(A^T)$
+- **Implication:** The rank of a matrix is unchanged by transposition.
+###### Determinant
+- **Property:** $det(A) = det(A^T)$ for square matrices.
+- **Implication:** The determinant of a matrix is the same as its transpose.
+###### Inverse
+- **Property:** If $A$ is invertible, then $(A^T)^{-1} = (A^{-1})^T$.
+- **Implication:** The inverse of the transpose is the transpose of the inverse.
+###### Eigenvalues
+- **Property:** The eigenvalues of $A$ are the same as the eigenvalues of $A^T$.
+- **Implication:** Transposition does not affect the eigenvalues of a matrix.
+###### Orthogonal Matrices
+- **Property:** A square matrix $A$ is orthogonal if $A^T A = AA^T = I$, where $I$ is the identity matrix. For such matrices, $A^T$ is also the inverse of $A$: $A^T = A^{-1}$.
+- **Implication:** Orthogonal matrices preserve lengths and angles.
 
 - - - 
 
@@ -145,7 +176,7 @@
 #### Key Concepts:
 - **Inverse of a Matrix**: The concept of an inverse matrix is crucial for solving systems of linear equations, among other applications.
 - **Homogeneous Coordinates**: Used in computer graphics to represent three-dimensional objects on a two-dimensional screen.
-- **Elementary Matrices**: Result from performing a single elementary row operation on an identity matrix. They are crucial for finding the inverse of a matrix.
+- **[[Elementary Matrices]]**: Result from performing a **==single elementary row operation==** on an **identity matrix**. They are crucial for finding the inverse of a matrix.
 #### Formulas and Definitions:
 - **Elementary Row Operations**: Include replacement (adding multiples of one row to another), scaling (multiplying a row by a non-zero scalar), and interchange (swapping two rows).
 - **Invertible Matrix (Nonsingular Matrix)**: A square matrix $A$ is invertible if there exists a matrix $A^{-1}$ such that $AA^{-1}=A^{-1}A=I$, where $I$ is the identity matrix.
@@ -153,9 +184,29 @@
 - **Finding the Inverse of a Matrix**: Involves applying a series of elementary row operations to transform the matrix into the identity matrix, while performing the same operations on the identity matrix to obtain the inverse.
 - **Application in Computer Graphics**: Homogeneous coordinates are employed to easily perform linear transformations, like rotation and translation, on points and vectors in a 3D space projected onto a 2D plane.
 #### Important Theorems and Proofs:
-- **Criteria for Invertibility**: A square matrix $A$ is invertible if it is row equivalent to the identity matrix and it has a pivot position in every row (and column).
+- **Criteria for Invertibility**: **==A square matrix $A$ is invertible if it is row equivalent to the identity matrix and it has a pivot position in every row (and column).==**
 - **Uniqueness of the Inverse**: The inverse of a matrix, if it exists, is unique. This uniqueness is fundamental for the stability and predictability of many mathematical and computational procedures.
 - **Algorithm for Finding $A^{-1}$**: The process to find $A^{-1}$ involves Gaussian elimination or applying a series of elementary row operations to reduce $A$ to $I$, simultaneously transforming $I$ into $A^{-1}$.
+#### Invertible Matrix Theorem
+ The Invertible Matrix Theorem is a central result in linear algebra that provides a list of equivalent statements, which, if true for a **square matrix** $A$, imply that $A$ is **==invertible==** (and conversely, if any of these statements is false, then $A$ is not invertible). This theorem links various concepts in linear algebra, showing their interdependence. Here are the key points of the theorem, summarized in bullet points:
+
+> [!note ] Square Matrix $A$ is Invertible
+> This is the foundational statement that the rest of the conditions either affirm or deny.
+
+- **Determinant**: $det(A) \neq 0$. A matrix is invertible if and only if its determinant is non-zero.
+- **Matrix Rank**: The rank of $A$ equals its number of columns (or rows), indicating full rank.
+- **Unique Solutions**: The equation $A\mathbf{x} = \mathbf{b}$ has a unique solution for every vector $\mathbf{b}$ in $\mathbb{R}^n$.
+- **Null Space**: The null space of $A$ contains only the zero vector, i.e., $N(A) = \{\mathbf{0}\}$.
+- **Column Space**: The columns of $A$ span $\mathbb{R}^n$, making them linearly independent.
+- **Row Equivalence**: The matrix $A$ is row equivalent to the identity matrix $I_n$.
+- **Inverse Existence**: There exists an $n \times n$ matrix $A^{-1}$ such that $AA^{-1} = A^{-1}A = I_n$.
+- **Eigenvalues**: $A$ has no zero eigenvalues. Any zero eigenvalue would imply a determinant of zero, contradicting invertibility.
+- **Transpose Invertibility**: The transpose $A^T$ is invertible.
+- **Subspaces**: The column space and row space of $A$ are equal to $\mathbb{R}^n$.
+- **Linear Transformations**: The linear transformation mapping $\mathbf{x}$ to $A\mathbf{x}$ is both one-to-one and onto, covering the entire space without overlap or omission.
+- **Product of Invertible Matrices**: If $A$ can be expressed as a product of elementary matrices, then it is invertible, as elementary matrices are invertible.
+
+This theorem elegantly ties together different properties and concepts regarding square matrices, showing how they provide various perspectives on the idea of invertibility. The equivalence of these conditions means that verifying any one of them for a particular matrix guarantees that all the other conditions hold true as well, offering multiple pathways to determine or utilize the invertibility of a matrix in problem-solving.
 
 - - -
 
@@ -172,9 +223,6 @@
 #### Examples:
 - **Determinant and Area Scaling**: Demonstrates how the determinant reflects the scaling of areas or volumes, such as stretching or compressing.
 - **Invertibility and Determinants**: A matrix is invertible if and only if its determinant is non-zero.
-#### Important Theorems and Proofs:
-- **Properties of Determinants**: Include the effects of row operations on the determinant, such as sign change upon row interchange or scalar multiplication of a row.
-- **The Invertible Matrix Theorem**: Links the concept of matrix invertibility with properties like being row equivalent to the identity matrix, having a non-zero determinant, and the absence of free variables for uniqueness of solutions to systems of linear equations.
 #### Calculating determinants
 To calculate the determinant of a matrix, different formulas and methods are used depending on the size of the matrix. Here are some common formulas for calculating determinants:
 - **2x2 Matrix:**
@@ -189,6 +237,7 @@ $$\text{det}(A) = \sum_{j=1}^{n} (-1)^{i+j} a_{ij} \text{det}(A_{ij})$$
 where $a_{ij}$ is the element in the $i^{th}$ row and $j^{th}$ column, and $A_{ij}$ is the matrix obtained by removing the $i^{th}$ row and $j^{th}$ column from $A$ (this is called the minor of $A$ at $a_{ij}$).
 
 The sign $(-1)^{i+j}$ is positive if the sum of the row and column indices is even, and negative if the sum is odd, ensuring the correct sign based on the position of the element in the matrix.
+
 -  **Special Cases and Properties:**
 	- **Triangular Matrices** (both upper and lower): The determinant is the product of the diagonal elements.
 	- **Determinant of the Identity Matrix**: The determinant of the identity matrix of any size is 1.
@@ -215,7 +264,7 @@ For larger matrices, the inverse can be found by augmenting the matrix $A$ with 
 -  **Example for 3x3 Matrix:**
 Consider $A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$. To find $A^{-1}$, augment $A$ with the identity matrix and apply row operations to transform $A$ into $I$. This process is more complex and requires multiple steps, so we won't solve it fully here. However, the methodology follows the described procedure.
 -  **Important Notes:**
-- **Existence of Inverse**: A square matrix $A$ is invertible if and only if $\text{det}(A) \neq 0$.
+	- **Existence of Inverse**: A square matrix $A$ is invertible if and only if $\text{det}(A) \neq 0$.
 
 ![[Screenshot 2024-04-01 at 13.28.34.png]]
 - - - 

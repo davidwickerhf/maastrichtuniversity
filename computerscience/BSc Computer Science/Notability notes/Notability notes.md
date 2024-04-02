@@ -221,7 +221,11 @@
 	- **Period 4**
 		- **BCS1410 Linear Algebra**
 			- **BCS1410 Exam prep**
+				- [[Exam 2021-2022 (2).pdf]]
+				- [[Exam 2022-2023.pdf]]
 				- [[Linear algebra course.pdf]]
+				- [[Resit 2021-2022 (2).pdf]]
+				- [[Resit 2022-2023 (2).pdf]]
 			- **BCS1410 Exercises**
 				- [[Tutorial 1.pdf]]
 				- [[Week 1.pdf]]
@@ -229,6 +233,7 @@
 				- [[Week 3.pdf]]
 				- [[Week 4.pdf]]
 				- [[Week 5.pdf]]
+				- [[Week 7.pdf]]
 			- **BCS1410 Lectures**
 				- [[BCS1410-1 Lecture 1.pdf]]
 				- [[BCS1410-2 Lecture 2.pdf]]

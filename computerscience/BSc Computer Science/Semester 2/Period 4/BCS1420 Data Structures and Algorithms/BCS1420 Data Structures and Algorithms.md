@@ -29,10 +29,17 @@ traversal are also part of the course. Furthermore, design principles for algori
 
 ## Lectures and materials
 %% Begin Waypoint %%
+- **Course topics**
+	- [[Dynamic programming]]
 - **Lecture notes**
 	- [[DSA Lecture Notes - Algorithm Analysis -1.pdf]]
+	- [[DSA Lecture Notes - Divide and Conquer-1.pdf]]
+	- [[DSA Lecture Notes - Dynamic Programming-1.pdf]]
+	- [[DSA Lecture Notes - Greedy Method-1.pdf]]
 	- [[DSA Lecture Notes - Hash Tables-1.pdf]]
 	- [[DSA Lecture Notes - Sorting-1.pdf]]
+	- [[DSA Lecture Notes - String Algorithms v2-1.pdf]]
+	- [[DSA Lecture Notes - Tries-1.pdf]]
 - **Lectures**
 	- [[BCS1420-0 Intro Lecture]]
 	- [[BCS1420-2 Lecture 2.pdf]]
@@ -55,6 +62,7 @@ traversal are also part of the course. Furthermore, design principles for algori
 - **Textbooks**
 	- [[Algorithms (3.4).pdf]]
 	- [[Algorithms.pdf]]
+	- [[Chapter 9.pdf]]
 	- [[Grokkings Algorithms.pdf]]
 - **Tutorials**
 	- **Tutorial 1**
@@ -78,5 +86,7 @@ traversal are also part of the course. Furthermore, design principles for algori
 			- [[IndependentSetVerifier.java]]
 			- [[UniversalSinkFinder.java]]
 		- [[Tutorial 5.pdf]]
+- [[Untitled 1]]
+- [[Untitled]]
 
 %% End Waypoint %%
