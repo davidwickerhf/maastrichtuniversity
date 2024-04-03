@@ -1,0 +1,14 @@
+::: (Home)work exercise 1
+
+Start by examining the IteratableList.java, Node.java and LinkedList.java files.
+
+These files contain Skeleton code (the layout of the code without actual implementation) for an iterable list.
+This means a List which can be iterated or "walked through" element by element. Internally the list maintains the 
+current position of the last visited element.
+
+Try to comprehend how these two classes and the interface can be used to construct a complete implementation 
+of an iterable LinkedList.
+
+1. Finish the methods in the LinkedList.java and Node.java file
+
+2. Check your implementation by running the LinkedListExample class

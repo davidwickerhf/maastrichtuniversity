@@ -1,5 +1,7 @@
 > [!note] Overview
 > Dynamic Programming (DP) is a technique for solving complex problems by breaking them down into simpler subproblems. It is used when the subproblems are not independent, i.e., the solution to one subproblem depends on the solutions of others. 
+
+[[C9 Dynamic Programming.pdf]]
 ### Understanding Dynamic Programming:
 #### Key Principles:
 1. **Optimal Substructure**: A problem has an optimal substructure if its optimal solution can be constructed efficiently from optimal solutions of its subproblems.

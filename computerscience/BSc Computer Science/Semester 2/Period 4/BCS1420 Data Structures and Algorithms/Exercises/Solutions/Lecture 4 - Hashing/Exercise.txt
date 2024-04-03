@@ -1,0 +1,17 @@
+::: (Home)work exercise 4.
+
+1. In the attachments you find a hardly useful hashtable implementation.
+ - What's wrong with this implementation? 
+   (hint: think about what happens when a collision occurs?)
+ - Try using the HashmapTest to test what goes wrong
+
+2. Improve the hashtable implementation so it is actually useful.
+
+3. Run the tests again and check the results. How many collisions occur when inserting the data?
+
+4. What is the complexity of inserting elements in your hashmap? Can you use amortisation 
+   to provide a realistic/optimistic complexity?
+
+5. Put some more data into your hashmap by randomly generating key/value pairs. Insert at least 5000 values in this manner.
+   - Do you think the hashmap efficiently stores your data? How can you find out if the data is efficiently stored?
+   - Of course we can improve the efficiency, but how?

@@ -248,6 +248,11 @@
 				- [[BCS1410-11 Lecture 11.pdf]]
 				- [[L1 Systems of linear equations and Gaussian elimination.pdf]]
 		- **BCS1420 DSA**
+			- **BCS1420 Exam**
+				- [[DSA 2023 - B1 & B2-1.pdf]]
+				- [[DSA Exam 2022-1.pdf]]
+				- [[Exam DSA 2018-1.pdf]]
+				- [[Resit Exam DSA 2021-1.pdf]]
 			- **BCS1420 Tutorials**
 				- [[Tutorial 5.pdf]]
 		- **BCS1600 Project**

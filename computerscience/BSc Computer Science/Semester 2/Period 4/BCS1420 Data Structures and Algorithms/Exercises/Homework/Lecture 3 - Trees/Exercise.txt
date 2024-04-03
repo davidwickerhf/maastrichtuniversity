@@ -1,0 +1,27 @@
+::: (Home)work exercise 3
+
+---- You can use these classes for lab exercise 3 ----
+
+1. Finish the node.java file by completing all the methods.
+
+2. Test your program by running TreeExample.java. The output should be:
+
+  node 1
+    node 11
+        node 111
+        node 112
+	  node 1121
+	  node 1122
+    node 12
+  node 2
+    node 21
+	node 211
+	   node 2111
+    node 22
+
+3. In the lecture we've discussed siblings, parents and children. 
+But, for this exercise you're going to consider cousins.
+
+So write an algorithm that for each node in the tree it finds the cousins of that node. 
+That means all nodes that are children of that node's parent. Make the algorithm print 
+all the cousins in a relevant order.

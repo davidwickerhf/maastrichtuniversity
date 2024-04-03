@@ -1,0 +1,17 @@
+::: (Home)work exercise 5
+
+--- You can use these classes for lab assignment 4 ---
+
+Start by examining the Graph.java, Vertex.java and Edge.java files.
+Try to comprehend how these classes can be used to construct a complete directed graph with weights between nodes
+
+1. Finish the methods in the Graph.java file
+
+2. Check your implementation by building you own graph (you will also do this in Lab assignment 4)
+
+3. Does your graph contain any cycles? That means a path that you can follow in the graph that leads from and to a single node.
+   - If no, build a graph that contains at least 1 cycle
+   - Now that you have a graph that contains a cycle. Write an efficient algorithm that returns the pathlength of the longest cycle in the graph
+
+4. A minimum spanning tree is a tree that contains all nodes in a graph without any cycles. To build a spanning tree from a graph, all paths that do not contain any cycles must be found.
+   Find an efficient way of building a spanning tree from your graph, do some research in the slides or online to find a suitable algorithm to perform this task.

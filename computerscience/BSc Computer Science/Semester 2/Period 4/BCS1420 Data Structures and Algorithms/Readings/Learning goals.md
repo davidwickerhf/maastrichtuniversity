@@ -1,43 +1,56 @@
-```table-of-contents
-title: 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 0 # Include headings from the specified level
-maxLevel: 0 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-## Week 1
+- [[#W1 OOP & Abstract Data Structures|W1 OOP & Abstract Data Structures]]
+	- [[#Object Oriented Programming Principles (related to ADT's):|Object Oriented Programming Principles (related to ADT's):]]
+	- [[#Lists:|Lists:]]
+	- [[#Stacks and Queues:|Stacks and Queues:]]
+	- [[#Sets:|Sets:]]
+	- [[#Recursion:|Recursion:]]
+- [[#W2 Hashing & Algorithm Analisys|W2 Hashing & Algorithm Analisys]]
+	- [[#Hashing|Hashing]]
+	- [[#Algorithm Analysis|Algorithm Analysis]]
+- [[#W3 Trees|W3 Trees]]
+	- [[#Trees|Trees]]
+- [[#W4 Sorting Algorithms|W4 Sorting Algorithms]]
+- [[#W5 Graphs and Graph Traversal|W5 Graphs and Graph Traversal]]
+	- [[#Graph data structure|Graph data structure]]
+	- [[#Graph traversal algorithms|Graph traversal algorithms]]
+	- [[#Graph theory|Graph theory]]
+- [[#W6 Tries, String Algorithms & Algorithmic Methods|W6 Tries, String Algorithms & Algorithmic Methods]]
+	- [[#Tries|Tries]]
+	- [[#String Algorithms|String Algorithms]]
+	- [[#Algorithmic Methods|Algorithmic Methods]]
+
+## W1 OOP & Abstract Data Structures
 Readings: [[W1 Readings]]
-###### **Object Oriented Programming Principles (related to ADT's):**
+###### Object Oriented Programming Principles (related to ADT's):
 1. Understand the principles of **==[[Encapsulation]], inheritance, and polymorphism==** in object-oriented programming and how they can be used to create **==abstract data types==** (ADT's)
 2. Be able to design and implement a class that represents an ADT using object-oriented programming principles
 3. Be able to use interfaces to define the behavior of an ADT and implement it using different classes
 4. Understand the difference between an ADT and a concrete implementation of that ADT
-###### **Lists:**
+###### Lists:
 1. Understand the concept of a **linear data structure** and the differences between **arrays** and **linked lists**
 2. Be able to implement a basic **singly linked list** in Java
 3. Understand the limitations of **array-based lists and linked-lists**
 4. Understand the time and space complexities of basic operations on a singly linked list, such as insert, delete, and search
 5. Understand the concept of a doubly linked list and the time and space complexities of basic operations on a doubly linked list
-###### **Stacks and Queues:**
+###### Stacks and Queues:
 1. Understand the concept of a **==stack==** and a **==queue==** and the differences between them
 2. Be able to implement a basic stack and a basic queue in Java
 3. Understand the time and space complexities of **==basic operations on a stack==** and a queue, such as **==push, pop, and peek==**
 4. Understand the use cases of stacks and queues in real-world scenarios
-###### **Sets:**
+###### Sets:
 1. Understand the concept of a **set** and the **==differences between sets and lists==**
 2. Be able to implement a basic set in Java using an array
 3. Understand the time and space complexities of basic operations on a set, such as **==insert, delete, and search==**
 4. Understand the use cases of sets in real-world scenarios
-###### **Recursion:**
+###### Recursion:
 1. Understand the concept of recursion and how it differs from iteration
 2. Be able to write and trace recursive functions in Java
 3. Understand the time and space complexities of recursive functions and how to analyse them
 4. Understand the use cases of recursion in real-world scenarios and be able to identify when a problem can be solved using recursion.
 - - - 
-## Week 2
+## W2 Hashing & Algorithm Analisys
 Readings: [[W2 Readings]]
-###### **Hashing**
+###### Hashing
 1. Understand the **==Dictionary ADT==**, when it is appropriate and its use-cases.
 2. Understand the basic concepts of **==hashing and hash tables==**, including the hash function, collisions, and load factor.
 	1. Be able to explain the advantages and disadvantages of using hash tables over other data structures.
@@ -47,7 +60,7 @@ Readings: [[W2 Readings]]
 	5. Understand the trade-offs involved in choosing a hash function and be able to implement a good hash function for a specific use case.
 	6. Be able to implement a hash table in a real-world application.
 
-###### **Algorithm Analysis**
+###### Algorithm Analysis
 1. Understand the basic concepts of algorithm analysis, including **==big-O notation==** and **time complexity**.
 2. Be able to determine the time complexity of a given algorithm using big-O notation and the counting of instructions
 3. Understand the **==common complexity classes==** (e.g. O(1), O(log n), O(n), O(n log n), O(n2), O(2n)) and be able to classify a given algorithm into one of these classes.
@@ -56,9 +69,9 @@ Readings: [[W2 Readings]]
 6. Understand the trade-offs between time and space complexity and be able to determine the optimal solution for a given problem based on the available resources.
 - - - 
 
-## Week 3
+## W3 Trees
 Readings: [[W3 Readings]]
-###### **Trees**
+###### Trees
 1. Understand the concept of a tree data structure and its basic properties such as the root, parent, and children nodes
 2. Understand the difference between a tree and a graph
 3. Understand the different types of trees, such as binary trees, binary search trees, balanced binary trees, general trees, and their specific properties and use cases
@@ -71,7 +84,7 @@ Readings: [[W3 Readings]]
 10. Understand the use cases of trees in real-world scenarios and be able to identify when a problem can be solved using a tree data structure.
 - - - 
 
-## Week 4
+## W4 Sorting Algorithms
 Readings: [[W4 Readings]]
 
 1. Understand the basic concepts of **==sorting algorithms==**, including stability, in-place sorting, and comparison-based sorting.
@@ -86,7 +99,7 @@ Readings: [[W4 Readings]]
 10. Be able to implement a sorting algorithm in a real-world application and explain its performance.
 - - - 
 
-## Week 5
+## W5 Graphs and Graph Traversal
 Readings: [[W5 Readings]]
 ###### Graph data structure
 1. Understand the concept of a **==graph data structure==** and its basic properties such as vertices, edges, and the relationship between them
@@ -103,7 +116,7 @@ Readings: [[W5 Readings]]
 1. Understand the concept of **==graph theory==** and it's relation to computer science and data structures
 - - -
 
-## Week 6
+## W6 Tries, String Algorithms & Algorithmic Methods
 Readings: [[W6 Readings]]
 ###### Tries
 1. Understand the basic concepts of **==trees==** and be able to explain its use in data structures and algorithms.

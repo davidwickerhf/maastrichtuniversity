@@ -38,6 +38,70 @@ traversal are also part of the course. Furthermore, design principles for algori
 	- [[Exam DSA 2018key-1.pdf]]
 	- [[Exam DSA 2021 - Solution-1.pdf]]
 	- [[Resit Exam DSA 2021-1.pdf]]
+- **Exercises**
+	- **Homework**
+		- **Complexity**
+			- [[Complexity.docx]]
+			- [[Complexity.pdf]]
+		- **Lecture 1 - Lists**
+			- [[Exercise.txt]]
+			- [[IteratableList.java]]
+			- [[LinkedList.java]]
+			- [[LinkedListExample.java]]
+			- [[Node.java]]
+		- **Lecture 1 - Queues**
+			- [[Deque.java]]
+			- [[Exercise.txt]]
+		- **Lecture 3 - Trees**
+			- [[Exercise.txt]]
+			- [[Node.java]]
+			- [[TreeExample.java]]
+		- **Lecture 4 - Hashing**
+			- [[Exercise.txt]]
+			- [[HashEntry.java]]
+			- [[HashMap.java]]
+			- [[HashMapTest.java]]
+		- **Lecture 5 - Graphs**
+			- [[Edge.java]]
+			- [[exercise.txt]]
+			- [[Graph.java]]
+			- [[Vertex.java]]
+		- **Lecture 6 - Elementary Techniques**
+			- [[Exercise.txt]]
+	- **Solutions**
+		- **Complexity**
+			- [[Complexity.docx]]
+			- [[Complexity.pdf]]
+		- **Lecture 1 - Lists**
+			- [[Exercise.txt]]
+			- [[IteratableList.java]]
+			- [[LinkedList.java]]
+			- [[LinkedListExample.java]]
+			- [[Node.java]]
+		- **Lecture 1 - Queues**
+			- [[Deque.java]]
+			- [[Exercise.txt]]
+		- **Lecture 3 - Trees**
+			- [[Exercise.txt]]
+			- [[Node.java]]
+			- [[TreeExample.java]]
+		- **Lecture 4 - Hashing**
+			- [[Exercise.txt]]
+			- [[HashEntry.java]]
+			- [[HashMap.java]]
+			- [[HashMapTest.java]]
+		- **Lecture 5 - Graphs**
+			- [[AdjacencyList.java]]
+			- [[Edge.java]]
+			- [[exercise.txt]]
+			- [[Graph.java]]
+			- [[GraphTest.java]]
+			- [[Vertex.java]]
+		- **Lecture 6 - Elementary Techniques**
+			- [[DivideAndConquer.java]]
+			- [[DynamicProgramming.java]]
+			- [[Exercise.txt]]
+			- [[GreedySearch.java]]
 - **Lecture notes**
 	- [[DSA Lecture Notes - Algorithm Analysis -1.pdf]]
 	- [[DSA Lecture Notes - Divide and Conquer-1.pdf]]
@@ -53,6 +117,7 @@ traversal are also part of the course. Furthermore, design principles for algori
 	- [[BCS1520-4 Lecture 4.pdf]]
 - **Readings**
 	- [[Learning goals]]
+	- [[Suggested videos]]
 	- [[W1 Readings]]
 	- [[W2 Readings]]
 	- [[W3 Readings]]
@@ -68,7 +133,7 @@ traversal are also part of the course. Furthermore, design principles for algori
 - **Textbooks**
 	- [[Algorithms (3.4).pdf]]
 	- [[Algorithms.pdf]]
-	- [[Chapter 9.pdf]]
+	- [[C9 Dynamic Programming.pdf]]
 	- [[Grokkings Algorithms.pdf]]
 - **[[Tutorials]]**
 
