@@ -1,0 +1,66 @@
+%% Begin Waypoint %%
+- **Homework**
+	- **Complexity**
+		- [[Complexity.docx]]
+		- [[Complexity.pdf]]
+	- **Lecture 1 - Lists**
+		- [[Exercise.txt]]
+		- [[IteratableList.java]]
+		- [[LinkedList.java]]
+		- [[LinkedListExample.java]]
+		- [[Node.java]]
+	- **Lecture 1 - Queues**
+		- [[Deque.java]]
+		- [[Exercise.txt]]
+	- **Lecture 3 - Trees**
+		- [[Exercise.txt]]
+		- [[Node.java]]
+		- [[TreeExample.java]]
+	- **Lecture 4 - Hashing**
+		- [[Exercise.txt]]
+		- [[HashEntry.java]]
+		- [[HashMap.java]]
+		- [[HashMapTest.java]]
+	- **Lecture 5 - Graphs**
+		- [[Edge.java]]
+		- [[exercise.txt]]
+		- [[Graph.java]]
+		- [[Vertex.java]]
+	- **Lecture 6 - Elementary Techniques**
+		- [[Exercise.txt]]
+- **Solutions**
+	- **Complexity**
+		- [[Complexity.docx]]
+		- [[Complexity.pdf]]
+	- **Lecture 1 - Lists**
+		- [[Exercise.txt]]
+		- [[IteratableList.java]]
+		- [[LinkedList.java]]
+		- [[LinkedListExample.java]]
+		- [[Node.java]]
+	- **Lecture 1 - Queues**
+		- [[Deque.java]]
+		- [[Exercise.txt]]
+	- **Lecture 3 - Trees**
+		- [[Exercise.txt]]
+		- [[Node.java]]
+		- [[TreeExample.java]]
+	- **Lecture 4 - Hashing**
+		- [[Exercise.txt]]
+		- [[HashEntry.java]]
+		- [[HashMap.java]]
+		- [[HashMapTest.java]]
+	- **Lecture 5 - Graphs**
+		- [[AdjacencyList.java]]
+		- [[Edge.java]]
+		- [[exercise.txt]]
+		- [[Graph.java]]
+		- [[GraphTest.java]]
+		- [[Vertex.java]]
+	- **Lecture 6 - Elementary Techniques**
+		- [[DivideAndConquer.java]]
+		- [[DynamicProgramming.java]]
+		- [[Exercise.txt]]
+		- [[GreedySearch.java]]
+
+%% End Waypoint %%

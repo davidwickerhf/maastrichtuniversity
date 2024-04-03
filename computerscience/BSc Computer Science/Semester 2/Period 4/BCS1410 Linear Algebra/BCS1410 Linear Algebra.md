@@ -52,7 +52,7 @@ favicon: https://www.google.com/favicon.ico
 
 ## Lectures
 %% Begin Waypoint %%
-- **[[Exercises]]**
+- **[[BSc Computer Science/Semester 2/Period 4/BCS1410 Linear Algebra/Exercises/Exercises]]**
 - **Lecture Notes**
 	- [[BCS1410-1 Lecture 1.pdf]]
 	- [[BCS1410-2 Lecture 2.pdf]]
