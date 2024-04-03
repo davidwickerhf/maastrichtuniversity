@@ -1,4 +1,5 @@
 ### **Week 1: Introduction & OOP Recap**
+[[W1 OOP Recap]]
 - **Software Complexity**
 	- Understand the paradox of simple rules leading to complex outcomes.
 - **Software Development Life Cycle**
@@ -11,17 +12,23 @@
 	- **Encapsulation**: Bundling data with methods that operate on the data.
 
 ### **Week 2: OO Design Principles**
+[[W2 OO Design Principles]]
 - **Quality Attributes**: Functionality, Reliability, Usability, Efficiency, Maintainability.
 - **Use Cases**: Writing and understanding use cases in textual format.
 - **OO Analysis and Design**: Identifying objects, classes, relationships, and interactions.
 - **Design Principles**: DRY, KISS, YAGNI, Separation of Concerns, Principle of Least Astonishment, Law of Demeter, GRASP, SOLID principles.
 
-### **Week 3: Refactoring and UML**
+### **Week 3: Refactoring and Code Smells**
+[[W3 Refactoring and code smells]]
 - **Refactoring**: When and how to refactor, principles of refactoring.
 - **Code Smells**: Types and how to address them, including Bloaters, OO Abusers, Change Preventers, Dispensables, Couplers.
+
+### **Week 4: Unified Modelling Language**
+[[W4 Unified Modelling Language]]
 - **UML**: Conversion of code or problems into appropriate UML diagrams, including Class Diagrams, Sequence Diagrams, Use Case Diagrams, etc.
 
-### **Week 4 & 5: Design Patterns**
+### **Week 5: Design Patterns**
+[[W5 Design Patterns]]
 - **Factory Method, Abstract Factory, Singleton, Decorator, Adapter, Facade, Proxy, Observer, Strategy Patterns**:
 	- Understand the purpose of each design pattern.
 	- Recognize situations for their application.
