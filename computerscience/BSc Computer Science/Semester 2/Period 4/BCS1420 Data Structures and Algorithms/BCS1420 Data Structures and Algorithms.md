@@ -30,17 +30,17 @@ traversal are also part of the course. Furthermore, design principles for algori
 ## Lectures and materials
 %% Begin Waypoint %%
 - **[[Course topics]]**
-- **[[Exam preparation]]**
+- **[[BSc Computer Science/Semester 2/Period 4/BCS1420 Data Structures and Algorithms/Exam preparation/Exam preparation]]**
 - **[[Exercises]]**
 - **[[Lecture notes]]**
 - **[[Lectures]]**
 - **[[Readings]]**
-- **[[Slides]]**
+- **[[BSc Computer Science/Semester 2/Period 4/BCS1420 Data Structures and Algorithms/Slides/Slides]]**
 - **Textbooks**
 	- [[Algorithms (3.4).pdf]]
 	- [[Algorithms.pdf]]
 	- [[C9 Dynamic Programming.pdf]]
 	- [[Grokkings Algorithms.pdf]]
-- **[[Tutorials]]**
+- **[[BSc Computer Science/Semester 2/Period 4/BCS1420 Data Structures and Algorithms/Tutorials/Tutorials]]**
 
 %% End Waypoint %%
