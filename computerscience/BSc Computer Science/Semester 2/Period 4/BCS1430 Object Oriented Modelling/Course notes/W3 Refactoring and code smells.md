@@ -22,14 +22,25 @@ For instance, consider a **Movie Rental System** where the calculation of a rent
 
 ### Types of Code Smells and Solutions
 1. **Bloaters:** Code, methods, or classes that have grown too large. **Solution:** Decompose the large structures into smaller, more manageable pieces.
-   
+	1. Long Methods
+	2. Large Classes
+	3. Long Parameter List
+	4. Primitive Obsession
+	5. Data Clumps
+	   
 2. **Object-Orientation Abusers:** Misuse of object-oriented principles. **Solution:** Refactor to use inheritance and polymorphism appropriately.
-   
+	1. **Switch Statements** → Use polymorphism
+	   
 3. **Change Preventers:** Code that is hard to change due to its structure. **Solution:** Refactor to separate concerns and make the code more modular.
-   
+	1. **Divergent Change** → A single class requires multiple changes for different reasons. A solution could be extracting classes or inheritance
+	   
 4. **Dispensables:** Unnecessary code that can be removed. **Solution:** Eliminate dead code, redundant comments, and simplify overly complex expressions.
-   
+	1. Duplicated Code
+	2. Comments
+	   
 5. **Couplers:** Excessive coupling between classes. **Solution:** Encourage loose coupling through interfaces or abstract classes.
+	1. **Feature Envy** → Method that seems more interested in a class other than the one it is actually in
+	2. **Message Chains** → Series of method calls that increases dependency on class structure. Solution: Hide delegates (encapsulate the chain inside a method in the root object)
 
 ### Practical Refactoring Techniques
 - **Extract Method:** For simplifying long methods by breaking them down into smaller ones.

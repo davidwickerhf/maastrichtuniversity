@@ -8,9 +8,9 @@ Design patterns are standardized solutions to common problems in software design
 
 Creational patterns are focused on ways to create objects or classes. They abstract the instantiation process, making systems more independent of how objects are created, composed, and represented. Creational patterns help in reducing complexities and dependencies associated with object creation.
 
-- **Factory Method**: Delegates the creation of objects to subclasses, allowing flexibility in object instantiation.
-- **Abstract Factory**: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
-- **Singleton**: Ensures a class has only one instance and provides a global point of access to it.
+- ==**Factory Method**==: Delegates the creation of objects to subclasses, allowing flexibility in object instantiation.
+- **==Abstract Factory==**: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+- **==Singleton==**: Ensures a class has only one instance and provides a global point of access to it.
 - **Builder**: Allows for the construction of complex objects step by step, separating the construction and representation.
 - **Prototype**: Creates new objects by copying an existing object, allowing for easier creation of instances similar to an existing instance.
 
@@ -21,16 +21,16 @@ Structural patterns deal with how classes and objects are composed to form large
 - **Adapter**: Allows the interface of an existing class to be used as another interface, making incompatible interfaces work together.
 - **Composite**: Composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.
 - **Proxy**: Provides a placeholder for another object to control access to it, adding a level of indirection to operations.
-- **Decorator**: Dynamically attaches additional responsibilities to an object without modifying its structure.
+- **==Decorator==**: Dynamically attaches additional responsibilities to an object without modifying its structure.
 - **Bridge**: Decouples an abstraction from its implementation, allowing the two to vary independently.
-- **Facade**: Provides a simplified interface to a complex subsystem, making the subsystem easier to use.
+- **==Facade==**: Provides a simplified interface to a complex subsystem, making the subsystem easier to use.
 
 ### Behavioral Design Patterns
 
 Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects. They focus on communication between objects, making the interaction between objects easier, more flexible, and more efficient.
 
-- **Observer**: Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
-- **Strategy**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing the algorithm to vary independently from the clients that use it.
+- **==Observer==**: Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+- **==Strategy==**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing the algorithm to vary independently from the clients that use it.
 - **Command**: Encapsulates a request as an object, thereby allowing for parameterization and queuing of requests, and providing additional functionalities such as undoable operations.
 - **State**: Allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
 - **Iterator**: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.

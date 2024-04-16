@@ -30,7 +30,7 @@ period:
 - **Assignments**
 	- [[A1.pdf]]
 - **Lecture notes**
-	- [[BCS1530-0 Intro lecture]]
+	- [[BSc Computer Science/Semester 1/Period 2/BCS1530 Logic/Lecture notes/BCS1530-0 Intro lecture]]
 	- [[BCS1530-1 Propositional Logic]]
 - **Lecture Slides**
 	- [[hoare-logic.pdf]]

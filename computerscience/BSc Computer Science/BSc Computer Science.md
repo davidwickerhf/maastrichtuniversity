@@ -21,6 +21,79 @@ Under [[Documents]] you will find the Student Handbook and the  Academic Calenda
 		- **[[BCS1410 Linear Algebra]]**
 		- **[[BCS1420 Data Structures and Algorithms]]**
 		- **[[BCS1430 Object Oriented Modelling]]**
+	- **Period 5**
+		- **BCS1520 Statistics**
+			- **[[Course topics]]**
+			- **[[Lectures]]**
+			- **Slides**
+				- [[Slides_Lec1.pdf]]
+			- **Textbook**
+				- [[probability-statistics-for-engineers-scientists_compress.pdf]]
+			- **Tutorials**
+				- [[CS1510_tutorial01_exercises.pdf]]
+				- [[CS1510_tutorial02_exercises.pdf]]
+		- **[[BCS1530 Databases]]**
+		- **[[BCS1540 Algorithmic Design]]**
+- **Year 1**
+	- **Period 1**
+		- **BCS1110**
+			- **BCS1110 Lectures**
+				- [[L7 Computer networks.pdf]]
+			- **BCS1110 Required readings**
+				- [[Required reading 2.pdf]]
+			- **BCS1110 Tutorial**
+				- [[Tutorial Sheet 3.pdf]]
+		- **BCS1120**
+			- **BCS1120 Exam papers**
+				- [[E1-2021.pdf]]
+			- **BCS1120 Lectures**
+				- [[Recap 1.pdf]]
+		- **BCS1130**
+			- **BCS1130**
+				- [[Discrete mathemathics.pdf]]
+				- [[Lecture Notes Chapter 1.pdf]]
+			- **Exam prep**
+				- **BCS1130 Exam Prep**
+					- [[DM Exam Solutions.pdf]]
+	- **Period 2**
+		- **BCS1220**
+			- **BCS1220 Exam Prep**
+				- [[Preparation-Exam-2023.pdf]]
+			- **BCS1220 Slides**
+				- [[L1 Part 1.pdf]]
+				- [[Lecture+5.pdf]]
+		- **BCS1440**
+			- **BCS1140 Otti Notes**
+				- [[L10 Chaim Rule Summary.pdf]]
+				- [[Lecture 7 & 8.pdf]]
+			- **BCS1440 Exam papers**
+				- [[ca_cheat_sheet.pdf]]
+				- [[mock+exam.pdf]]
+			- **BCS1440 Homework**
+				- [[Bonus Assignment 1.pdf]]
+				- [[H1 Solutions.pdf]]
+			- **BCS1440 Notes**
+				- [[L1 Limits and Continuity.pdf]]
+			- **BCS1440 Slides**
+				- [[L1 Functions and continuity.pdf]]
+				- [[L4 Applications of Differentiation.pdf]]
+				- [[L9 Differential Equations.pdf]]
+		- **BCS1530**
+			- **BCS1530 Assignments**
+				- [[A1 (2).pdf]]
+			- **BCS1530 Notes**
+				- [[Note 14 Nov 2023.pdf]]
+			- **BCS1530 Prof Notes**
+				- [[Lecture 7.pdf]]
+			- **BCS1530 Slides**
+				- [[hoare-logic.pdf]]
+	- **Period 4**
+		- **BCS1410 Linear Algebra**
+			- **BCS1410 Lectures**
+				- [[BCS1410-5 Lecture 5.pdf]]
+				- [[BCS1410-7 Lecture 7.pdf]]
+				- [[BCS1410-9 Lecture 9.pdf]]
+				- [[BCS1410-11 Lecture 11.pdf]]
 
 %% End Waypoint %%
 

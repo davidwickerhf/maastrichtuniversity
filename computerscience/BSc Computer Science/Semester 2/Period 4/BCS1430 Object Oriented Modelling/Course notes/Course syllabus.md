@@ -1,5 +1,5 @@
 ### **Week 1: Introduction & OOP Recap**
-[[W1 OOP Recap]]
+[[W1 OOM Introduction & OOP Recap]]
 - **Software Complexity**
 	- Understand the paradox of simple rules leading to complex outcomes.
 - **Software Development Life Cycle**

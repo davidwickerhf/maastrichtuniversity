@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+- [[W1L1 Printable.pdf]]
 - [[W1L1.pdf]]
 - [[W1L2.pdf]]
 - [[W2L1Actual.pdf]]

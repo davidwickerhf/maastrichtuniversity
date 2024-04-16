@@ -227,6 +227,7 @@
 				- [[Resit 2021-2022 (2).pdf]]
 				- [[Resit 2022-2023 (2).pdf]]
 			- **BCS1410 Exercises**
+				- [[Note 4 Apr 2024.pdf]]
 				- [[Tutorial 1.pdf]]
 				- [[Week 1.pdf]]
 				- [[Week 2.pdf]]
@@ -255,7 +256,33 @@
 				- [[Resit Exam DSA 2021-1.pdf]]
 			- **BCS1420 Tutorials**
 				- [[Tutorial 5.pdf]]
+		- **BCS1430 OOM**
+			- **BCS1430 Exam Prep**
+				- [[Sample Paper.pdf]]
+				- [[Syllabus.pdf]]
+			- **BCS1430 Slides**
+				- [[W1L1.pdf]]
+				- [[W1L2.pdf]]
+				- [[W2L1Actual.pdf]]
+				- [[W2L2Actual.pdf]]
+				- [[W3L1Actual.pdf]]
+				- [[W3L2W4L1Actual.pdf]]
+				- [[W4L2Final.pdf]]
+				- [[W5L1.pdf]]
+				- [[W5L2Final.pdf]]
+			- **BCS1430 Tutorials**
+				- [[T1 Tutorial.pdf]]
+				- [[T2 Tutorial 2.pdf]]
+				- [[T2 Tutorial.pdf]]
+				- [[T3 Tutorial.pdf]]
+				- [[T4 Tutorial.pdf]]
+				- [[T5 Tutorial.pdf]]
 		- **BCS1600 Project**
 			- [[Database design.pdf]]
+	- **Period 5**
+		- **BCS1520 Statistics**
+			- **BCS1520 Lectures**
+				- [[BCS Lec.pdf]]
+				- [[BCS1520 Lecture 1.pdf]]
 
 %% End Waypoint %%

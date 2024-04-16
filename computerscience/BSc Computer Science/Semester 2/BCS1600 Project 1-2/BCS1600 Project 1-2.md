@@ -6,6 +6,7 @@
 	- [[06-OverviewPhase1.pdf]]
 	- [[06-TaskBoard-2024-03-18.png]]
 	- [[06-TaskBoard-2024-03-20.png]]
+	- [[06-TaskBoard-2024-04-10.png]]
 	- [[BCS-06-PictureBoard.pdf]]
 	- [[Project Manual.pdf]]
 - **Skill Classes**

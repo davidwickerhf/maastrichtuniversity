@@ -29,11 +29,11 @@ traversal are also part of the course. Furthermore, design principles for algori
 
 ## Lectures and materials
 %% Begin Waypoint %%
-- **[[Course topics]]**
+- **[[BSc Computer Science/Semester 2/Period 4/BCS1420 Data Structures and Algorithms/Course topics/Course topics]]**
 - **[[BSc Computer Science/Semester 2/Period 4/BCS1420 Data Structures and Algorithms/Exam preparation/Exam preparation]]**
 - **[[Exercises]]**
 - **[[Lecture notes]]**
-- **[[Lectures]]**
+- **[[BSc Computer Science/Semester 2/Period 4/BCS1420 Data Structures and Algorithms/Lectures/Lectures]]**
 - **[[Readings]]**
 - **[[BSc Computer Science/Semester 2/Period 4/BCS1420 Data Structures and Algorithms/Slides/Slides]]**
 - **Textbooks**
